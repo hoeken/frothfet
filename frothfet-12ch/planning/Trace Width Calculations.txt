@@ -1,0 +1,21 @@
+PCB Calculator: https://www.digikey.com/en/resources/conversion-calculators/conversion-calculator-pcb-trace-width
+
+2 oz copper
+15A current
+25C rise
+
+= 3.6mm power traces
+
+2 oz copper
+20A current
+20C rise
+
+= 6mm power traces
+
+11.3mm mosfet courtyard
+0.56mm gap
+
+new = 12mm spacing
+old = 19.141 spacing
+
+savings = 57.128mm!!!
