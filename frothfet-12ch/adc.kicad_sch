@@ -2039,6 +2039,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" " 579-MCP3564R-E/ST "
+			(at 139.7 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "20"
 			(uuid "5ed8a1b4-1783-4566-8e36-9fcf26a76882")
 		)

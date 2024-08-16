@@ -3855,7 +3855,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "300K"
+		(property "Value" "300K 0.1%"
 			(at 127 128.27 0)
 			(effects
 				(font
@@ -3891,7 +3891,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C865386"
 			(at 124.46 127 0)
 			(effects
 				(font
@@ -6541,7 +6541,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "22K"
+		(property "Value" "22K 0.1%"
 			(at 127 140.97 0)
 			(effects
 				(font

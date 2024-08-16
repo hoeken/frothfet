@@ -1204,6 +1204,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C193969"
+			(at 138.43 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" " 595-ADS1015IDGSR "
+			(at 138.43 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "eb65269f-2bb9-4cb9-ab84-bb159a124ae0")
 		)

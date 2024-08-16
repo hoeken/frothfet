@@ -1,8 +1,5 @@
 # FrothFET 12CH
-  * double check INPUT circuit against VDO sender
-  * double check voltage measurement circuit
-  * double check bypass circuit
-  * go over parts list + BOM
+  * update missing BOM parts
   * board routing
   * order board
   * order parts
