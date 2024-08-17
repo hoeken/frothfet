@@ -10,7 +10,6 @@
   * order board
   * order parts
   * 3d models:
-    * pos screw terminals
     * pluggable terminal blocks
     * fuse blocks
     * redesign 3dp case
