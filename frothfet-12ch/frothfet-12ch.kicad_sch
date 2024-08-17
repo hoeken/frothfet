@@ -4026,7 +4026,7 @@
 	)
 	(global_label "SCK"
 		(shape input)
-		(at 105.41 102.87 180)
+		(at 116.84 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4036,7 +4036,7 @@
 		)
 		(uuid "8871a497-4c8a-432f-9fda-d6ce0f3fa337")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.6753 102.87 0)
+			(at 110.1053 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
