@@ -148,9 +148,9 @@
 		)
 		(symbol "power:+3.3V"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -248,8 +248,8 @@
 			(symbol "+3.3V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+3.3V"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -268,9 +268,9 @@
 		)
 		(symbol "power:GNDA"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -344,8 +344,8 @@
 			(symbol "GNDA_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GNDA"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -364,9 +364,9 @@
 		)
 		(symbol "power:GNDD"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -451,8 +451,8 @@
 			(symbol "GNDD_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GNDD"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1055,6 +1055,14 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cdf51788-9b47-4f50-879c-f1b23c668335")
+	)
+	(no_connect
+		(at 154.94 78.74)
+		(uuid "b84821a3-f4ae-4e9d-94a1-25a622a7def8")
+	)
+	(no_connect
+		(at 154.94 76.2)
+		(uuid "d2065364-e684-4184-ad76-331f10c192ac")
 	)
 	(wire
 		(pts
@@ -1801,7 +1809,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 156.21 63.5 0)
 			(effects
 				(font
@@ -1870,7 +1878,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
 			(at 137.16 110.49 0)
 			(effects
 				(font
@@ -1940,7 +1948,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
 			(at 144.78 110.49 0)
 			(effects
 				(font

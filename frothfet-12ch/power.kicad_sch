@@ -3009,9 +3009,9 @@
 		)
 		(symbol "power:+24V"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3109,8 +3109,8 @@
 			(symbol "+24V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+24V"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3129,9 +3129,9 @@
 		)
 		(symbol "power:+3.3V"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3229,8 +3229,8 @@
 			(symbol "+3.3V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+3.3V"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3249,9 +3249,9 @@
 		)
 		(symbol "power:+5V"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3349,8 +3349,8 @@
 			(symbol "+5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+5V"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3369,9 +3369,9 @@
 		)
 		(symbol "power:GNDA"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3445,8 +3445,8 @@
 			(symbol "GNDA_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GNDA"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3465,9 +3465,9 @@
 		)
 		(symbol "power:GNDD"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3552,8 +3552,8 @@
 			(symbol "GNDD_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GNDD"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3572,9 +3572,9 @@
 		)
 		(symbol "power:GNDPWR"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3720,8 +3720,8 @@
 			(symbol "GNDPWR_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GNDPWR"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3803,7 +3803,7 @@
 				(pin power_out line
 					(at 0 0 90)
 					(length 0)
-					(name "pwr"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4110,6 +4110,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b8dc1840-c79a-4229-8abd-17d25f983aa0")
+	)
+	(junction
+		(at 69.85 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9912ba5-1ec6-4399-bf84-deadbe690c3b")
 	)
 	(junction
 		(at 213.36 49.53)
@@ -4941,6 +4947,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 109.22) (xy 69.85 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7be1d924-6fb7-4297-8945-c87f1356d930")
+	)
+	(wire
+		(pts
 			(xy 234.95 144.78) (xy 238.76 144.78)
 		)
 		(stroke
@@ -5631,7 +5647,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 104.14) (xy 69.85 114.3)
+			(xy 69.85 100.33) (xy 69.85 109.22)
 		)
 		(stroke
 			(width 0)
@@ -6123,7 +6139,7 @@
 	)
 	(global_label "REF_3V3"
 		(shape input)
-		(at 69.85 104.14 0)
+		(at 69.85 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6133,7 +6149,7 @@
 		)
 		(uuid "df55c3dc-8dc9-4454-a75d-126d8e488fb4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 80.818 104.14 0)
+			(at 80.818 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6538,7 +6554,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 130.81 106.68 0)
 			(effects
 				(font
@@ -6604,7 +6620,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 62.23 113.03 0)
 			(effects
 				(font
@@ -6758,7 +6774,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 146.05 48.26 0)
 			(effects
 				(font
@@ -7156,7 +7172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 256.54 49.53 0)
 			(effects
 				(font
@@ -7289,7 +7305,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 213.36 49.53 0)
 			(effects
 				(font
@@ -7430,7 +7446,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 30.48 48.26 0)
 			(effects
 				(font
@@ -7661,7 +7677,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 196.85 81.28 0)
 			(effects
 				(font
@@ -7894,7 +7910,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 154.94 81.28 0)
 			(effects
 				(font
@@ -8444,7 +8460,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
 			(at 113.03 118.11 0)
 			(effects
 				(font
@@ -8510,7 +8526,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
 			(at 130.81 153.67 0)
 			(effects
 				(font
@@ -8698,6 +8714,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 69.85 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "98b45b5b-4ec5-4c58-81a6-adcf61386420")
+		(property "Reference" "#FLG011"
+			(at 69.85 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 69.85 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 69.85 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f69971b3-11d6-40d0-9ead-87d6e7bc0f9c")
+		)
+		(instances
+			(project "frothfet-12ch"
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef"
+					(reference "#FLG011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 137.16 60.96 0)
 		(unit 1)
@@ -8821,7 +8902,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
 			(at 238.76 153.67 0)
 			(effects
 				(font
@@ -8887,7 +8968,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
 			(at 217.17 118.11 0)
 			(effects
 				(font
@@ -8953,7 +9034,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
 			(at 154.94 82.55 0)
 			(effects
 				(font
@@ -9097,7 +9178,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
 			(at 176.53 82.55 0)
 			(effects
 				(font
@@ -9318,7 +9399,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 234.95 43.18 0)
 			(effects
 				(font
@@ -9383,7 +9464,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
 			(at 196.85 82.55 0)
 			(effects
 				(font
@@ -9706,7 +9787,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
 			(at 30.48 35.56 0)
 			(effects
 				(font
@@ -9859,7 +9940,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 234.95 49.53 0)
 			(effects
 				(font
@@ -10100,7 +10181,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
 			(at 48.26 153.67 0)
 			(effects
 				(font
@@ -10166,7 +10247,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 76.2 48.26 0)
 			(effects
 				(font
@@ -10232,7 +10313,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 176.53 81.28 0)
 			(effects
 				(font

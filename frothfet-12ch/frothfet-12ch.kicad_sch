@@ -383,9 +383,9 @@
 		)
 		(symbol "power:+3.3V"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -483,8 +483,8 @@
 			(symbol "+3.3V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+3.3V"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -503,9 +503,9 @@
 		)
 		(symbol "power:GNDA"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -579,8 +579,8 @@
 			(symbol "GNDA_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GNDA"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -599,9 +599,9 @@
 		)
 		(symbol "power:GNDD"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -686,8 +686,8 @@
 			(symbol "GNDD_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GNDD"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -700,6 +700,102 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -771,7 +867,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at -19.05 21.59 0)
 					(length 2.54)
 					(name "3V3"
@@ -969,7 +1065,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at -19.05 19.05 0)
 					(length 2.54)
 					(name "3V3"
@@ -987,7 +1083,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at -19.05 -26.67 0)
 					(length 2.54)
 					(name "GPIO14"
@@ -1023,7 +1119,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at -19.05 -31.75 0)
 					(length 2.54)
 					(name "GND"
@@ -1041,7 +1137,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at 19.05 -31.75 180)
 					(length 2.54)
 					(name "GND"
@@ -1059,7 +1155,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at 19.05 -29.21 180)
 					(length 2.54)
 					(name "GND"
@@ -3016,6 +3112,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 59.69) (xy 116.84 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9ed195e-60d1-43f2-9f1b-27be4b8c672c")
+	)
+	(wire
+		(pts
 			(xy 181.61 35.56) (xy 194.31 35.56)
 		)
 		(stroke
@@ -4502,7 +4608,7 @@
 				)
 			)
 		)
-		(property "Footprint" "yarrboard:Waveshare-ESP32-S3-dev-kit"
+		(property "Footprint" ""
 			(at 139.7 54.61 0)
 			(effects
 				(font
@@ -4714,7 +4820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
 			(at 54.61 67.31 0)
 			(effects
 				(font
@@ -4780,7 +4886,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
 			(at 139.7 127 0)
 			(effects
 				(font
@@ -4912,7 +5018,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 82.55 72.39 0)
 			(effects
 				(font
@@ -4978,7 +5084,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 53.34 38.1 0)
 			(effects
 				(font
@@ -5062,6 +5168,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 110.49 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7901118a-d893-4faa-9f22-c4a6995c33b8")
+		(property "Reference" "#FLG010"
+			(at 110.49 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 110.49 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 110.49 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3b8c7b1-9abc-4768-8ab5-92c9ec5b9046")
+		)
+		(instances
+			(project "frothfet-12ch"
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966"
+					(reference "#FLG010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 116.84 55.88 0)
 		(unit 1)
@@ -5106,7 +5278,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 116.84 55.88 0)
 			(effects
 				(font
@@ -5445,7 +5617,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
 			(at 31.75 191.77 0)
 			(effects
 				(font
@@ -5575,7 +5747,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
 			(at 166.37 60.96 0)
 			(effects
 				(font
