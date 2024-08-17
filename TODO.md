@@ -1,5 +1,7 @@
 # FrothFET 12CH
-  * board routing
+  * reddit review
+  * silkscreen tweaks
+  * final routing tweaks
   * order board
   * order parts
-  * update 3dp case
+  * redesign 3dp case

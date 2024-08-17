@@ -235,7 +235,14 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "multiple_net_names|482600|1536700|1f2f0410-21a1-4b12-851a-69cbfc24340f|e0440578-5a4f-4b3f-b2f3-1cb180c1e1bc|/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef|/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef|/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef",
+      "pin_to_pin|1549400|812800|db7cb5d5-15cc-485a-a037-65490c336bba|0f671132-1200-4b3c-8e3c-55bd06272b7a|/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef|/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef|/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef",
+      "pin_to_pin|1549400|812800|db7cb5d5-15cc-485a-a037-65490c336bba|58d7b103-4971-4afe-bd8b-3f6025f5f0f1|/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef|/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef|/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef",
+      "pin_to_pin|1549400|889000|14ff566a-24b7-4168-b9a0-69b836bb8a6d|14ff566a-24b7-4168-b9a0-69b836bb8a6d|/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/b87f80e1-ecbd-4ee0-be26-4b252158928b|/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/b87f80e1-ecbd-4ee0-be26-4b252158928b|/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/2f0c11e1-5bb0-43ca-ade6-94594fdc3215",
+      "pin_to_pin|1765300|812800|58d7b103-4971-4afe-bd8b-3f6025f5f0f1|0f671132-1200-4b3c-8e3c-55bd06272b7a|/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef|/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef|/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef",
+      "pin_to_pin|2565400|495300|dfdb3e5d-cdb8-48c1-9fa1-774b7fc59514|25241d0a-0c4c-4a19-8d63-c922df4c268b|/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef|/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef|/c83c6236-96e9-46ad-9d7a-9e2efa4a7966"
+    ],
     "meta": {
       "version": 0
     },
