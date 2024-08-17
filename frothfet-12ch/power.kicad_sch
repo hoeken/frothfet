@@ -6344,7 +6344,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF/35v"
+		(property "Value" "10uF/35v"
 			(at 153.67 58.4263 0)
 			(effects
 				(font
@@ -6353,7 +6353,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 151.13 57.15 0)
 			(effects
 				(font
@@ -6372,6 +6372,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 151.13 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C454102"
 			(at 151.13 57.15 0)
 			(effects
 				(font
@@ -6450,7 +6459,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "08053C104KAT4A"
+		(property "Mouser" ""
 			(at 35.56 128.27 0)
 			(effects
 				(font
@@ -6855,7 +6864,7 @@
 				)
 			)
 		)
-		(property "Value" "SX33L"
+		(property "Value" "SS34"
 			(at 246.38 45.72 0)
 			(effects
 				(font
@@ -6890,8 +6899,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" " 241-SX33L_R1_00001"
+		(property "Mouser" " 512-SS34 "
 			(at 246.38 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C8678"
+			(at 246.38 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7060,6 +7078,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 69.85 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C84376"
 			(at 69.85 137.16 0)
 			(effects
 				(font
@@ -7442,7 +7469,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF/50v"
+		(property "Value" "100nF"
 			(at 124.46 58.4263 0)
 			(effects
 				(font
@@ -7479,6 +7506,15 @@
 			)
 		)
 		(property "Mouser" ""
+			(at 121.92 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C49678"
 			(at 121.92 57.15 0)
 			(effects
 				(font
@@ -8338,6 +8374,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C83170"
+			(at 68.58 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "65841e6b-bcc0-46d9-9a88-e766da6c06b3")
 		)
@@ -8549,6 +8594,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2991173"
+			(at 137.16 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b1976e72-9376-4f2f-8ef5-d944f3d3a135")
 		)
@@ -8689,6 +8743,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 137.16 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C137513"
 			(at 137.16 60.96 0)
 			(effects
 				(font
@@ -9176,7 +9239,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "08053C104KAT4A"
+		(property "Mouser" ""
 			(at 102.87 132.08 0)
 			(effects
 				(font
@@ -9475,7 +9538,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" " 579-MCP3425A0T-E/CH "
+		(property "Mouser" "579-MCP3425A0T-E/CH "
 			(at 157.48 132.08 0)
 			(effects
 				(font
@@ -9529,7 +9592,7 @@
 				)
 			)
 		)
-		(property "Value" "SX33L"
+		(property "Value" "SS34"
 			(at 93.98 45.72 0)
 			(effects
 				(font
@@ -9564,8 +9627,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" " 241-SX33L_R1_00001"
+		(property "Mouser" " 512-SS34 "
 			(at 93.98 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C8678"
+			(at 93.98 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9718,6 +9790,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C106843"
+			(at 102.87 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c1bdcde6-c0a2-4cd2-9022-21fc4930854c")
 		)
@@ -9853,7 +9934,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "08053C104KAT4A"
+		(property "Mouser" ""
 			(at 69.85 144.78 0)
 			(effects
 				(font
@@ -9941,6 +10022,15 @@
 			)
 		)
 		(property "Vendor" ""
+			(at 93.98 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1952580"
 			(at 93.98 132.08 0)
 			(effects
 				(font

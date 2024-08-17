@@ -1117,7 +1117,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "08053C104KAT4A"
+		(property "Mouser" ""
+			(at 167.64 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C49678"
 			(at 167.64 83.82 0)
 			(effects
 				(font
@@ -1324,7 +1333,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C84376"
 			(at 157.48 83.82 0)
 			(effects
 				(font

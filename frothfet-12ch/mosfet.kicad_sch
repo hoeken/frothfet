@@ -4162,6 +4162,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C511401"
+			(at 139.7 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2158c5c6-684a-498c-918e-4bca947e565b")
 		)
@@ -4402,6 +4411,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C3037601"
+			(at 120.65 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "48b54bc6-ef8b-4b36-be7a-097cd4a94436")
 		)
@@ -4511,6 +4529,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 102.87 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C114533"
 			(at 102.87 59.69 0)
 			(effects
 				(font
@@ -4633,6 +4660,15 @@
 			)
 		)
 		(property "Mouser" "534-3522-3 "
+			(at 165.1 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3204220"
 			(at 165.1 68.58 0)
 			(effects
 				(font
@@ -4770,6 +4806,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C94868"
+			(at 81.28 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fab64dce-96cb-41f9-9c19-ca0b2a9f3edc")
 		)
@@ -4882,7 +4927,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "08053C104KAT4A"
+		(property "Mouser" ""
 			(at 166.37 102.87 0)
 			(effects
 				(font
@@ -5409,6 +5454,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C60816"
+			(at 102.87 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3772bff4-cb24-47e0-bb92-1e2f9877745f")
 		)
@@ -5659,6 +5713,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C7429738"
+			(at 120.65 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "77c69000-b177-4719-a585-ee05f395e94b")
 		)
@@ -5895,6 +5958,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C454989"
+			(at 93.98 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "57a0aa62-08c7-48a3-9135-63c0bc2b1d09")
 		)
@@ -6003,6 +6075,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 137.16 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C435954"
 			(at 137.16 66.04 0)
 			(effects
 				(font
@@ -6342,6 +6423,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 100.33 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C916396"
 			(at 100.33 81.28 0)
 			(effects
 				(font
@@ -6802,6 +6892,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 162.56 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C481447"
 			(at 162.56 143.51 0)
 			(effects
 				(font

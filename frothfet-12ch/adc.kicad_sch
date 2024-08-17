@@ -1666,7 +1666,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "08053C104KAT4A"
+		(property "Mouser" ""
+			(at 95.25 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C49678"
 			(at 95.25 88.9 0)
 			(effects
 				(font
@@ -1957,7 +1966,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "08053C104KAT4A"
+		(property "Mouser" ""
+			(at 168.91 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C49678"
 			(at 168.91 87.63 0)
 			(effects
 				(font
@@ -2039,7 +2057,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" " 579-MCP3564R-E/ST "
+		(property "Mouser" "579-MCP3564R-E/ST "
 			(at 139.7 88.9 0)
 			(effects
 				(font
