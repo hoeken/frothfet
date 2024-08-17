@@ -1974,7 +1974,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "29c07fe5-fe56-4ffd-a689-5f1850b8485e")
-		(property "Reference" "C57"
+		(property "Reference" "C58"
 			(at 87.63 87.6363 0)
 			(effects
 				(font
