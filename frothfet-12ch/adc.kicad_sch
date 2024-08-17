@@ -1039,10 +1039,22 @@
 		(uuid "79ed15e9-7abd-455e-b748-916594b9bbdb")
 	)
 	(junction
+		(at 95.25 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f5fc5d8-6f60-4bb4-a384-e4624cf0545f")
+	)
+	(junction
 		(at 105.41 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b5feb6cc-abe4-4289-abd1-f0f6fd91c672")
+	)
+	(junction
+		(at 95.25 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cdf51788-9b47-4f50-879c-f1b23c668335")
 	)
 	(wire
 		(pts
@@ -1126,6 +1138,36 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 67.31) (xy 85.09 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f94ec54-c53e-4526-92d3-711c0b83eebb")
+	)
+	(wire
+		(pts
+			(xy 85.09 106.68) (xy 95.25 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3551df6b-40ef-43e1-9f3f-a41dbda90407")
+	)
+	(wire
+		(pts
+			(xy 85.09 91.44) (xy 85.09 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38b49ed0-5ff2-42cb-bb5d-7870ce9d1891")
+	)
+	(wire
+		(pts
 			(xy 135.89 67.31) (xy 135.89 69.85)
 		)
 		(stroke
@@ -1203,6 +1245,16 @@
 			(type default)
 		)
 		(uuid "701eb275-a16e-4758-bef3-73d66cfcd4a8")
+	)
+	(wire
+		(pts
+			(xy 85.09 67.31) (xy 85.09 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74ac72a8-c22c-4387-b975-ca6042048a28")
 	)
 	(wire
 		(pts
@@ -1395,7 +1447,7 @@
 		(uuid "f91ab9cf-bbf4-41d0-aacf-1df93536dc26")
 	)
 	(rectangle
-		(start 91.44 54.61)
+		(start 81.28 54.61)
 		(end 179.07 118.11)
 		(stroke
 			(width 0)
@@ -1908,6 +1960,97 @@
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/b87f80e1-ecbd-4ee0-be26-4b252158928b"
 					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 85.09 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "29c07fe5-fe56-4ffd-a689-5f1850b8485e")
+		(property "Reference" "C57"
+			(at 87.63 87.6363 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 87.63 90.1763 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 85.09 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 85.09 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 85.09 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1952580"
+			(at 85.09 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "86d2b959-2368-42b2-bb53-efd00885aa1d")
+		)
+		(pin "2"
+			(uuid "1105abaf-9ac6-444e-934c-30c2d3fe2dc2")
+		)
+		(instances
+			(project "frothfet-12ch"
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/2f0c11e1-5bb0-43ca-ade6-94594fdc3215"
+					(reference "C58")
+					(unit 1)
+				)
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/b87f80e1-ecbd-4ee0-be26-4b252158928b"
+					(reference "C57")
 					(unit 1)
 				)
 			)

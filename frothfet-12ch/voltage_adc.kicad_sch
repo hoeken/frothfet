@@ -775,6 +775,18 @@
 		(color 0 0 0 0)
 		(uuid "cb8bb5cd-6c00-479c-8387-a636e49bbb86")
 	)
+	(junction
+		(at 167.64 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2b419f4-64ad-4a4b-aa90-b2d35ec5f88f")
+	)
+	(junction
+		(at 167.64 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ece6ba86-77f5-4263-ae9c-e733b5ec3ab8")
+	)
 	(wire
 		(pts
 			(xy 138.43 77.47) (xy 138.43 83.82)
@@ -794,6 +806,26 @@
 			(type default)
 		)
 		(uuid "201145d4-4457-4503-8bbd-9522c951807a")
+	)
+	(wire
+		(pts
+			(xy 180.34 93.98) (xy 180.34 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2303d77b-fe25-4023-ac01-8d551fed8a90")
+	)
+	(wire
+		(pts
+			(xy 167.64 77.47) (xy 180.34 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "253e06a8-6552-41fc-8f25-47ec2ac55b94")
 	)
 	(wire
 		(pts
@@ -867,6 +899,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 77.47) (xy 180.34 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94f3b33b-bafa-4e82-a56e-69b6d7d99396")
+	)
+	(wire
+		(pts
 			(xy 138.43 107.95) (xy 138.43 109.22)
 		)
 		(stroke
@@ -887,6 +929,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 107.95) (xy 167.64 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c893406a-6737-4d87-91cb-8c14ac0c2a89")
+	)
+	(wire
+		(pts
 			(xy 148.59 91.44) (xy 157.48 91.44)
 		)
 		(stroke
@@ -897,7 +949,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 86.36) (xy 167.64 107.95)
+			(xy 167.64 93.98) (xy 167.64 107.95)
 		)
 		(stroke
 			(width 0)
@@ -907,7 +959,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 77.47) (xy 167.64 81.28)
+			(xy 167.64 77.47) (xy 167.64 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1071,7 +1123,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 167.64 83.82 0)
+		(at 167.64 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1079,7 +1131,7 @@
 		(dnp no)
 		(uuid "0abdc3c8-22a9-4692-ae0a-c58329a9e4ab")
 		(property "Reference" "C50"
-			(at 170.18 82.5563 0)
+			(at 170.18 90.1763 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1088,7 +1140,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 170.18 85.0963 0)
+			(at 170.18 92.7163 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1097,7 +1149,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 167.64 83.82 0)
+			(at 167.64 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1106,7 +1158,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 167.64 83.82 0)
+			(at 167.64 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1115,7 +1167,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 167.64 83.82 0)
+			(at 167.64 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1124,7 +1176,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 167.64 83.82 0)
+			(at 167.64 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1133,7 +1185,7 @@
 			)
 		)
 		(property "LCSC" "C49678"
-			(at 167.64 83.82 0)
+			(at 167.64 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1279,6 +1331,101 @@
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/efce81b0-0da6-4cc8-a856-27910d231a7d"
 					(reference "U21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 180.34 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "14248164-21bd-43d3-8c23-2d11fb9ea9d9")
+		(property "Reference" "C54"
+			(at 182.88 90.1763 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 182.88 92.7163 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 180.34 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 180.34 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1952580"
+			(at 180.34 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac57cc2f-6698-4e7c-9445-90f93881873c")
+		)
+		(pin "2"
+			(uuid "93179732-4d85-4d51-95ce-39f9c96b1f73")
+		)
+		(instances
+			(project "frothfet-12ch"
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/a6260305-24e3-4714-b441-a7a157c17bd9"
+					(reference "C55")
+					(unit 1)
+				)
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/bb9dea8b-8412-49bc-950d-dce57727bcd2"
+					(reference "C54")
+					(unit 1)
+				)
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/efce81b0-0da6-4cc8-a856-27910d231a7d"
+					(reference "C56")
 					(unit 1)
 				)
 			)
