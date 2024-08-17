@@ -5,9 +5,10 @@
 	(uuid "31323041-487f-4e13-a195-e7e03d2cb7f9")
 	(paper "A4")
 	(title_block
-		(title "Yarrboard 8ch Mosfet Driver")
-		(rev "C1")
-		(company "https://github.com/hoeken/yarrboard")
+		(title "FrothFET 12CH")
+		(date "2024-08-17")
+		(rev "D")
+		(company "https://github.com/hoeken/frothfet")
 	)
 	(lib_symbols
 		(symbol "Device:D_TVS"

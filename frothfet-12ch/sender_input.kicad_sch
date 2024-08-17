@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "277d49e1-aad2-4955-a4e8-9460083065b4")
 	(paper "A4")
+	(title_block
+		(title "FrothFET 12CH")
+		(date "2024-08-17")
+		(rev "D")
+		(company "https://github.com/hoeken/frothfet")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names

@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "0db419e9-b5bf-4135-9b11-31f7cc07653f")
 	(paper "A4")
+	(title_block
+		(title "FrothFET 12CH")
+		(date "2024-08-17")
+		(rev "D")
+		(company "https://github.com/hoeken/frothfet")
+	)
 	(lib_symbols
 		(symbol "Analog_ADC:ADS1015IDGS"
 			(exclude_from_sim no)
