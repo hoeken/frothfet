@@ -1495,7 +1495,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical"
+		(property "Footprint" "yarrboard:1x03 2.54mm RA Pluggable Terminal Block"
 			(at 142.24 106.68 0)
 			(effects
 				(font
@@ -1522,7 +1522,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C5359600"
+		(property "LCSC" "C2927504 and C2927484"
 			(at 142.24 106.68 0)
 			(effects
 				(font
