@@ -4632,7 +4632,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "yarrboard:ATC Bypass Fuse"
 			(at 163.322 63.5 90)
 			(effects
 				(font
@@ -4651,6 +4651,15 @@
 			)
 		)
 		(property "Description" "Fuse"
+			(at 165.1 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "534-3522-3 "
 			(at 165.1 68.58 0)
 			(effects
 				(font

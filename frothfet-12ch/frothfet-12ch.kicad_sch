@@ -4608,7 +4608,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "yarrboard:Waveshare-ESP32-S3-dev-kit"
 			(at 139.7 54.61 0)
 			(effects
 				(font
