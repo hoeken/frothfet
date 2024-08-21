@@ -447,7 +447,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "yarrboard"
+    ]
   },
   "meta": {
     "filename": "frothfet-12ch.kicad_pro",
@@ -712,47 +714,11 @@
     ],
     [
       "b87f80e1-ecbd-4ee0-be26-4b252158928b",
-      "CURRENT ADC1"
+      "HIRES ADC1"
     ],
     [
       "e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef",
       "Power Supply"
-    ],
-    [
-      "2f0c11e1-5bb0-43ca-ade6-94594fdc3215",
-      "CURRENT ADC2"
-    ],
-    [
-      "36f5aed6-7470-4c11-8919-f61659614bbf",
-      "CHANNEL 9"
-    ],
-    [
-      "e6b1da1c-1e0d-4999-972a-bab9958566a7",
-      "CHANNEL 10"
-    ],
-    [
-      "b3ef497d-fe5b-4900-a420-430ad195a25a",
-      "CHANNEL 11"
-    ],
-    [
-      "984c2353-77c6-4bc6-ac37-ab70b9e29476",
-      "CHANNEL 12"
-    ],
-    [
-      "b7d804d7-e10b-40c8-a6a0-65b4ae1f95ab",
-      "INPUT 1"
-    ],
-    [
-      "96edcf10-ad2e-4b0c-9bcf-7ec233542517",
-      "INPUT 2"
-    ],
-    [
-      "f630e7bf-424c-48d0-b4f5-b992ebe5ac06",
-      "INPUT 3"
-    ],
-    [
-      "be792642-71a0-4d31-8160-e0873aa75416",
-      "INPUT 4"
     ],
     [
       "bb9dea8b-8412-49bc-950d-dce57727bcd2",
@@ -761,10 +727,6 @@
     [
       "a6260305-24e3-4714-b441-a7a157c17bd9",
       "VOLTAGE ADC2"
-    ],
-    [
-      "efce81b0-0da6-4cc8-a856-27910d231a7d",
-      "VOLTAGE ADC3"
     ]
   ],
   "text_variables": {}

@@ -1550,7 +1550,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d13cdf5-a2ac-4f4e-922a-e0d4a1e94e6e")
-		(property "Reference" "R62"
+		(property "Reference" "R70"
 			(at 161.29 72.39 0)
 			(effects
 				(font
@@ -1613,11 +1613,11 @@
 		(instances
 			(project "8ch-mosfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/02f6e629-b0e2-41e8-b2e4-f0e125a92a71"
-					(reference "R62")
+					(reference "R70")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/ad82ad0c-2ba8-4934-bb2a-ed6e11658eb2"
-					(reference "R60")
+					(reference "R68")
 					(unit 1)
 				)
 			)
@@ -1716,7 +1716,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24b599fd-c753-43e4-9ae3-cc3c3a3776b1")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR069"
 			(at 158.75 72.39 0)
 			(effects
 				(font
@@ -1766,11 +1766,11 @@
 		(instances
 			(project "8ch-mosfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/02f6e629-b0e2-41e8-b2e4-f0e125a92a71"
-					(reference "#PWR053")
+					(reference "#PWR069")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/ad82ad0c-2ba8-4934-bb2a-ed6e11658eb2"
-					(reference "#PWR050")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -1884,7 +1884,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9599dc77-c049-4435-baa0-14030cb0194e")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR068"
 			(at 133.35 111.76 0)
 			(effects
 				(font
@@ -1934,11 +1934,11 @@
 		(instances
 			(project "8ch-mosfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/02f6e629-b0e2-41e8-b2e4-f0e125a92a71"
-					(reference "#PWR052")
+					(reference "#PWR068")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/ad82ad0c-2ba8-4934-bb2a-ed6e11658eb2"
-					(reference "#PWR049")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -2033,7 +2033,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc39e9e6-a8ba-4166-9cfa-165adfd43a8c")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR067"
 			(at 133.35 72.39 0)
 			(effects
 				(font
@@ -2083,11 +2083,11 @@
 		(instances
 			(project "8ch-mosfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/02f6e629-b0e2-41e8-b2e4-f0e125a92a71"
-					(reference "#PWR051")
+					(reference "#PWR067")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/ad82ad0c-2ba8-4934-bb2a-ed6e11658eb2"
-					(reference "#PWR048")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -2185,7 +2185,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f75726a1-6743-4939-9274-174810d28b83")
-		(property "Reference" "R61"
+		(property "Reference" "R69"
 			(at 119.38 90.17 90)
 			(effects
 				(font
@@ -2246,11 +2246,11 @@
 		(instances
 			(project "8ch-mosfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/02f6e629-b0e2-41e8-b2e4-f0e125a92a71"
-					(reference "R61")
+					(reference "R69")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/ad82ad0c-2ba8-4934-bb2a-ed6e11658eb2"
-					(reference "R59")
+					(reference "R67")
 					(unit 1)
 				)
 			)
