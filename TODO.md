@@ -1,6 +1,6 @@
-# FrothFET 12CH
+# FrothFET 8CH
 
-  * change to MIC5014
+  * change back to LTC7004
   * rename to 8ch
   * re-design busbars
   * silkscreen tweaks

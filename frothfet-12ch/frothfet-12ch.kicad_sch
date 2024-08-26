@@ -5,8 +5,8 @@
 	(uuid "c83c6236-96e9-46ad-9d7a-9e2efa4a7966")
 	(paper "A4")
 	(title_block
-		(title "FrothFET 12CH")
-		(date "2024-08-17")
+		(title "FrothFET 8CH")
+		(date "2024-08-21")
 		(rev "D")
 		(company "https://github.com/hoeken/frothfet")
 	)
