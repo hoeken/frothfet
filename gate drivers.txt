@@ -1,0 +1,65 @@
+FAD3171MXA
+
+* 100% duty cycle - charge pump circuit has lots of caveats
+* 110V supply
+* 3.3v logic compatible
+* needs external 15v supply?
+* turn on 50ns
+* turn off 50ns
+* datasheet terrible
+* not available til october?
+
+NCP51752
+
+* unclear on 100% duty cycle?
+* 30v supply voltage
+* datasheet very opaque
+
+NCP51152
+
+* unclear on 100% duty cycle
+* 30v supply voltage
+* datasheet very opaque
+
+LT1910
+* charge pump
+* 60v supply
+* 220uS turn on (slow)
+* 25uS turn off (slow)
+
+UCC2753x
+* charge pump?  unclear?
+* 10-35v input
+* soic
+* 15ns / 7ns (fast!)
+* no motor control examples
+* might be low side?
+
+TC4431
+* 30v
+* charge pump? unclear
+
+AUIR3241S
+* 36v
+* ???
+
+MIC5014
+* 30v operation
+* 100% on time
+* simple
+* turn on (90us) slow
+* turn off (6us) slowish
+
+MIC5021
+* 36v operation
+* 100% duty
+* 500ns rise / fall (fast)
+* 3.3v compatible
+* 12v operation needs logic level mosfet! (+/- 10vgs)
+
+LTC7004
+* 60v operation
+* 100% duty cycle
+* fast switching times - unclear how fast.  ns on datasheet.
+* 3.3v compatible
+* simple implementation

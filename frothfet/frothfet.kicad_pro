@@ -452,7 +452,7 @@
     ]
   },
   "meta": {
-    "filename": "frothfet-12ch.kicad_pro",
+    "filename": "frothfet.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -520,7 +520,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "frothfet-12ch.STEP",
+      "step": "frothfet.STEP",
       "svg": "",
       "vrml": "Gnarboard.wrl"
     },
