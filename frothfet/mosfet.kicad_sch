@@ -3538,37 +3538,31 @@
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/1e692482-a022-407a-8cb5-d9a3b23521a6"
-					(reference "R16")
+					(reference "R12")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/424e7b24-5644-46f2-85bb-1e459a343705"
-					(reference "R34")
+					(reference "R24")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/4c1df725-56ca-4be4-8107-a39054acbca4"
-					(reference "R40")
-					(unit 1)
-				)
-				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/5952e660-2bb6-45cf-b9ea-f7a7c2d0954e"
-					(reference "R22")
-					(unit 1)
-				)
-				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/772d44f5-8758-48db-a140-72ed8e75e88c"
 					(reference "R28")
 					(unit 1)
 				)
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/5952e660-2bb6-45cf-b9ea-f7a7c2d0954e"
+					(reference "R16")
+					(unit 1)
+				)
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/772d44f5-8758-48db-a140-72ed8e75e88c"
+					(reference "R20")
+					(unit 1)
+				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/a8a81147-5613-4820-beb3-a7ca76d0db8e"
-					(reference "R46")
+					(reference "R32")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/ccdb1c25-8d0f-4f30-ab70-bbc1ecf3f6f7"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-			(project "mosfet"
-				(path "/ded08763-3231-46a8-aa39-13894b9b9e71"
-					(reference "R2")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -3688,12 +3682,6 @@
 					(unit 1)
 				)
 			)
-			(project "mosfet"
-				(path "/ded08763-3231-46a8-aa39-13894b9b9e71"
-					(reference "C2")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -3706,7 +3694,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "132ecfca-3a42-4a71-8f05-a83e7c69bcef")
-		(property "Reference" "D2"
+		(property "Reference" "D5"
 			(at 142.24 142.24 90)
 			(effects
 				(font
@@ -3796,41 +3784,35 @@
 		(instances
 			(project "8ch-mosfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/0eec6767-666b-42c0-ba36-2a83c9caeade"
-					(reference "D2")
+					(reference "D5")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/1e692482-a022-407a-8cb5-d9a3b23521a6"
-					(reference "D6")
+					(reference "D15")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/424e7b24-5644-46f2-85bb-1e459a343705"
-					(reference "D12")
+					(reference "D30")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/4c1df725-56ca-4be4-8107-a39054acbca4"
-					(reference "D14")
+					(reference "D35")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/5952e660-2bb6-45cf-b9ea-f7a7c2d0954e"
-					(reference "D8")
+					(reference "D20")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/772d44f5-8758-48db-a140-72ed8e75e88c"
-					(reference "D10")
+					(reference "D25")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/a8a81147-5613-4820-beb3-a7ca76d0db8e"
-					(reference "D16")
+					(reference "D40")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/ccdb1c25-8d0f-4f30-ab70-bbc1ecf3f6f7"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-			(project "mosfet"
-				(path "/ded08763-3231-46a8-aa39-13894b9b9e71"
-					(reference "D2")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -3846,7 +3828,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a861052-6e11-4cad-8cec-26a3eb2be2f8")
-		(property "Reference" "U2"
+		(property "Reference" "U24"
 			(at 99.06 49.53 0)
 			(effects
 				(font
@@ -3862,7 +3844,7 @@
 				)
 			)
 		)
-		(property "Footprint" "yarrboard:MSE_10_ADI"
+		(property "Footprint" "MSE_10_ADI"
 			(at 75.692 49.53 0)
 			(effects
 				(font
@@ -3927,41 +3909,35 @@
 		(instances
 			(project ""
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/0eec6767-666b-42c0-ba36-2a83c9caeade"
-					(reference "U2")
+					(reference "U24")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/1e692482-a022-407a-8cb5-d9a3b23521a6"
-					(reference "U6")
+					(reference "U26")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/424e7b24-5644-46f2-85bb-1e459a343705"
-					(reference "U12")
+					(reference "U29")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/4c1df725-56ca-4be4-8107-a39054acbca4"
-					(reference "U14")
+					(reference "U30")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/5952e660-2bb6-45cf-b9ea-f7a7c2d0954e"
-					(reference "U8")
+					(reference "U27")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/772d44f5-8758-48db-a140-72ed8e75e88c"
-					(reference "U10")
+					(reference "U28")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/a8a81147-5613-4820-beb3-a7ca76d0db8e"
-					(reference "U16")
+					(reference "U31")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/ccdb1c25-8d0f-4f30-ab70-bbc1ecf3f6f7"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-			(project "mosfet"
-				(path "/ded08763-3231-46a8-aa39-13894b9b9e71"
-					(reference "U1")
+					(reference "U25")
 					(unit 1)
 				)
 			)
@@ -4076,12 +4052,6 @@
 					(unit 1)
 				)
 			)
-			(project "mosfet"
-				(path "/ded08763-3231-46a8-aa39-13894b9b9e71"
-					(reference "F1")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -4094,7 +4064,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4dcd4615-c7a3-4edb-b2d4-88a984bf9137")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR073"
 			(at 69.85 57.15 0)
 			(effects
 				(font
@@ -4144,41 +4114,35 @@
 		(instances
 			(project ""
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/0eec6767-666b-42c0-ba36-2a83c9caeade"
-					(reference "#PWR08")
+					(reference "#PWR073")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/1e692482-a022-407a-8cb5-d9a3b23521a6"
-					(reference "#PWR020")
+					(reference "#PWR075")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/424e7b24-5644-46f2-85bb-1e459a343705"
-					(reference "#PWR038")
+					(reference "#PWR078")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/4c1df725-56ca-4be4-8107-a39054acbca4"
-					(reference "#PWR044")
+					(reference "#PWR079")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/5952e660-2bb6-45cf-b9ea-f7a7c2d0954e"
-					(reference "#PWR026")
+					(reference "#PWR076")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/772d44f5-8758-48db-a140-72ed8e75e88c"
-					(reference "#PWR032")
+					(reference "#PWR077")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/a8a81147-5613-4820-beb3-a7ca76d0db8e"
-					(reference "#PWR050")
+					(reference "#PWR080")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/ccdb1c25-8d0f-4f30-ab70-bbc1ecf3f6f7"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-			(project "mosfet"
-				(path "/ded08763-3231-46a8-aa39-13894b9b9e71"
-					(reference "#PWR01")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -4296,12 +4260,6 @@
 					(unit 1)
 				)
 			)
-			(project "mosfet"
-				(path "/ded08763-3231-46a8-aa39-13894b9b9e71"
-					(reference "C5")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -4314,7 +4272,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60b074b9-b29d-4d61-a132-b45538ede08f")
-		(property "Reference" "D1"
+		(property "Reference" "D50"
 			(at 69.85 76.5174 90)
 			(effects
 				(font
@@ -4368,41 +4326,35 @@
 		(instances
 			(project "frothfet-12ch"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/0eec6767-666b-42c0-ba36-2a83c9caeade"
-					(reference "D1")
+					(reference "D50")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/1e692482-a022-407a-8cb5-d9a3b23521a6"
-					(reference "D5")
+					(reference "D52")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/424e7b24-5644-46f2-85bb-1e459a343705"
-					(reference "D11")
+					(reference "D55")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/4c1df725-56ca-4be4-8107-a39054acbca4"
-					(reference "D13")
+					(reference "D56")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/5952e660-2bb6-45cf-b9ea-f7a7c2d0954e"
-					(reference "D7")
+					(reference "D53")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/772d44f5-8758-48db-a140-72ed8e75e88c"
-					(reference "D9")
+					(reference "D54")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/a8a81147-5613-4820-beb3-a7ca76d0db8e"
-					(reference "D15")
+					(reference "D57")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/ccdb1c25-8d0f-4f30-ab70-bbc1ecf3f6f7"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-			(project "mosfet"
-				(path "/ded08763-3231-46a8-aa39-13894b9b9e71"
-					(reference "D1")
+					(reference "D51")
 					(unit 1)
 				)
 			)
@@ -4418,7 +4370,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69692c06-5541-4f81-96ca-7191d2e2f89d")
-		(property "Reference" "R3"
+		(property "Reference" "R47"
 			(at 68.58 67.3099 0)
 			(effects
 				(font
@@ -4481,41 +4433,35 @@
 		(instances
 			(project "frothfet-12ch"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/0eec6767-666b-42c0-ba36-2a83c9caeade"
-					(reference "R3")
+					(reference "R47")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/1e692482-a022-407a-8cb5-d9a3b23521a6"
-					(reference "R15")
+					(reference "R49")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/424e7b24-5644-46f2-85bb-1e459a343705"
-					(reference "R33")
+					(reference "R52")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/4c1df725-56ca-4be4-8107-a39054acbca4"
-					(reference "R39")
+					(reference "R53")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/5952e660-2bb6-45cf-b9ea-f7a7c2d0954e"
-					(reference "R21")
+					(reference "R50")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/772d44f5-8758-48db-a140-72ed8e75e88c"
-					(reference "R27")
+					(reference "R51")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/a8a81147-5613-4820-beb3-a7ca76d0db8e"
-					(reference "R45")
+					(reference "R54")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/ccdb1c25-8d0f-4f30-ab70-bbc1ecf3f6f7"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-			(project "mosfet"
-				(path "/ded08763-3231-46a8-aa39-13894b9b9e71"
-					(reference "R1")
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -4635,12 +4581,6 @@
 					(unit 1)
 				)
 			)
-			(project "mosfet"
-				(path "/ded08763-3231-46a8-aa39-13894b9b9e71"
-					(reference "C6")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -4653,7 +4593,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7673bc91-fe31-4ead-b01a-ab65a65044fd")
-		(property "Reference" "R8"
+		(property "Reference" "R6"
 			(at 165.1 101.6 90)
 			(effects
 				(font
@@ -4714,41 +4654,35 @@
 		(instances
 			(project "8ch-mosfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/0eec6767-666b-42c0-ba36-2a83c9caeade"
-					(reference "R8")
+					(reference "R6")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/1e692482-a022-407a-8cb5-d9a3b23521a6"
-					(reference "R20")
-					(unit 1)
-				)
-				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/424e7b24-5644-46f2-85bb-1e459a343705"
-					(reference "R38")
-					(unit 1)
-				)
-				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/4c1df725-56ca-4be4-8107-a39054acbca4"
-					(reference "R44")
-					(unit 1)
-				)
-				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/5952e660-2bb6-45cf-b9ea-f7a7c2d0954e"
-					(reference "R26")
-					(unit 1)
-				)
-				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/772d44f5-8758-48db-a140-72ed8e75e88c"
-					(reference "R32")
-					(unit 1)
-				)
-				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/a8a81147-5613-4820-beb3-a7ca76d0db8e"
-					(reference "R50")
-					(unit 1)
-				)
-				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/ccdb1c25-8d0f-4f30-ab70-bbc1ecf3f6f7"
 					(reference "R14")
 					(unit 1)
 				)
-			)
-			(project "mosfet"
-				(path "/ded08763-3231-46a8-aa39-13894b9b9e71"
-					(reference "R6")
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/424e7b24-5644-46f2-85bb-1e459a343705"
+					(reference "R26")
+					(unit 1)
+				)
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/4c1df725-56ca-4be4-8107-a39054acbca4"
+					(reference "R30")
+					(unit 1)
+				)
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/5952e660-2bb6-45cf-b9ea-f7a7c2d0954e"
+					(reference "R18")
+					(unit 1)
+				)
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/772d44f5-8758-48db-a140-72ed8e75e88c"
+					(reference "R22")
+					(unit 1)
+				)
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/a8a81147-5613-4820-beb3-a7ca76d0db8e"
+					(reference "R34")
+					(unit 1)
+				)
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/ccdb1c25-8d0f-4f30-ab70-bbc1ecf3f6f7"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -4878,12 +4812,6 @@
 					(unit 1)
 				)
 			)
-			(project "mosfet"
-				(path "/ded08763-3231-46a8-aa39-13894b9b9e71"
-					(reference "U2")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -4895,7 +4823,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7e901caf-34b1-495e-bef9-fa354ea0517c")
-		(property "Reference" "R6"
+		(property "Reference" "R55"
 			(at 126.492 52.07 90)
 			(effects
 				(font
@@ -4947,41 +4875,35 @@
 		(instances
 			(project "frothfet-12ch"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/0eec6767-666b-42c0-ba36-2a83c9caeade"
-					(reference "R6")
+					(reference "R55")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/1e692482-a022-407a-8cb5-d9a3b23521a6"
-					(reference "R18")
+					(reference "R57")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/424e7b24-5644-46f2-85bb-1e459a343705"
-					(reference "R36")
+					(reference "R60")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/4c1df725-56ca-4be4-8107-a39054acbca4"
-					(reference "R42")
+					(reference "R61")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/5952e660-2bb6-45cf-b9ea-f7a7c2d0954e"
-					(reference "R24")
+					(reference "R58")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/772d44f5-8758-48db-a140-72ed8e75e88c"
-					(reference "R30")
+					(reference "R59")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/a8a81147-5613-4820-beb3-a7ca76d0db8e"
-					(reference "R48")
+					(reference "R62")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/ccdb1c25-8d0f-4f30-ab70-bbc1ecf3f6f7"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-			(project "mosfet"
-				(path "/ded08763-3231-46a8-aa39-13894b9b9e71"
-					(reference "R4")
+					(reference "R56")
 					(unit 1)
 				)
 			)
@@ -5101,12 +5023,6 @@
 					(unit 1)
 				)
 			)
-			(project "mosfet"
-				(path "/ded08763-3231-46a8-aa39-13894b9b9e71"
-					(reference "C4")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -5119,7 +5035,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "851c10fa-84a3-48da-92c5-bed547b4dad7")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR081"
 			(at 97.79 93.98 0)
 			(effects
 				(font
@@ -5169,41 +5085,35 @@
 		(instances
 			(project ""
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/0eec6767-666b-42c0-ba36-2a83c9caeade"
-					(reference "#PWR09")
+					(reference "#PWR081")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/1e692482-a022-407a-8cb5-d9a3b23521a6"
-					(reference "#PWR021")
+					(reference "#PWR083")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/424e7b24-5644-46f2-85bb-1e459a343705"
-					(reference "#PWR039")
+					(reference "#PWR086")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/4c1df725-56ca-4be4-8107-a39054acbca4"
-					(reference "#PWR045")
+					(reference "#PWR087")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/5952e660-2bb6-45cf-b9ea-f7a7c2d0954e"
-					(reference "#PWR027")
+					(reference "#PWR084")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/772d44f5-8758-48db-a140-72ed8e75e88c"
-					(reference "#PWR033")
+					(reference "#PWR085")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/a8a81147-5613-4820-beb3-a7ca76d0db8e"
-					(reference "#PWR051")
+					(reference "#PWR088")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/ccdb1c25-8d0f-4f30-ab70-bbc1ecf3f6f7"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-			(project "mosfet"
-				(path "/ded08763-3231-46a8-aa39-13894b9b9e71"
-					(reference "#PWR02")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -5219,7 +5129,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9bc758c1-c53d-4820-b61b-ad03c71c34eb")
-		(property "Reference" "C3"
+		(property "Reference" "C66"
 			(at 130.81 69.8563 0)
 			(effects
 				(font
@@ -5291,41 +5201,35 @@
 		(instances
 			(project "frothfet-12ch"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/0eec6767-666b-42c0-ba36-2a83c9caeade"
-					(reference "C3")
+					(reference "C66")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/1e692482-a022-407a-8cb5-d9a3b23521a6"
-					(reference "C15")
+					(reference "C68")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/424e7b24-5644-46f2-85bb-1e459a343705"
-					(reference "C33")
+					(reference "C71")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/4c1df725-56ca-4be4-8107-a39054acbca4"
-					(reference "C39")
+					(reference "C72")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/5952e660-2bb6-45cf-b9ea-f7a7c2d0954e"
-					(reference "C21")
+					(reference "C69")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/772d44f5-8758-48db-a140-72ed8e75e88c"
-					(reference "C27")
+					(reference "C70")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/a8a81147-5613-4820-beb3-a7ca76d0db8e"
-					(reference "C45")
+					(reference "C73")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/ccdb1c25-8d0f-4f30-ab70-bbc1ecf3f6f7"
-					(reference "C9")
-					(unit 1)
-				)
-			)
-			(project "mosfet"
-				(path "/ded08763-3231-46a8-aa39-13894b9b9e71"
-					(reference "C3")
+					(reference "C67")
 					(unit 1)
 				)
 			)
@@ -5340,7 +5244,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9cb8a9ce-1789-4ce3-9641-17f8f73ec782")
-		(property "Reference" "R7"
+		(property "Reference" "R63"
 			(at 125.73 62.992 90)
 			(effects
 				(font
@@ -5392,41 +5296,35 @@
 		(instances
 			(project "frothfet-12ch"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/0eec6767-666b-42c0-ba36-2a83c9caeade"
-					(reference "R7")
+					(reference "R63")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/1e692482-a022-407a-8cb5-d9a3b23521a6"
-					(reference "R19")
+					(reference "R65")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/424e7b24-5644-46f2-85bb-1e459a343705"
-					(reference "R37")
+					(reference "R68")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/4c1df725-56ca-4be4-8107-a39054acbca4"
-					(reference "R43")
+					(reference "R69")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/5952e660-2bb6-45cf-b9ea-f7a7c2d0954e"
-					(reference "R25")
+					(reference "R66")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/772d44f5-8758-48db-a140-72ed8e75e88c"
-					(reference "R31")
+					(reference "R67")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/a8a81147-5613-4820-beb3-a7ca76d0db8e"
-					(reference "R49")
+					(reference "R70")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/ccdb1c25-8d0f-4f30-ab70-bbc1ecf3f6f7"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-			(project "mosfet"
-				(path "/ded08763-3231-46a8-aa39-13894b9b9e71"
-					(reference "R5")
+					(reference "R64")
 					(unit 1)
 				)
 			)
@@ -5442,7 +5340,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7a7edfb-0830-4d4c-9bdc-fde1c9b7a699")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR09"
 			(at 139.7 158.75 0)
 			(effects
 				(font
@@ -5492,41 +5390,35 @@
 		(instances
 			(project "8ch-mosfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/0eec6767-666b-42c0-ba36-2a83c9caeade"
-					(reference "#PWR010")
+					(reference "#PWR09")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/1e692482-a022-407a-8cb5-d9a3b23521a6"
-					(reference "#PWR022")
+					(reference "#PWR019")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/424e7b24-5644-46f2-85bb-1e459a343705"
-					(reference "#PWR040")
-					(unit 1)
-				)
-				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/4c1df725-56ca-4be4-8107-a39054acbca4"
-					(reference "#PWR046")
-					(unit 1)
-				)
-				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/5952e660-2bb6-45cf-b9ea-f7a7c2d0954e"
-					(reference "#PWR028")
-					(unit 1)
-				)
-				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/772d44f5-8758-48db-a140-72ed8e75e88c"
 					(reference "#PWR034")
 					(unit 1)
 				)
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/4c1df725-56ca-4be4-8107-a39054acbca4"
+					(reference "#PWR039")
+					(unit 1)
+				)
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/5952e660-2bb6-45cf-b9ea-f7a7c2d0954e"
+					(reference "#PWR024")
+					(unit 1)
+				)
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/772d44f5-8758-48db-a140-72ed8e75e88c"
+					(reference "#PWR029")
+					(unit 1)
+				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/a8a81147-5613-4820-beb3-a7ca76d0db8e"
-					(reference "#PWR052")
+					(reference "#PWR044")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/ccdb1c25-8d0f-4f30-ab70-bbc1ecf3f6f7"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-			(project "mosfet"
-				(path "/ded08763-3231-46a8-aa39-13894b9b9e71"
-					(reference "#PWR03")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -5643,12 +5535,6 @@
 					(unit 1)
 				)
 			)
-			(project "mosfet"
-				(path "/ded08763-3231-46a8-aa39-13894b9b9e71"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -5756,12 +5642,6 @@
 					(unit 1)
 				)
 			)
-			(project "mosfet"
-				(path "/ded08763-3231-46a8-aa39-13894b9b9e71"
-					(reference "C1")
-					(unit 1)
-				)
-			)
 		)
 	)
 	(symbol
@@ -5774,7 +5654,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cce7b568-e0e9-4537-9202-d8991bf69635")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR012"
 			(at 177.8 49.53 0)
 			(effects
 				(font
@@ -5824,41 +5704,35 @@
 		(instances
 			(project "8ch-mosfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/0eec6767-666b-42c0-ba36-2a83c9caeade"
-					(reference "#PWR013")
+					(reference "#PWR012")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/1e692482-a022-407a-8cb5-d9a3b23521a6"
-					(reference "#PWR025")
+					(reference "#PWR022")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/424e7b24-5644-46f2-85bb-1e459a343705"
-					(reference "#PWR043")
-					(unit 1)
-				)
-				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/4c1df725-56ca-4be4-8107-a39054acbca4"
-					(reference "#PWR049")
-					(unit 1)
-				)
-				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/5952e660-2bb6-45cf-b9ea-f7a7c2d0954e"
-					(reference "#PWR031")
-					(unit 1)
-				)
-				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/772d44f5-8758-48db-a140-72ed8e75e88c"
 					(reference "#PWR037")
 					(unit 1)
 				)
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/4c1df725-56ca-4be4-8107-a39054acbca4"
+					(reference "#PWR042")
+					(unit 1)
+				)
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/5952e660-2bb6-45cf-b9ea-f7a7c2d0954e"
+					(reference "#PWR027")
+					(unit 1)
+				)
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/772d44f5-8758-48db-a140-72ed8e75e88c"
+					(reference "#PWR032")
+					(unit 1)
+				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/a8a81147-5613-4820-beb3-a7ca76d0db8e"
-					(reference "#PWR055")
+					(reference "#PWR047")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/ccdb1c25-8d0f-4f30-ab70-bbc1ecf3f6f7"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-			(project "mosfet"
-				(path "/ded08763-3231-46a8-aa39-13894b9b9e71"
-					(reference "#PWR06")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -5874,7 +5748,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e75d7d1b-eee2-412f-aa5a-6bf5064be810")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR010"
 			(at 149.86 100.33 0)
 			(effects
 				(font
@@ -5924,41 +5798,35 @@
 		(instances
 			(project "8ch-mosfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/0eec6767-666b-42c0-ba36-2a83c9caeade"
-					(reference "#PWR011")
+					(reference "#PWR010")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/1e692482-a022-407a-8cb5-d9a3b23521a6"
-					(reference "#PWR023")
+					(reference "#PWR020")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/424e7b24-5644-46f2-85bb-1e459a343705"
-					(reference "#PWR041")
-					(unit 1)
-				)
-				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/4c1df725-56ca-4be4-8107-a39054acbca4"
-					(reference "#PWR047")
-					(unit 1)
-				)
-				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/5952e660-2bb6-45cf-b9ea-f7a7c2d0954e"
-					(reference "#PWR029")
-					(unit 1)
-				)
-				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/772d44f5-8758-48db-a140-72ed8e75e88c"
 					(reference "#PWR035")
 					(unit 1)
 				)
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/4c1df725-56ca-4be4-8107-a39054acbca4"
+					(reference "#PWR040")
+					(unit 1)
+				)
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/5952e660-2bb6-45cf-b9ea-f7a7c2d0954e"
+					(reference "#PWR025")
+					(unit 1)
+				)
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/772d44f5-8758-48db-a140-72ed8e75e88c"
+					(reference "#PWR030")
+					(unit 1)
+				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/a8a81147-5613-4820-beb3-a7ca76d0db8e"
-					(reference "#PWR053")
+					(reference "#PWR045")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/ccdb1c25-8d0f-4f30-ab70-bbc1ecf3f6f7"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-			(project "mosfet"
-				(path "/ded08763-3231-46a8-aa39-13894b9b9e71"
-					(reference "#PWR04")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -6041,37 +5909,31 @@
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/1e692482-a022-407a-8cb5-d9a3b23521a6"
-					(reference "R17")
+					(reference "R13")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/424e7b24-5644-46f2-85bb-1e459a343705"
-					(reference "R35")
+					(reference "R25")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/4c1df725-56ca-4be4-8107-a39054acbca4"
-					(reference "R41")
-					(unit 1)
-				)
-				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/5952e660-2bb6-45cf-b9ea-f7a7c2d0954e"
-					(reference "R23")
-					(unit 1)
-				)
-				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/772d44f5-8758-48db-a140-72ed8e75e88c"
 					(reference "R29")
 					(unit 1)
 				)
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/5952e660-2bb6-45cf-b9ea-f7a7c2d0954e"
+					(reference "R17")
+					(unit 1)
+				)
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/772d44f5-8758-48db-a140-72ed8e75e88c"
+					(reference "R21")
+					(unit 1)
+				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/a8a81147-5613-4820-beb3-a7ca76d0db8e"
-					(reference "R47")
+					(reference "R33")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/ccdb1c25-8d0f-4f30-ab70-bbc1ecf3f6f7"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-			(project "mosfet"
-				(path "/ded08763-3231-46a8-aa39-13894b9b9e71"
-					(reference "R3")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -6087,7 +5949,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0ba7f73-e4fb-47d0-b3a0-d42317cca940")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR011"
 			(at 149.86 127 0)
 			(effects
 				(font
@@ -6137,41 +5999,35 @@
 		(instances
 			(project "8ch-mosfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/0eec6767-666b-42c0-ba36-2a83c9caeade"
-					(reference "#PWR012")
+					(reference "#PWR011")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/1e692482-a022-407a-8cb5-d9a3b23521a6"
-					(reference "#PWR024")
+					(reference "#PWR021")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/424e7b24-5644-46f2-85bb-1e459a343705"
-					(reference "#PWR042")
-					(unit 1)
-				)
-				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/4c1df725-56ca-4be4-8107-a39054acbca4"
-					(reference "#PWR048")
-					(unit 1)
-				)
-				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/5952e660-2bb6-45cf-b9ea-f7a7c2d0954e"
-					(reference "#PWR030")
-					(unit 1)
-				)
-				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/772d44f5-8758-48db-a140-72ed8e75e88c"
 					(reference "#PWR036")
 					(unit 1)
 				)
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/4c1df725-56ca-4be4-8107-a39054acbca4"
+					(reference "#PWR041")
+					(unit 1)
+				)
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/5952e660-2bb6-45cf-b9ea-f7a7c2d0954e"
+					(reference "#PWR026")
+					(unit 1)
+				)
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/772d44f5-8758-48db-a140-72ed8e75e88c"
+					(reference "#PWR031")
+					(unit 1)
+				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/a8a81147-5613-4820-beb3-a7ca76d0db8e"
-					(reference "#PWR054")
+					(reference "#PWR046")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/ccdb1c25-8d0f-4f30-ab70-bbc1ecf3f6f7"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-			(project "mosfet"
-				(path "/ded08763-3231-46a8-aa39-13894b9b9e71"
-					(reference "#PWR05")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -6279,17 +6135,6 @@
 					(unit 1)
 				)
 			)
-			(project "mosfet"
-				(path "/ded08763-3231-46a8-aa39-13894b9b9e71"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(sheet_instances
-		(path "/"
-			(page "1")
 		)
 	)
 )
