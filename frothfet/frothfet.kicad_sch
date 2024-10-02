@@ -5078,7 +5078,7 @@
 			(uuid "1adc706b-5415-4bfe-8d5e-d0de71c84cbd")
 		)
 		(instances
-			(project "frothfet-12ch"
+			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966"
 					(page "11")
 				)
@@ -5147,7 +5147,7 @@
 			(uuid "911ea747-2785-4fdc-ac7a-599c83bec14e")
 		)
 		(instances
-			(project "frothfet-12ch"
+			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966"
 					(page "2")
 				)
@@ -5216,7 +5216,7 @@
 			(uuid "277a1e75-e0a9-4bbf-a0aa-586d79da2bf1")
 		)
 		(instances
-			(project "frothfet-12ch"
+			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966"
 					(page "4")
 				)
@@ -5285,7 +5285,7 @@
 			(uuid "8df1271c-8174-4405-9dee-3b210c97646e")
 		)
 		(instances
-			(project "frothfet-12ch"
+			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966"
 					(page "7")
 				)
@@ -5354,7 +5354,7 @@
 			(uuid "fe1a4d8e-f2de-4a73-92e1-d1a46f3884ad")
 		)
 		(instances
-			(project "frothfet-12ch"
+			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966"
 					(page "8")
 				)
@@ -5423,7 +5423,7 @@
 			(uuid "35634c72-a8f4-41a7-8a97-dab26aa7d353")
 		)
 		(instances
-			(project "frothfet-12ch"
+			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966"
 					(page "5")
 				)
@@ -5501,7 +5501,7 @@
 			(uuid "ba7dbf25-9aeb-4a6c-af1a-eef2928a443c")
 		)
 		(instances
-			(project "frothfet-12ch"
+			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966"
 					(page "6")
 				)
@@ -5590,7 +5590,7 @@
 			(uuid "5a49e6a5-bc71-45e0-b826-ef8be7c8fc97")
 		)
 		(instances
-			(project "frothfet-12ch"
+			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966"
 					(page "25")
 				)
@@ -5659,7 +5659,7 @@
 			(uuid "1bf2409e-4e15-4c2b-b236-5515563ab299")
 		)
 		(instances
-			(project "frothfet-12ch"
+			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966"
 					(page "9")
 				)
@@ -5728,7 +5728,7 @@
 			(uuid "bc8bda67-5935-4cf0-b02f-94618e47aa4e")
 		)
 		(instances
-			(project "frothfet-12ch"
+			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966"
 					(page "10")
 				)
@@ -5857,7 +5857,7 @@
 			(uuid "f41cdc84-764e-4dd8-b2ac-dc8ca7a5ea1d")
 		)
 		(instances
-			(project "frothfet-12ch"
+			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966"
 					(page "12")
 				)
@@ -5946,7 +5946,7 @@
 			(uuid "f7ea4f0b-e2b1-4138-b645-4b501514dfc0")
 		)
 		(instances
-			(project "frothfet-12ch"
+			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966"
 					(page "24")
 				)
@@ -6015,7 +6015,7 @@
 			(uuid "fb4d890c-608f-40f7-864d-975f08fdafd7")
 		)
 		(instances
-			(project "frothfet-12ch"
+			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966"
 					(page "3")
 				)
@@ -6054,7 +6054,7 @@
 			)
 		)
 		(instances
-			(project "frothfet-12ch"
+			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966"
 					(page "14")
 				)
