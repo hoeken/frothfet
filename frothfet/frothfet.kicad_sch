@@ -3808,7 +3808,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "ESP32-S3-DEVKITC"
 			(at 115.57 55.88 0)
 			(effects
 				(font

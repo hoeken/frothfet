@@ -4131,7 +4131,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MSE_10_ADI"
+		(property "Footprint" "yarrboard:MSE_10_ADI"
 			(at 75.692 49.53 0)
 			(effects
 				(font
