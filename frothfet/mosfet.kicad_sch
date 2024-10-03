@@ -3874,7 +3874,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF/50v"
+		(property "Value" "100nF"
 			(at 43.18 77.4763 0)
 			(effects
 				(font
@@ -4160,6 +4160,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C690105"
+			(at 78.74 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" " 584-LTC7004EMSEPBF "
+			(at 78.74 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "2e53603f-509e-4147-b247-f3d50c86f56d")
 		)
@@ -4274,6 +4292,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 71.12 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C96345"
 			(at 71.12 80.01 0)
 			(effects
 				(font
@@ -4806,6 +4833,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C125094"
+			(at 62.23 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "782bdf34-4272-4903-b89d-42c52f069fcd")
 		)
@@ -5019,6 +5055,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 99.06 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" " 771-BAS416Z "
 			(at 99.06 45.72 0)
 			(effects
 				(font
@@ -5469,6 +5514,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C96345"
+			(at 125.73 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c51c5f47-ec2e-405f-a31e-c0f33ffbb49d")
 		)
@@ -5741,7 +5795,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ".47uF/50v"
+		(property "Value" "470nF/50v"
 			(at 134.62 67.3163 0)
 			(effects
 				(font
@@ -5786,7 +5840,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C106843"
 			(at 132.08 66.04 0)
 			(effects
 				(font
@@ -6006,6 +6060,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C96345"
+			(at 125.73 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fc694cdc-122a-40be-8959-046821d54dc6")
 		)
@@ -6201,6 +6264,24 @@
 			)
 		)
 		(property "ALT" "BSC010N04LS"
+			(at 143.51 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C501508"
+			(at 143.51 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" " 726-BSC010N04LS "
 			(at 143.51 58.42 0)
 			(effects
 				(font

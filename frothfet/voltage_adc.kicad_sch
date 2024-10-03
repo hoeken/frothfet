@@ -809,7 +809,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 93.98) (xy 180.34 107.95)
+			(xy 184.15 93.98) (xy 184.15 107.95)
 		)
 		(stroke
 			(width 0)
@@ -819,7 +819,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 77.47) (xy 180.34 77.47)
+			(xy 167.64 77.47) (xy 184.15 77.47)
 		)
 		(stroke
 			(width 0)
@@ -899,7 +899,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 77.47) (xy 180.34 88.9)
+			(xy 184.15 77.47) (xy 184.15 88.9)
 		)
 		(stroke
 			(width 0)
@@ -929,7 +929,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 107.95) (xy 167.64 107.95)
+			(xy 184.15 107.95) (xy 167.64 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1330,7 +1330,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 180.34 91.44 0)
+		(at 184.15 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1338,7 +1338,7 @@
 		(dnp no)
 		(uuid "14248164-21bd-43d3-8c23-2d11fb9ea9d9")
 		(property "Reference" "C65"
-			(at 182.88 90.1763 0)
+			(at 186.69 90.1763 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1347,7 +1347,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 182.88 92.7163 0)
+			(at 186.69 92.7163 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1356,7 +1356,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 180.34 91.44 0)
+			(at 184.15 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1365,7 +1365,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 180.34 91.44 0)
+			(at 184.15 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1374,7 +1374,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 180.34 91.44 0)
+			(at 184.15 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1383,7 +1383,7 @@
 			)
 		)
 		(property "Vendor" ""
-			(at 180.34 91.44 0)
+			(at 184.15 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1392,7 +1392,7 @@
 			)
 		)
 		(property "LCSC" "C1952580"
-			(at 180.34 91.44 0)
+			(at 184.15 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)

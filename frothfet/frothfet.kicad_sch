@@ -2920,6 +2920,25 @@
 		)
 		(uuid "fe71cbbc-8e91-4951-8aef-0661ed6be5f8")
 	)
+	(text_box "I2C Addresses:\n\nBus Voltage:       1101000\nChannel Voltage 1: 1001001\nChannel Voltage 2: 1001000"
+		(exclude_from_sim no)
+		(at 77.47 173.99 0)
+		(size 40.64 13.97)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "69349be2-9a02-4be5-b603-f4e89fe5336c")
+	)
 	(global_label "VOLT3"
 		(shape input)
 		(at 85.09 162.56 180)
