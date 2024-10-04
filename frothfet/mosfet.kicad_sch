@@ -6216,7 +6216,7 @@
 		(dnp no)
 		(uuid "baff1051-5781-4312-ae63-79bcb60ee398")
 		(property "Reference" "Q1"
-			(at 156.21 57.1499 0)
+			(at 149.606 56.134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6225,7 +6225,7 @@
 			)
 		)
 		(property "Value" "BSC010N04LS"
-			(at 156.21 59.6899 0)
+			(at 149.606 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
