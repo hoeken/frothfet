@@ -540,7 +540,7 @@
 				)
 			)
 		)
-		(symbol "power:+3.3V"
+		(symbol "power:+3.3VADC"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -549,7 +549,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
+				(at 3.81 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -557,7 +557,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+3.3V"
+			(property "Value" "+3.3VADC"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -583,7 +583,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(property "Description" "Power symbol creates a global label with name \"+3.3VADC\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -601,7 +601,27 @@
 					(hide yes)
 				)
 			)
-			(symbol "+3.3V_0_1"
+			(symbol "+3.3VADC_0_0"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "+3.3VADC_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -636,26 +656,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-			)
-			(symbol "+3.3V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 			)
@@ -1572,7 +1572,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
+		(lib_id "power:+3.3VADC")
 		(at 138.43 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1580,9 +1580,9 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6b7ca8de-d8dc-4012-b6d1-f5a1659040f7")
-		(property "Reference" "#PWR079"
-			(at 138.43 80.01 0)
+		(uuid "eac95d95-49f1-4ce6-924b-8bde8dba7a71")
+		(property "Reference" "#PWR077"
+			(at 142.24 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1590,7 +1590,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+3.3VADC"
 			(at 138.43 71.12 0)
 			(effects
 				(font
@@ -1616,7 +1616,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+		(property "Description" "Power symbol creates a global label with name \"+3.3VADC\""
 			(at 138.43 76.2 0)
 			(effects
 				(font
@@ -1626,10 +1626,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "dd5e3b5c-2ad7-451b-a676-d098f0f6d546")
+			(uuid "1a439ad8-b211-4baa-a261-3ceb51de78e6")
 		)
 		(instances
-			(project "8ch-mosfet"
+			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/a6260305-24e3-4714-b441-a7a157c17bd9"
 					(reference "#PWR079")
 					(unit 1)

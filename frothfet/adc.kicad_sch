@@ -266,7 +266,7 @@
 				)
 			)
 		)
-		(symbol "power:+3.3VA"
+		(symbol "power:+3.3VADC"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -275,7 +275,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
+				(at 3.81 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -283,7 +283,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+3.3VA"
+			(property "Value" "+3.3VADC"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -309,7 +309,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+			(property "Description" "Power symbol creates a global label with name \"+3.3VADC\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -327,7 +327,27 @@
 					(hide yes)
 				)
 			)
-			(symbol "+3.3VA_0_1"
+			(symbol "+3.3VADC_0_0"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "+3.3VADC_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -362,26 +382,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-			)
-			(symbol "+3.3VA_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 			)
@@ -2288,7 +2288,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3VA")
+		(lib_id "power:+3.3VADC")
 		(at 135.89 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2296,9 +2296,9 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d622a948-a5a7-4009-9774-45711f8934c0")
+		(uuid "bad74710-0096-4881-a8b0-55170f2dc21e")
 		(property "Reference" "#PWR083"
-			(at 135.89 59.69 0)
+			(at 139.7 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2306,7 +2306,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3VA"
+		(property "Value" "+3.3VADC"
 			(at 135.89 50.8 0)
 			(effects
 				(font
@@ -2332,7 +2332,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+		(property "Description" "Power symbol creates a global label with name \"+3.3VADC\""
 			(at 135.89 55.88 0)
 			(effects
 				(font
@@ -2342,10 +2342,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "557af1e2-c8a1-471d-8fff-f55051176837")
+			(uuid "cd3f10ab-a3dd-4edd-a8de-f42ad92c50a2")
 		)
 		(instances
-			(project ""
+			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/b87f80e1-ecbd-4ee0-be26-4b252158928b"
 					(reference "#PWR083")
 					(unit 1)
