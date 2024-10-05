@@ -1,4 +1,4 @@
-# FrothFET 12Ch
+# FrothFET
 
 A [Yarrboard](https://github.com/hoeken/yarrboard) open hardware project for digital switching on boats, or anywhere with 12v-24v systems.
 
@@ -8,7 +8,7 @@ Pronounced *yarrrrrrr * bird*.  Lots of r's and don't call it a board. ;)
 
 ## Specifications:
 
-* 12 x separately controllable load driver channels with:
+* 8 x separately controllable load driver channels with:
   * 20A current maximum per channel (with fans!)
   * Built-in ATC fuses with bypass mode
   * Current monitoring accurate to about 0.01A on each channel
@@ -17,7 +17,6 @@ Pronounced *yarrrrrrr * bird*.  Lots of r's and don't call it a board. ;)
   * PCB made with heavy duty 2oz copper, 4 layers, and thick copper busbars to handle big loads
   * M4 (#8) screw terminals for secure and easy setup
   * dimmable with PWM control
-* 4 x tank sender inputs (0-180ohm, 240-33ohm, 4-20mA, or 0-5V compatible)
 * 12v to 30v supply voltage (supports both lead acid and lithium battery systems in either 12v or 24v configuration)
 * 100A total system power (beefy lasercut copper busbar)
 * easy system fusing with MEGA or MBRF fuse on busbar.
