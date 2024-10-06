@@ -1193,6 +1193,15 @@
 				(hide yes)
 			)
 		)
+		(property "ALT" ""
+			(at 167.64 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a24db6ad-246c-4aed-9616-54d2c830671a")
 		)
@@ -1276,7 +1285,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" " 595-ADS1015IDGSR "
+		(property "ALT" ""
 			(at 138.43 96.52 0)
 			(effects
 				(font
@@ -1400,6 +1409,15 @@
 				(hide yes)
 			)
 		)
+		(property "ALT" ""
+			(at 184.15 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ac57cc2f-6698-4e7c-9445-90f93881873c")
 		)
@@ -1475,6 +1493,15 @@
 			)
 		)
 		(property "LCSC" "C84376"
+			(at 157.48 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT" ""
 			(at 157.48 83.82 0)
 			(effects
 				(font
@@ -1581,7 +1608,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eac95d95-49f1-4ce6-924b-8bde8dba7a71")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR079"
 			(at 142.24 77.47 0)
 			(effects
 				(font

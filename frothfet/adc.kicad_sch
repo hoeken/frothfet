@@ -1901,6 +1901,15 @@
 				(hide yes)
 			)
 		)
+		(property "ALT" ""
+			(at 95.25 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b6cff9a8-295b-4556-8945-bcfd85a8800f")
 		)
@@ -2185,6 +2194,15 @@
 				(hide yes)
 			)
 		)
+		(property "ALT" ""
+			(at 85.09 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8bd53786-4221-4c34-8a4f-534ea0d247ab")
 		)
@@ -2264,6 +2282,15 @@
 			)
 		)
 		(property "LCSC" "C49678"
+			(at 168.91 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT" ""
 			(at 168.91 87.63 0)
 			(effects
 				(font
@@ -2425,6 +2452,15 @@
 				(hide yes)
 			)
 		)
+		(property "ALT" ""
+			(at 127 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7e8c5089-9e04-44cd-a31d-861321fee6ed")
 		)
@@ -2560,6 +2596,15 @@
 			)
 		)
 		(property "Mouser" "579-MCP3564R-E/ST "
+			(at 139.7 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT" ""
 			(at 139.7 88.9 0)
 			(effects
 				(font

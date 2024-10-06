@@ -529,7 +529,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "../frothfet-12ch.csv",
+    "bom_export_filename": "../frothfet-rev-d.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",

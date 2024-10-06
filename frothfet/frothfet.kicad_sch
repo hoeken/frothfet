@@ -3915,6 +3915,15 @@
 				(hide yes)
 			)
 		)
+		(property "ALT" ""
+			(at 59.69 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5a215b9c-729f-4c42-9345-05d6de3f40fc")
 		)
@@ -3974,6 +3983,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 115.57 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT" ""
 			(at 115.57 82.55 0)
 			(effects
 				(font
@@ -4299,6 +4317,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 22.86 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT" ""
 			(at 22.86 166.37 0)
 			(effects
 				(font
@@ -4644,6 +4671,15 @@
 				(hide yes)
 			)
 		)
+		(property "ALT" ""
+			(at 69.85 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6526bdee-9665-4c83-a8ab-8921e9fba7f0")
 		)
@@ -4704,6 +4740,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 22.86 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT" ""
 			(at 22.86 186.69 0)
 			(effects
 				(font
@@ -4779,6 +4824,15 @@
 				(hide yes)
 			)
 		)
+		(property "ALT" ""
+			(at 275.59 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966"
@@ -4833,6 +4887,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 22.86 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT" ""
 			(at 22.86 154.94 0)
 			(effects
 				(font
@@ -4963,6 +5026,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 22.86 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT" ""
 			(at 22.86 176.53 0)
 			(effects
 				(font

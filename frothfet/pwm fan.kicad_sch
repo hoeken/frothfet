@@ -1604,6 +1604,15 @@
 				(hide yes)
 			)
 		)
+		(property "ALT" ""
+			(at 158.75 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "444f73c1-980f-404f-9862-fcf6b285e8c2")
 		)
@@ -1680,6 +1689,15 @@
 		)
 		(property "LCSC" "C316020"
 			(at 147.32 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT" ""
+			(at 147.32 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1831,7 +1849,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "538-47053-1000 "
+		(property "Mouser" ""
 			(at 133.35 82.55 0)
 			(effects
 				(font
@@ -1841,6 +1859,15 @@
 			)
 		)
 		(property "LCSC" "C3025061"
+			(at 133.35 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT" ""
 			(at 133.35 82.55 0)
 			(effects
 				(font
@@ -2010,6 +2037,15 @@
 				(hide yes)
 			)
 		)
+		(property "ALT" ""
+			(at 130.81 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8ca9ec75-b519-419f-a69b-8c474bbd14f8")
 		)
@@ -2165,6 +2201,15 @@
 				(hide yes)
 			)
 		)
+		(property "ALT" ""
+			(at 154.94 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d56657bb-ac30-4a37-a2b7-3fad92c68bbc")
 		)
@@ -2238,6 +2283,15 @@
 			)
 		)
 		(property "LCSC" "C95781"
+			(at 119.38 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT" ""
 			(at 119.38 96.52 0)
 			(effects
 				(font
