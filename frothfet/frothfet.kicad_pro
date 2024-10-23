@@ -521,7 +521,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "frothfet.STEP",
+      "step": "frothfet-rev-d.STEP",
       "svg": "",
       "vrml": "Gnarboard.wrl"
     },

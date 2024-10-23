@@ -3040,7 +3040,7 @@
 		)
 		(uuid "fe71cbbc-8e91-4951-8aef-0661ed6be5f8")
 	)
-	(text_box "I2C Addresses:\n\nBus Voltage:       1101000\nChannel Voltage 1: 1001001\nChannel Voltage 2: 1001000"
+	(text_box "I2C Addresses:\n\nBus Voltage:       1101000 (0x68)\nChannel Voltage 1: 1001001 (0x49)\nChannel Voltage 2: 1001000 (0x48)"
 		(exclude_from_sim no)
 		(at 77.47 173.99 0)
 		(size 40.64 13.97)
