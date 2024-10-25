@@ -17,9 +17,6 @@ FrothFET notes:
 
 TODO: 
 
-* dnp the "filter" on the gate drive
-* change the voltage divider resistors for 3.3v vref
-* add a 'pulldown' mosfet for faster switching?
 * add power LEDs
 * update the MCP1754 schematic with 2 1uF caps in/out, drop the inductor
 * 4.5mm holes in the +pos connectors
