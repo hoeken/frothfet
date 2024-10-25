@@ -17,7 +17,6 @@ FrothFET notes:
 
 TODO: 
 
-* add power LEDs
 * update the MCP1754 schematic with 2 1uF caps in/out, drop the inductor
 * 4.5mm holes in the +pos connectors
 * add alarm buzzer
