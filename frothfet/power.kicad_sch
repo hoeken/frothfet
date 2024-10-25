@@ -4262,12 +4262,6 @@
 		(uuid "2eccdf9c-ee9e-426e-870e-1adb34c128c5")
 	)
 	(junction
-		(at 62.23 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "313ac9ab-638b-4f1a-a0ce-957591032a9b")
-	)
-	(junction
 		(at 262.89 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4989,6 +4983,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 173.99) (xy 68.58 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ff09f9e-3c20-4adf-9922-3f4b2531167a")
+	)
+	(wire
+		(pts
 			(xy 151.13 66.04) (xy 166.37 66.04)
 		)
 		(stroke
@@ -5199,17 +5203,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 173.99) (xy 68.58 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65883405-e720-4d5d-8c67-b3be4c74dec6")
-	)
-	(wire
-		(pts
-			(xy 67.31 121.92) (xy 62.23 121.92)
+			(xy 59.69 121.92) (xy 67.31 121.92)
 		)
 		(stroke
 			(width 0)
@@ -5669,16 +5663,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 121.92) (xy 62.23 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "adeb00c1-d8b8-46d0-9c62-a8b028ff88e7")
-	)
-	(wire
-		(pts
 			(xy 160.02 81.28) (xy 162.56 81.28)
 		)
 		(stroke
@@ -5766,16 +5750,6 @@
 			(type default)
 		)
 		(uuid "ba3fd2ad-a042-4751-bb0a-67d77f908a30")
-	)
-	(wire
-		(pts
-			(xy 62.23 121.92) (xy 59.69 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb5b9071-40c6-4ddb-a208-a54f0c305b66")
 	)
 	(wire
 		(pts
@@ -6408,7 +6382,7 @@
 		)
 		(uuid "fc1b718b-d684-4c3f-88f1-098fefd87ceb")
 	)
-	(text "Bus Voltage Circuit"
+	(text "Bus Voltage Measurement Circuit"
 		(exclude_from_sim no)
 		(at 120.65 99.06 0)
 		(effects
@@ -6520,6 +6494,28 @@
 		(uuid "c4311cad-773d-4ef9-a314-88c3fb67050d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 47.3916 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ESP32_5V"
+		(shape input)
+		(at 59.69 173.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "daee945d-a3bc-450b-b99d-c6a99d6dd81e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 47.3916 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
