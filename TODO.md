@@ -12,9 +12,8 @@ FrothFET notes:
 * Test fully loaded
 * determine if we will keep the ADC regulator - measure DC
 * determine if we will keep the ADC vref
-* switch fans to simple on/off control
-  * do we need tachometer?
-
 TODO: 
 
+* switch fans to simple on/off control
+* consolidate to a single ADC chip
 * add alarm buzzer

@@ -407,139 +407,6 @@
 				)
 			)
 		)
-		(symbol "Device:R_Small_US"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0.762 0.508 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "R_Small_US"
-				(at 0.762 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor, small US symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "r resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Small_US_1_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 2.54 270)
-					(length 1.016)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 1.016)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+3.3VADC"
 			(power)
 			(pin_numbers hide)
@@ -758,12 +625,6 @@
 		)
 	)
 	(junction
-		(at 157.48 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1290e326-72ef-40a5-b445-a33e66b8cfc6")
-	)
-	(junction
 		(at 138.43 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -776,13 +637,13 @@
 		(uuid "cb8bb5cd-6c00-479c-8387-a636e49bbb86")
 	)
 	(junction
-		(at 167.64 77.47)
+		(at 168.91 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d2b419f4-64ad-4a4b-aa90-b2d35ec5f88f")
 	)
 	(junction
-		(at 167.64 107.95)
+		(at 168.91 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ece6ba86-77f5-4263-ae9c-e733b5ec3ab8")
@@ -809,7 +670,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 93.98) (xy 184.15 107.95)
+			(xy 181.61 93.98) (xy 181.61 107.95)
 		)
 		(stroke
 			(width 0)
@@ -819,7 +680,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 77.47) (xy 184.15 77.47)
+			(xy 168.91 77.47) (xy 181.61 77.47)
 		)
 		(stroke
 			(width 0)
@@ -836,16 +697,6 @@
 			(type default)
 		)
 		(uuid "28d9cc71-8c5a-4b1a-ac65-9c84c7dc5ec7")
-	)
-	(wire
-		(pts
-			(xy 157.48 91.44) (xy 157.48 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ed9ef7c-f97b-4b70-8983-bca753aa55c4")
 	)
 	(wire
 		(pts
@@ -879,7 +730,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 77.47) (xy 157.48 77.47)
+			(xy 138.43 77.47) (xy 168.91 77.47)
 		)
 		(stroke
 			(width 0)
@@ -899,7 +750,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 77.47) (xy 184.15 88.9)
+			(xy 181.61 77.47) (xy 181.61 88.9)
 		)
 		(stroke
 			(width 0)
@@ -929,7 +780,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 107.95) (xy 167.64 107.95)
+			(xy 181.61 107.95) (xy 168.91 107.95)
 		)
 		(stroke
 			(width 0)
@@ -939,7 +790,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 91.44) (xy 157.48 91.44)
+			(xy 148.59 91.44) (xy 152.4 91.44)
 		)
 		(stroke
 			(width 0)
@@ -949,7 +800,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 93.98) (xy 167.64 107.95)
+			(xy 168.91 93.98) (xy 168.91 107.95)
 		)
 		(stroke
 			(width 0)
@@ -959,7 +810,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 77.47) (xy 167.64 88.9)
+			(xy 168.91 77.47) (xy 168.91 88.9)
 		)
 		(stroke
 			(width 0)
@@ -979,26 +830,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 77.47) (xy 157.48 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e75015c3-aafd-4c54-8315-745a0019183a")
-	)
-	(wire
-		(pts
-			(xy 157.48 77.47) (xy 167.64 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e916d0ab-8443-43cb-a252-d74fce399b52")
-	)
-	(wire
-		(pts
 			(xy 138.43 76.2) (xy 138.43 77.47)
 		)
 		(stroke
@@ -1009,7 +840,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 107.95) (xy 138.43 107.95)
+			(xy 168.91 107.95) (xy 138.43 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1060,6 +891,18 @@
 				(hide yes)
 			)
 		)
+	)
+	(hierarchical_label "ALERT{slash}RDY"
+		(shape input)
+		(at 152.4 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "02ab9759-434a-4a77-99d7-3608889515c7")
 	)
 	(hierarchical_label "ADC2"
 		(shape input)
@@ -1123,7 +966,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 167.64 91.44 0)
+		(at 168.91 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1131,7 +974,7 @@
 		(dnp no)
 		(uuid "0abdc3c8-22a9-4692-ae0a-c58329a9e4ab")
 		(property "Reference" "C64"
-			(at 170.18 90.1763 0)
+			(at 171.45 90.1763 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1140,7 +983,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 170.18 92.7163 0)
+			(at 171.45 92.7163 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1149,7 +992,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 167.64 91.44 0)
+			(at 168.91 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1158,7 +1001,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 167.64 91.44 0)
+			(at 168.91 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1167,7 +1010,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 167.64 91.44 0)
+			(at 168.91 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1176,7 +1019,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 167.64 91.44 0)
+			(at 168.91 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1185,7 +1028,7 @@
 			)
 		)
 		(property "LCSC" "C49678"
-			(at 167.64 91.44 0)
+			(at 168.91 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1194,7 +1037,7 @@
 			)
 		)
 		(property "ALT" ""
-			(at 167.64 91.44 0)
+			(at 168.91 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1240,7 +1083,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ADS1015IDGS"
+		(property "Value" "ADS1115IDGS"
 			(at 140.6241 83.82 0)
 			(effects
 				(font
@@ -1276,7 +1119,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C193969"
+		(property "LCSC" ""
 			(at 138.43 96.52 0)
 			(effects
 				(font
@@ -1339,7 +1182,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 184.15 91.44 0)
+		(at 181.61 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1347,7 +1190,7 @@
 		(dnp no)
 		(uuid "14248164-21bd-43d3-8c23-2d11fb9ea9d9")
 		(property "Reference" "C65"
-			(at 186.69 90.1763 0)
+			(at 184.15 90.1763 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1356,7 +1199,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 186.69 92.7163 0)
+			(at 184.15 92.7163 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1365,7 +1208,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 184.15 91.44 0)
+			(at 181.61 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1374,7 +1217,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 184.15 91.44 0)
+			(at 181.61 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1383,7 +1226,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 184.15 91.44 0)
+			(at 181.61 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1392,7 +1235,7 @@
 			)
 		)
 		(property "Vendor" ""
-			(at 184.15 91.44 0)
+			(at 181.61 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1401,7 +1244,7 @@
 			)
 		)
 		(property "LCSC" "C1952580"
-			(at 184.15 91.44 0)
+			(at 181.61 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1410,7 +1253,7 @@
 			)
 		)
 		(property "ALT" ""
-			(at 184.15 91.44 0)
+			(at 181.61 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1432,98 +1275,6 @@
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/bb9dea8b-8412-49bc-950d-dce57727bcd2"
 					(reference "C63")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 157.48 83.82 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "409b8373-b632-434d-80de-6a2efba2b36a")
-		(property "Reference" "R62"
-			(at 160.02 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 160.02 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 157.48 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 157.48 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 157.48 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C84376"
-			(at 157.48 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT" ""
-			(at 157.48 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0596089f-e347-4fed-b876-7acf5afa7e23")
-		)
-		(pin "2"
-			(uuid "90c3c3b0-0a01-4430-b341-49d2c73bac28")
-		)
-		(instances
-			(project "8ch-mosfet"
-				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/a6260305-24e3-4714-b441-a7a157c17bd9"
-					(reference "R62")
-					(unit 1)
-				)
-				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/bb9dea8b-8412-49bc-950d-dce57727bcd2"
-					(reference "R61")
 					(unit 1)
 				)
 			)
