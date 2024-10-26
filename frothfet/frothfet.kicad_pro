@@ -728,6 +728,10 @@
       "Power Supply"
     ],
     [
+      "13bd1484-e1d0-414c-b70b-256f3904dbbc",
+      "Piezo Buzzer"
+    ],
+    [
       "bb9dea8b-8412-49bc-950d-dce57727bcd2",
       "VOLTAGE ADC1"
     ],

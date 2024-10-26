@@ -2148,7 +2148,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 135.89) (xy 34.29 135.89)
+			(xy 29.21 124.46) (xy 34.29 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2338,7 +2338,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 127) (xy 34.29 127)
+			(xy 29.21 115.57) (xy 34.29 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2628,6 +2628,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 134.62) (xy 34.29 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b01f52e5-f9eb-4e2d-ac90-18b58343d084")
+	)
+	(wire
+		(pts
 			(xy 228.6 55.88) (xy 228.6 100.33)
 		)
 		(stroke
@@ -2735,6 +2745,16 @@
 			(type default)
 		)
 		(uuid "c316339e-e38f-456a-861a-c0ffe28e1e25")
+	)
+	(wire
+		(pts
+			(xy 92.71 76.2) (xy 96.52 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3f9cac3-9a52-4f76-8a6c-9ce3586193f9")
 	)
 	(wire
 		(pts
@@ -3343,7 +3363,7 @@
 	)
 	(global_label "FAN_MOSFET1"
 		(shape input)
-		(at 34.29 127 0)
+		(at 34.29 115.57 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3353,7 +3373,7 @@
 		)
 		(uuid "3c00f35a-067e-4e8a-b0bd-73bec68f953a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.1566 127 0)
+			(at 50.1566 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3486,6 +3506,28 @@
 		(uuid "53692884-de62-47e0-891e-83a88eeb7478")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 205.4595 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PIEZO"
+		(shape input)
+		(at 34.29 134.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "623def7a-a164-4206-9570-53deba5bd933")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 42.839 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3693,6 +3735,28 @@
 			)
 		)
 	)
+	(global_label "PIEZO"
+		(shape input)
+		(at 92.71 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "972bbede-a436-4ac3-941f-e9e9a63dd31c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.161 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ESP32_5V"
 		(shape input)
 		(at 92.71 111.76 180)
@@ -3717,7 +3781,7 @@
 	)
 	(global_label "FAN_MOSFET2"
 		(shape input)
-		(at 34.29 135.89 0)
+		(at 34.29 124.46 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3727,7 +3791,7 @@
 		)
 		(uuid "c7982a34-e800-4d01-afea-f5d926b2cd53")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.1566 135.89 0)
+			(at 50.1566 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5184,7 +5248,7 @@
 		)
 	)
 	(sheet
-		(at 16.51 133.35)
+		(at 16.51 121.92)
 		(size 12.7 3.81)
 		(fields_autoplaced yes)
 		(stroke
@@ -5196,7 +5260,7 @@
 		)
 		(uuid "02f6e629-b0e2-41e8-b2e4-f0e125a92a71")
 		(property "Sheetname" "FAN2"
-			(at 16.51 132.6384 0)
+			(at 16.51 121.2084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5205,7 +5269,7 @@
 			)
 		)
 		(property "Sheetfile" "pwm fan.kicad_sch"
-			(at 16.51 137.7446 0)
+			(at 16.51 126.3146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5215,7 +5279,7 @@
 			)
 		)
 		(pin "MOSFET" input
-			(at 29.21 135.89 0)
+			(at 29.21 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5297,6 +5361,55 @@
 			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 16.51 132.08)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "13bd1484-e1d0-414c-b70b-256f3904dbbc")
+		(property "Sheetname" "Piezo Buzzer"
+			(at 16.51 131.3684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "piezo.kicad_sch"
+			(at 16.51 136.4746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "PIEZO" input
+			(at 29.21 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "209a4403-af41-459b-8349-973f9438dcfb")
+		)
+		(instances
+			(project "frothfet"
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966"
+					(page "16")
 				)
 			)
 		)
@@ -5824,7 +5937,7 @@
 		)
 	)
 	(sheet
-		(at 16.51 124.46)
+		(at 16.51 113.03)
 		(size 12.7 3.81)
 		(fields_autoplaced yes)
 		(stroke
@@ -5836,7 +5949,7 @@
 		)
 		(uuid "ad82ad0c-2ba8-4934-bb2a-ed6e11658eb2")
 		(property "Sheetname" "FAN1"
-			(at 16.51 123.7484 0)
+			(at 16.51 112.3184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5845,7 +5958,7 @@
 			)
 		)
 		(property "Sheetfile" "pwm fan.kicad_sch"
-			(at 16.51 128.8546 0)
+			(at 16.51 117.4246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5855,7 +5968,7 @@
 			)
 		)
 		(pin "MOSFET" input
-			(at 29.21 127 0)
+			(at 29.21 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6190,7 +6303,7 @@
 		)
 	)
 	(sheet
-		(at 15.875 109.855)
+		(at 15.875 98.425)
 		(size 12.827 3.81)
 		(fields_autoplaced yes)
 		(stroke
@@ -6202,7 +6315,7 @@
 		)
 		(uuid "e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef")
 		(property "Sheetname" "Power Supply"
-			(at 15.875 109.1434 0)
+			(at 15.875 97.7134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6211,7 +6324,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 15.875 114.2496 0)
+			(at 15.875 102.8196 0)
 			(effects
 				(font
 					(size 1.27 1.27)

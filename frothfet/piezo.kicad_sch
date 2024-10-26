@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "31323041-487f-4e13-a195-e7e03d2cb7f9")
+	(uuid "66cd4bc6-10f6-47ad-8fb3-a6704e6ba9e4")
 	(paper "A4")
 	(title_block
 		(title "FrothFET 8CH")
@@ -11,30 +11,32 @@
 		(company "https://github.com/hoeken/frothfet")
 	)
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x02"
+		(symbol "Device:Buzzer"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 0.0254) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
+			(property "Reference" "BZ"
+				(at 3.81 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "Conn_01x02"
-				(at 0 -5.08 0)
+			(property "Value" "Buzzer"
+				(at 3.81 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
-				(at 0 0 0)
+				(at -0.635 2.54 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -43,6 +45,15 @@
 				)
 			)
 			(property "Datasheet" "~"
+				(at -0.635 2.54 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Buzzer, polarized"
 				(at 0 0 0)
 				(effects
 					(font
@@ -51,7 +62,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "ki_keywords" "quartz resonator ceramic"
 				(at 0 0 0)
 				(effects
 					(font
@@ -60,7 +71,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "connector"
+			(property "ki_fp_filters" "*Buzzer*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -69,53 +80,61 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02_1_1"
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
+			(symbol "Buzzer_0_1"
+				(arc
+					(start 0 -3.175)
+					(mid 3.1612 0)
+					(end 0 3.175)
 					(stroke
-						(width 0.1524)
+						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
+				(polyline
+					(pts
+						(xy -1.651 1.905) (xy -1.143 1.905)
+					)
 					(stroke
-						(width 0.1524)
+						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
+				(polyline
+					(pts
+						(xy -1.397 2.159) (xy -1.397 1.651)
+					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 0 3.175) (xy 0 -3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Buzzer_1_1"
 				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
+					(at -2.54 2.54 0)
+					(length 2.54)
+					(name "+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -131,9 +150,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -808,68 +827,80 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 101.6) (xy 133.35 105.41)
+			(xy 134.62 87.63) (xy 134.62 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3dce58aa-b9dc-4caf-a2ce-c668dbf46bc9")
+		(uuid "317a5d4e-674e-479e-9d00-03b6dd35beb3")
 	)
 	(wire
 		(pts
-			(xy 121.92 96.52) (xy 125.73 96.52)
+			(xy 134.62 105.41) (xy 134.62 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5c0c670d-de1b-4967-8f3a-841c20c83917")
+		(uuid "7bf7985f-c509-40a9-b00c-b1ed6d2c6707")
 	)
 	(wire
 		(pts
-			(xy 133.35 82.55) (xy 133.35 91.44)
+			(xy 123.19 100.33) (xy 127 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9460cfae-cf8a-4735-826f-d6f00687b38d")
+		(uuid "85310171-fe50-4950-858e-6966dc2e5a0c")
 	)
 	(wire
 		(pts
-			(xy 113.03 96.52) (xy 116.84 96.52)
+			(xy 114.3 100.33) (xy 118.11 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cea9c5d8-de0b-4ecb-b834-95cde8bc195f")
+		(uuid "c72dd9d6-3a76-4125-95d1-d197c7b22c51")
 	)
 	(wire
 		(pts
-			(xy 133.35 68.58) (xy 133.35 80.01)
+			(xy 134.62 72.39) (xy 134.62 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ed98bf35-be14-4c02-9866-ac5d320b4b45")
+		(uuid "cc439670-02e3-4b22-98f5-4f1ad29f1fb1")
 	)
-	(text "Fan Control"
+	(rectangle
+		(start 101.6 64.77)
+		(end 160.02 118.11)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 13e0845e-fbe5-4293-8cc9-879e57863b8b)
+	)
+	(text "Piezo Buzzer"
 		(exclude_from_sim no)
-		(at 134.62 58.42 0)
+		(at 102.87 67.818 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "7fed74f3-5377-4df8-940a-1ddb4141d68d")
+		(uuid "5b10e5cc-7ff6-43d6-a56f-b31f0bd48b33")
 	)
-	(hierarchical_label "MOSFET"
+	(hierarchical_label "PIEZO"
 		(shape input)
-		(at 113.03 96.52 180)
+		(at 114.3 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -877,108 +908,36 @@
 			)
 			(justify right)
 		)
-		(uuid "c050864c-9ce3-4817-a2a3-1d68ce1e50a6")
+		(uuid "9f12ca92-7c80-45cf-bcbb-246e6eeee613")
 	)
 	(symbol
-		(lib_id "power:GNDD")
-		(at 133.35 105.41 0)
+		(lib_id "Device:R_Small_US")
+		(at 120.65 100.33 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9599dc77-c049-4435-baa0-14030cb0194e")
-		(property "Reference" "#PWR060"
-			(at 133.35 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDD"
-			(at 133.35 109.22 0)
+		(uuid "47843b63-a255-4398-80c2-b4a913c3cd53")
+		(property "Reference" "R52"
+			(at 120.65 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 133.35 105.41 0)
+		(property "Value" "1k"
+			(at 120.65 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 133.35 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 133.35 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "914389ef-c032-4f11-894c-907efb094822")
-		)
-		(instances
-			(project "8ch-mosfet"
-				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/02f6e629-b0e2-41e8-b2e4-f0e125a92a71"
-					(reference "#PWR060")
-					(unit 1)
-				)
-				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/ad82ad0c-2ba8-4934-bb2a-ed6e11658eb2"
-					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 138.43 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "acfaed32-e731-4bd5-bdf4-63938533fa4d")
-		(property "Reference" "J14"
-			(at 140.97 80.0099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "FAN"
-			(at 140.97 82.5499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
-			(at 138.43 80.01 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 120.65 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -987,7 +946,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 138.43 80.01 0)
+			(at 120.65 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -995,8 +954,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 138.43 80.01 0)
+		(property "Description" ""
+			(at 120.65 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1004,20 +963,34 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "fb0fc98a-9e2d-4418-8d4a-b479fbc306f9")
+		(property "LCSC" "C95781"
+			(at 120.65 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT" ""
+			(at 120.65 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "45faa621-686f-4b3e-87ea-b9589372427d")
+			(uuid "0e812028-41d5-4b48-9451-ee3820b911f2")
+		)
+		(pin "2"
+			(uuid "ba076cb7-cf16-44bb-8189-f303f719da64")
 		)
 		(instances
-			(project ""
-				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/02f6e629-b0e2-41e8-b2e4-f0e125a92a71"
-					(reference "J14")
-					(unit 1)
-				)
-				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/ad82ad0c-2ba8-4934-bb2a-ed6e11658eb2"
-					(reference "J13")
+			(project "frothfet"
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/13bd1484-e1d0-414c-b70b-256f3904dbbc"
+					(reference "R52")
 					(unit 1)
 				)
 			)
@@ -1025,15 +998,15 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:AO3400A")
-		(at 130.81 96.52 0)
+		(at 132.08 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "bedc2009-0180-4430-b7eb-2fff3c6280f2")
-		(property "Reference" "Q10"
-			(at 135.89 95.25 0)
+		(uuid "9c159d7d-a551-4a30-b4a0-2c687cbcad0b")
+		(property "Reference" "Q19"
+			(at 137.16 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1042,7 +1015,7 @@
 			)
 		)
 		(property "Value" "AO3400A"
-			(at 135.89 97.79 0)
+			(at 137.16 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1051,7 +1024,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 135.89 98.425 0)
+			(at 137.16 102.235 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1062,7 +1035,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
-			(at 135.89 100.33 0)
+			(at 137.16 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1072,7 +1045,7 @@
 			)
 		)
 		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
-			(at 130.81 96.52 0)
+			(at 132.08 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1081,7 +1054,7 @@
 			)
 		)
 		(property "LCSC" "C5224194"
-			(at 130.81 96.52 0)
+			(at 132.08 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1090,7 +1063,7 @@
 			)
 		)
 		(property "ALT" ""
-			(at 130.81 96.52 0)
+			(at 132.08 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1099,22 +1072,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "8ca9ec75-b519-419f-a69b-8c474bbd14f8")
+			(uuid "71549f1f-12d7-4706-bef7-32ff4a29f267")
 		)
 		(pin "2"
-			(uuid "68155c10-a042-4161-bb7f-0e27ceb0325a")
+			(uuid "4be9589e-8129-4258-a0dd-10fbcd3c9027")
 		)
 		(pin "3"
-			(uuid "78646bea-77b8-4737-8394-b8465955ef4c")
+			(uuid "95e95b24-122c-4afc-96ac-bcdce74b16ca")
 		)
 		(instances
-			(project "8ch-mosfet"
-				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/02f6e629-b0e2-41e8-b2e4-f0e125a92a71"
-					(reference "Q10")
-					(unit 1)
-				)
-				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/ad82ad0c-2ba8-4934-bb2a-ed6e11658eb2"
-					(reference "Q9")
+			(project "frothfet"
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/13bd1484-e1d0-414c-b70b-256f3904dbbc"
+					(reference "Q19")
 					(unit 1)
 				)
 			)
@@ -1122,16 +1091,16 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 133.35 68.58 0)
+		(at 134.62 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "dc39e9e6-a8ba-4166-9cfa-165adfd43a8c")
-		(property "Reference" "#PWR059"
-			(at 133.35 72.39 0)
+		(uuid "a24017db-4d86-445f-83bc-caece0d498f9")
+		(property "Reference" "#PWR058"
+			(at 134.62 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1140,7 +1109,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 133.35 63.5 0)
+			(at 134.62 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1148,7 +1117,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 68.58 0)
+			(at 134.62 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1157,7 +1126,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 68.58 0)
+			(at 134.62 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1166,7 +1135,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 133.35 68.58 0)
+			(at 134.62 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1175,49 +1144,47 @@
 			)
 		)
 		(pin "1"
-			(uuid "aa5fef5e-cbee-49f3-bf94-91fb94bc8200")
+			(uuid "603ee352-67e2-4f6b-8aff-df7705751a2d")
 		)
 		(instances
-			(project "8ch-mosfet"
-				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/02f6e629-b0e2-41e8-b2e4-f0e125a92a71"
-					(reference "#PWR059")
-					(unit 1)
-				)
-				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/ad82ad0c-2ba8-4934-bb2a-ed6e11658eb2"
-					(reference "#PWR056")
+			(project "frothfet"
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/13bd1484-e1d0-414c-b70b-256f3904dbbc"
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 119.38 96.52 270)
+		(lib_id "Device:Buzzer")
+		(at 137.16 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f75726a1-6743-4939-9274-174810d28b83")
-		(property "Reference" "R53"
-			(at 119.38 90.17 90)
+		(uuid "a7fda946-8f92-42a3-90ee-8fb147e9314e")
+		(property "Reference" "BZ1"
+			(at 140.97 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "1k"
-			(at 119.38 92.71 90)
+		(property "Value" "Buzzer"
+			(at 140.97 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 119.38 96.52 0)
+		(property "Footprint" "yarrboard:Buzzer_FUET_9.6x9.6"
+			(at 136.525 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1226,7 +1193,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 119.38 96.52 0)
+			(at 136.525 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1234,8 +1201,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 119.38 96.52 0)
+		(property "Description" "Buzzer, polarized"
+			(at 137.16 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1243,17 +1210,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C95781"
-			(at 119.38 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT" ""
-			(at 119.38 96.52 0)
+		(property "LCSC" "C391033"
+			(at 137.16 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1262,19 +1220,81 @@
 			)
 		)
 		(pin "1"
-			(uuid "4f30974c-5bbc-47ac-880a-7ad6115bafbc")
+			(uuid "dc0b8c4b-f77f-49ca-a934-549f2931d168")
 		)
 		(pin "2"
-			(uuid "864c9a35-d365-4245-b068-94cbc9698656")
+			(uuid "f1bef3d1-1b63-4bb6-8e51-04a4a3ac6184")
 		)
 		(instances
-			(project "8ch-mosfet"
-				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/02f6e629-b0e2-41e8-b2e4-f0e125a92a71"
-					(reference "R53")
+			(project ""
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/13bd1484-e1d0-414c-b70b-256f3904dbbc"
+					(reference "BZ1")
 					(unit 1)
 				)
-				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/ad82ad0c-2ba8-4934-bb2a-ed6e11658eb2"
-					(reference "R51")
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 134.62 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7e13ef6-a3ca-46b1-ab60-303d095bf294")
+		(property "Reference" "#PWR061"
+			(at 134.62 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 134.62 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 134.62 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7beb8808-125d-4a54-8a3d-86d60b174186")
+		)
+		(instances
+			(project "frothfet"
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/13bd1484-e1d0-414c-b70b-256f3904dbbc"
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
