@@ -2828,16 +2828,6 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 48.26) (xy 260.35 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de6c6742-7818-4a68-bd26-61e06ff35cff")
-	)
-	(wire
-		(pts
 			(xy 147.32 41.91) (xy 147.32 68.58)
 		)
 		(stroke
@@ -3858,28 +3848,6 @@
 		(uuid "d20fb2c1-34dd-4826-8b32-11e205ac02f9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 142.8666 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ADC1_MCLK"
-		(shape input)
-		(at 262.89 48.26 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e1f3c019-9a0a-4518-865b-d28e8f0c14f5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 276.7004 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
