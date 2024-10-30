@@ -7,7 +7,7 @@
 	(title_block
 		(title "FrothFET 8CH")
 		(date "2024-08-21")
-		(rev "D")
+		(rev "E")
 		(company "https://github.com/hoeken/frothfet")
 	)
 	(lib_symbols

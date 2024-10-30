@@ -15,16 +15,13 @@
 * consolidate to a single ADC chip - MCP3564
 * remove pin numbers from esp32
 * connect vref and 3.3vadc to 3.3v with solder jumpers
+* select pin for channel leds (ws2818)
 * channels:
   * re-calculate channel voltage divider
-  * BST capacitor 220nf
-  * vccuv pulldown 150k
-  * tgup resistor 10R
-  * delete tdup / tgdn delay cap and resistor
-  * delete PWM led + resistor
   * change to small ws2812b-2020 chip LED for channel status:  C965555
   * change / add current chip alternates
-  * add filter + bat54s to current sense - place next to adc.
+  * place current filter next to adc?
+  * add filter to volt adc - next to adc?
 * change to actual terminal block part for channel connections
   * https://www.lcsc.com/product-detail/Barrier-Terminal-Blocks_Cixi-Kefa-Elec-KF78S-13-0-8P_C964541.html
   * Alternatives:
