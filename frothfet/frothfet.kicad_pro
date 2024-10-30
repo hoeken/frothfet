@@ -721,7 +721,11 @@
     ],
     [
       "b87f80e1-ecbd-4ee0-be26-4b252158928b",
-      "HIRES ADC1"
+      "CURRENT ADC"
+    ],
+    [
+      "6b72210f-69d1-4134-acd2-eb4247fc5d85",
+      "VOLTAGE ADC"
     ],
     [
       "e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef",
@@ -730,14 +734,6 @@
     [
       "13bd1484-e1d0-414c-b70b-256f3904dbbc",
       "Piezo Buzzer"
-    ],
-    [
-      "bb9dea8b-8412-49bc-950d-dce57727bcd2",
-      "VOLTAGE ADC1"
-    ],
-    [
-      "a6260305-24e3-4714-b441-a7a157c17bd9",
-      "VOLTAGE ADC2"
     ]
   ],
   "text_variables": {}

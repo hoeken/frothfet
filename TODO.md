@@ -12,7 +12,6 @@
 
 ### Rev E Changes:
 
-* consolidate to a single ADC chip - MCP3564
 * remove pin numbers from esp32
 * connect vref and 3.3vadc to 3.3v with solder jumpers
 * select pin for channel leds (ws2818)
