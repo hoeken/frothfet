@@ -3,7 +3,6 @@
 ### Rev E Changes:
 
 * channels:
-  * re-calculate channel voltage divider <= 30k and 3.3v output
   * change / add current measurement chip alternates
   * place current filter next to adc?
   * add filter to volt adc - next to adc?
