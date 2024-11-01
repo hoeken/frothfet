@@ -3510,6 +3510,12 @@
 		(uuid "4f04ed3b-3375-4eb0-bfe0-2354cf32f6d7")
 	)
 	(junction
+		(at 41.91 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d5dbff5-90dd-4261-889a-6428dd29ad75")
+	)
+	(junction
 		(at 49.53 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3520,12 +3526,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7169131d-a0fb-43a0-be74-86d6cb070827")
-	)
-	(junction
-		(at 69.85 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "78ab739c-a316-4c72-987c-0e6657966f29")
 	)
 	(junction
 		(at 114.3 148.59)
@@ -3767,7 +3767,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 71.12) (xy 71.12 77.47)
+			(xy 71.12 71.12) (xy 71.12 86.36)
 		)
 		(stroke
 			(width 0)
@@ -4044,16 +4044,6 @@
 			(type default)
 		)
 		(uuid "5b075218-313f-4ce2-ab51-1ee09019e396")
-	)
-	(wire
-		(pts
-			(xy 71.12 82.55) (xy 71.12 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e1d2a16-c88b-4dd4-b103-6f1545689eb5")
 	)
 	(wire
 		(pts
@@ -4347,7 +4337,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 58.42) (xy 57.15 58.42)
+			(xy 57.15 58.42) (xy 78.74 58.42)
 		)
 		(stroke
 			(width 0)
@@ -4427,16 +4417,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 58.42) (xy 69.85 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd3e3d54-c67d-481c-b06c-51a31e5c9afc")
-	)
-	(wire
-		(pts
 			(xy 167.64 110.49) (xy 166.37 110.49)
 		)
 		(stroke
@@ -4454,6 +4434,16 @@
 			(type default)
 		)
 		(uuid "c2b13cb8-efc0-45b2-b3af-cf17225e60a5")
+	)
+	(wire
+		(pts
+			(xy 41.91 58.42) (xy 57.15 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4d0de8e-542b-44cc-b730-f4db7148d18c")
 	)
 	(wire
 		(pts
@@ -4667,7 +4657,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 58.42) (xy 69.85 53.34)
+			(xy 41.91 58.42) (xy 41.91 49.53)
 		)
 		(stroke
 			(width 0)
@@ -4694,16 +4684,6 @@
 			(type default)
 		)
 		(uuid "f4e020e4-32b4-4cd1-af4b-9685d6e4ef73")
-	)
-	(wire
-		(pts
-			(xy 41.91 58.42) (xy 57.15 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6113611-7279-49a9-9710-04b2498d67a9")
 	)
 	(rectangle
 		(start 167.64 147.32)
@@ -5422,119 +5402,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 71.12 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "24d1e5c8-d5ce-4449-a77a-ed585228a023")
-		(property "Reference" "R3"
-			(at 73.152 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "150K"
-			(at 74.93 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 71.12 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 71.12 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 71.12 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C96345"
-			(at 71.12 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT" ""
-			(at 71.12 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "152c3093-66f0-483f-8b79-03b11bdb2994")
-		)
-		(pin "2"
-			(uuid "9117f113-92fd-47b0-b92c-8f57a92cce03")
-		)
-		(instances
-			(project "frothfet"
-				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/0eec6767-666b-42c0-ba36-2a83c9caeade"
-					(reference "R3")
-					(unit 1)
-				)
-				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/1e692482-a022-407a-8cb5-d9a3b23521a6"
-					(reference "R17")
-					(unit 1)
-				)
-				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/424e7b24-5644-46f2-85bb-1e459a343705"
-					(reference "R38")
-					(unit 1)
-				)
-				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/4c1df725-56ca-4be4-8107-a39054acbca4"
-					(reference "R45")
-					(unit 1)
-				)
-				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/5952e660-2bb6-45cf-b9ea-f7a7c2d0954e"
-					(reference "R24")
-					(unit 1)
-				)
-				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/772d44f5-8758-48db-a140-72ed8e75e88c"
-					(reference "R31")
-					(unit 1)
-				)
-				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/a8a81147-5613-4820-beb3-a7ca76d0db8e"
-					(reference "R52")
-					(unit 1)
-				)
-				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/ccdb1c25-8d0f-4f30-ab70-bbc1ecf3f6f7"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDPWR")
 		(at 243.84 149.86 0)
 		(unit 1)
@@ -5951,7 +5818,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 69.85 53.34 0)
+		(at 41.91 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5960,7 +5827,7 @@
 		(fields_autoplaced yes)
 		(uuid "4dcd4615-c7a3-4edb-b2d4-88a984bf9137")
 		(property "Reference" "#PWR09"
-			(at 69.85 57.15 0)
+			(at 41.91 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5969,7 +5836,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 69.85 49.53 0)
+			(at 41.91 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5977,7 +5844,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 53.34 0)
+			(at 41.91 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5986,7 +5853,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 53.34 0)
+			(at 41.91 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5995,7 +5862,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 69.85 53.34 0)
+			(at 41.91 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8817,7 +8684,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "AO3400A"
+		(property "Value" "WST4040"
 			(at 86.36 129.5399 0)
 			(effects
 				(font
@@ -8837,7 +8704,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+		(property "Datasheet" ""
 			(at 85.09 132.08 0)
 			(effects
 				(font
@@ -8847,7 +8714,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+		(property "Description" ""
 			(at 80.01 128.27 0)
 			(effects
 				(font
@@ -8856,7 +8723,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C5224194"
+		(property "LCSC" ""
 			(at 80.01 128.27 0)
 			(effects
 				(font

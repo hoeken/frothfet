@@ -1,15 +1,5 @@
 # FrothFET 8CH
 
-### TESTING: 
-
-* Test new drain setup.
-* Test PWM on motors and solenoids
-  * do we need to change
-* test alternate mosfet chips
-* test new current sense chips
-* Test fan mosfet
-  * can we still do tachometer
-
 ### Rev E Changes:
 
 * remove pin numbers from esp32
