@@ -2,8 +2,6 @@
 
 ### Rev E Changes:
 
-* remove pin numbers from esp32
-* connect vref and 3.3vadc to 3.3v with solder jumpers
 * channels:
   * re-calculate channel voltage divider <= 30k and 3.3v output
   * change / add current measurement chip alternates
@@ -18,7 +16,7 @@
   * https://www.lcsc.com/product-detail/Spring-Clamp-System-Terminal-Block_Cixi-Kefa-Elec-KF207RB-10-16-4P_C2975094.html
   * https://www.lcsc.com/product-detail/Barrier-Terminal-Blocks_JILN-JL45C-09504B01_C415416.html
 * change to smaller smt components: 0603 where possible
-* implement esp32-s3 dev module onto the board (re-draw waveshare module)
+* implement esp32-s3 dev module onto the board as sub schematic (re-draw waveshare module)
 * change to M/F standoffs + captive nuts or heat press inserts
 * can we move mounting holes to allow for symmetric case design?
 * see what improvements can be made for noise and ADC routing.
