@@ -4,8 +4,6 @@
 
 * remove pin numbers from esp32
 * connect vref and 3.3vadc to 3.3v with solder jumpers
-* select pin for channel leds (ws2818)
-* channels 5/6 turn on during code upload - change pins?  add pulldown resistors to all PWM pins?
 * channels:
   * re-calculate channel voltage divider <= 30k and 3.3v output
   * change / add current measurement chip alternates
