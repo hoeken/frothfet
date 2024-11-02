@@ -2,10 +2,10 @@
 
 ### Rev E Changes:
 
+* 3d model for terminal block
+* better silkscreen for terminal block
 * channels:
   * add current measurement chip alternates
-* remove thermal reliefs on fills
-* change to smaller smt components: 0603 where possible
 * implement esp32-s3 dev module onto the board as sub schematic (re-draw waveshare module)
 * consolidate components to standard values where possible.
 * change to M/F standoffs + captive nuts or heat press inserts
