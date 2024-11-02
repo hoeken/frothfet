@@ -959,7 +959,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "acfaed32-e731-4bd5-bdf4-63938533fa4d")
-		(property "Reference" "J10"
+		(property "Reference" "J2"
 			(at 140.97 80.0099 0)
 			(effects
 				(font
@@ -1013,11 +1013,11 @@
 		(instances
 			(project ""
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/02f6e629-b0e2-41e8-b2e4-f0e125a92a71"
-					(reference "J10")
+					(reference "J2")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/ad82ad0c-2ba8-4934-bb2a-ed6e11658eb2"
-					(reference "J9")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -1200,7 +1200,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f75726a1-6743-4939-9274-174810d28b83")
-		(property "Reference" "R60"
+		(property "Reference" "R68"
 			(at 119.38 90.17 90)
 			(effects
 				(font
@@ -1270,11 +1270,11 @@
 		(instances
 			(project "8ch-mosfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/02f6e629-b0e2-41e8-b2e4-f0e125a92a71"
-					(reference "R60")
+					(reference "R68")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/ad82ad0c-2ba8-4934-bb2a-ed6e11658eb2"
-					(reference "R59")
+					(reference "R67")
 					(unit 1)
 				)
 			)
