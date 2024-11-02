@@ -4693,7 +4693,7 @@
 	(text_box "Mosfet Alternatives:\n\n* ISC011N06LM5ATMA1\n* BSC010N04LS"
 		(exclude_from_sim no)
 		(at 165.1 53.34 0)
-		(size 25.4 16.51)
+		(size 25.4 10.16)
 		(stroke
 			(width 0)
 			(type default)
@@ -4727,6 +4727,25 @@
 			(justify left top)
 		)
 		(uuid "18a79630-b3e2-4489-83a8-02fa03d8af8b")
+	)
+	(text_box "Current Sensor Alternatives:\n\n* MCS1802GS-20-Z\n* CT427-HSN820MR "
+		(exclude_from_sim no)
+		(at 215.9 93.98 0)
+		(size 31.75 11.43)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "30113360-b51c-495a-8302-e0c500e9a7ca")
 	)
 	(text "Low Side Dummy Load"
 		(exclude_from_sim no)

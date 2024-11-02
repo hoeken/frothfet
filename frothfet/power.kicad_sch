@@ -7697,7 +7697,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "yarrboard:Busbar Rev D"
+		(property "Footprint" "yarrboard:Busbar Rev E"
 			(at 251.46 124.46 0)
 			(effects
 				(font
@@ -9072,7 +9072,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "yarrboard:Busbar Rev D"
+		(property "Footprint" "yarrboard:Busbar Rev E"
 			(at 266.7 124.46 0)
 			(effects
 				(font
