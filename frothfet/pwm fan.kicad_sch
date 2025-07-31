@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "31323041-487f-4e13-a195-e7e03d2cb7f9")
 	(paper "A4")
 	(title_block
@@ -12,9 +12,13 @@
 	)
 	(lib_symbols
 		(symbol "Device:D_TVS"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -82,10 +86,10 @@
 			(symbol "D_TVS_0_1"
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 1.27) (xy 2.54 -1.27) (xy -2.54 1.27)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -106,10 +110,10 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 1.27) (xy 2.54 -1.27) (xy -2.54 1.27)
+						(xy 1.27 0) (xy -1.27 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -155,11 +159,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R_Small_US"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -229,7 +238,7 @@
 			(symbol "R_Small_US_1_1"
 				(polyline
 					(pts
-						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
 					)
 					(stroke
 						(width 0)
@@ -241,7 +250,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
 					)
 					(stroke
 						(width 0)
@@ -288,6 +297,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Motor:Fan_Tacho"
 			(pin_names
@@ -360,30 +370,6 @@
 				)
 			)
 			(symbol "Fan_Tacho_0_0"
-				(arc
-					(start -5.588 -1.016)
-					(mid -5.08 -1.5218)
-					(end -4.572 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -5.08 -0.508)
-					(mid -5.4392 -0.6568)
-					(end -5.588 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(polyline
 					(pts
 						(xy -5.08 -0.508) (xy -5.334 -0.381)
@@ -408,6 +394,30 @@
 						(type none)
 					)
 				)
+				(arc
+					(start -4.572 -1.016)
+					(mid -5.08 -1.5218)
+					(end -5.588 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -5.588 -1.016)
+					(mid -5.4392 -0.6568)
+					(end -5.08 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
 						(xy -4.064 0) (xy -4.064 -1.524) (xy -3.302 -1.524)
@@ -422,10 +432,46 @@
 				)
 			)
 			(symbol "Fan_Tacho_0_1"
+				(polyline
+					(pts
+						(xy -4.064 0) (xy -5.08 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(arc
-					(start -2.54 -3.048)
-					(mid 0.0028 -1.6279)
-					(end 0 1.27)
+					(start 0 1.27)
+					(mid -0.0015 -1.6352)
+					(end -2.54 -3.048)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.032) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.7272) (xy 0 2.0828)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -445,22 +491,10 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -4.064 0) (xy -5.08 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -7.62) (xy 0 -7.112)
-					)
+				(arc
+					(start -2.54 -3.048)
+					(mid 0 -1.4782)
+					(end 2.54 -3.048)
 					(stroke
 						(width 0)
 						(type default)
@@ -483,32 +517,8 @@
 				)
 				(polyline
 					(pts
-						(xy 0 1.7272) (xy 0 2.0828)
+						(xy 0 -7.62) (xy 0 -7.112)
 					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.032) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 1.27)
-					(mid 0.053 -1.619)
-					(end 2.54 -3.048)
 					(stroke
 						(width 0)
 						(type default)
@@ -519,8 +529,8 @@
 				)
 				(arc
 					(start 2.54 -3.048)
-					(mid 0 -1.4782)
-					(end -2.54 -3.048)
+					(mid 0.047 -1.6085)
+					(end 0 1.27)
 					(stroke
 						(width 0)
 						(type default)
@@ -586,9 +596,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Transistor_FET:AO3400A"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -661,18 +674,6 @@
 			(symbol "AO3400A_0_1"
 				(polyline
 					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
 					)
 					(stroke
@@ -685,7 +686,19 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -709,34 +722,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
 					)
 					(stroke
 						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
 						(type default)
 					)
 					(fill
@@ -767,6 +756,63 @@
 						(type outline)
 					)
 				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
 						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
@@ -791,39 +837,6 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 			)
 			(symbol "AO3400A_1_1"
 				(pin input line
@@ -837,24 +850,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -880,13 +875,36 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+3.3V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -958,7 +976,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -970,7 +988,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1001,12 +1019,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+5V"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1078,7 +1101,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1090,7 +1113,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1121,12 +1144,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GNDD"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1228,7 +1256,19 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "Fan Control"
+		(exclude_from_sim no)
+		(at 134.62 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7fed74f3-5377-4df8-940a-1ddb4141d68d")
 	)
 	(junction
 		(at 142.24 105.41)
@@ -1372,21 +1412,9 @@
 		)
 		(uuid "cea9c5d8-de0b-4ecb-b834-95cde8bc195f")
 	)
-	(text "Fan Control"
-		(exclude_from_sim no)
-		(at 134.62 58.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7fed74f3-5377-4df8-940a-1ddb4141d68d")
-	)
 	(hierarchical_label "TACH"
 		(shape input)
 		(at 160.02 80.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1398,7 +1426,6 @@
 	(hierarchical_label "MOSFET"
 		(shape input)
 		(at 113.03 96.52 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1416,7 +1443,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "18fa4b4f-ad68-4670-ae55-4c7d1c857ab3")
-		(property "Reference" "D41"
+		(property "Reference" "D40"
 			(at 156.21 95.25 90)
 			(effects
 				(font
@@ -1499,7 +1526,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4acb91a9-fc3a-4029-ade4-4b90b364e03b")
-		(property "Reference" "R100"
+		(property "Reference" "R99"
 			(at 156.21 72.39 0)
 			(effects
 				(font
@@ -1582,7 +1609,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9599dc77-c049-4435-baa0-14030cb0194e")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR087"
 			(at 142.24 111.76 0)
 			(effects
 				(font
@@ -1651,7 +1678,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bedc2009-0180-4430-b7eb-2fff3c6280f2")
-		(property "Reference" "Q18"
+		(property "Reference" "Q17"
 			(at 135.89 95.25 0)
 			(effects
 				(font
@@ -1749,7 +1776,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c563e27e-b844-43f9-aa39-6eab16be7df2")
-		(property "Reference" "#PWR0118"
+		(property "Reference" "#PWR0117"
 			(at 153.67 72.39 0)
 			(effects
 				(font
@@ -1820,7 +1847,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d174febe-66c8-4ecb-a0d9-4eab08056c20")
-		(property "Reference" "M2"
+		(property "Reference" "M1"
 			(at 128.27 81.2799 0)
 			(effects
 				(font
@@ -1897,7 +1924,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc39e9e6-a8ba-4166-9cfa-165adfd43a8c")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR086"
 			(at 133.35 76.2 0)
 			(effects
 				(font
@@ -1967,7 +1994,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f75726a1-6743-4939-9274-174810d28b83")
-		(property "Reference" "R68"
+		(property "Reference" "R67"
 			(at 119.38 90.17 90)
 			(effects
 				(font
