@@ -3,7 +3,7 @@
 ### Rev E Changes:
 
 * convert to new kicad multichannel setup
-* change to smt mount waveshare board
+* change to waveshare esp32-s3-pico
 * 3d model for terminal block
 * better silkscreen for terminal block
 * channels:
