@@ -1393,6 +1393,10 @@
 		(color 0 0 0 0)
 		(uuid "feb13591-82cc-4f90-95d8-94e7a2b2acfc")
 	)
+	(no_connect
+		(at 154.94 78.74)
+		(uuid "cb6d70d7-2e2f-4593-998a-5b52f38ca421")
+	)
 	(wire
 		(pts
 			(xy 156.21 54.61) (xy 171.45 54.61)
@@ -1575,16 +1579,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 78.74) (xy 154.94 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49a7a0d6-e07a-4418-a069-8f73fedd6872")
-	)
-	(wire
-		(pts
 			(xy 187.96 88.9) (xy 187.96 106.68)
 		)
 		(stroke
@@ -1622,16 +1616,6 @@
 			(type default)
 		)
 		(uuid "52c426dc-1835-4a1f-8003-ebf2d43ebbfe")
-	)
-	(wire
-		(pts
-			(xy 177.8 78.74) (xy 172.72 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56bce63d-430d-4c93-8003-21088303fbec")
 	)
 	(wire
 		(pts
@@ -2114,17 +2098,6 @@
 			(justify left)
 		)
 		(uuid "286847b6-ebd3-4a90-bed7-f83fb5285521")
-	)
-	(hierarchical_label "MCLK"
-		(shape input)
-		(at 177.8 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6aeb35c2-4fb8-4f12-a356-72707d1c6d22")
 	)
 	(hierarchical_label "A3"
 		(shape input)
@@ -3300,95 +3273,6 @@
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/b87f80e1-ecbd-4ee0-be26-4b252158928b"
 					(reference "R70")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 170.18 78.74 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d62ae3e9-8d86-4527-b191-4e5471fe8df8")
-		(property "Reference" "R74"
-			(at 166.624 77.724 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10R"
-			(at 173.482 77.724 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 170.18 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 170.18 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 170.18 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 170.18 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT" ""
-			(at 170.18 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8c3347fb-13e1-493a-a6b9-ae1d79acff3b")
-		)
-		(pin "2"
-			(uuid "e04fac8b-9fcf-424c-8fb2-629b2785448c")
-		)
-		(instances
-			(project "frothfet"
-				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/6b72210f-69d1-4134-acd2-eb4247fc5d85"
-					(reference "R83")
-					(unit 1)
-				)
-				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/b87f80e1-ecbd-4ee0-be26-4b252158928b"
-					(reference "R74")
 					(unit 1)
 				)
 			)
