@@ -520,7 +520,32 @@
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/ESP32-S3/HUB_D+": [
+        "DP_90R"
+      ],
+      "/ESP32-S3/HUB_D-": [
+        "DP_90R"
+      ],
+      "/ESP32-S3/UART_D+": [
+        "DP_90R"
+      ],
+      "/ESP32-S3/UART_D-": [
+        "DP_90R"
+      ],
+      "/ESP32-S3/USB_D+": [
+        "DP_90R"
+      ],
+      "/ESP32-S3/USB_D-": [
+        "DP_90R"
+      ],
+      "/ESP_USB+": [
+        "DP_90R"
+      ],
+      "/ESP_USB-": [
+        "DP_90R"
+      ]
+    },
     "netclass_patterns": [
       {
         "netclass": "POWER",
@@ -755,6 +780,10 @@
     [
       "e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef",
       "Power Supply"
+    ],
+    [
+      "f57b3d95-1750-4f6f-80d4-cde6393e7020",
+      "ESP32-S3"
     ],
     [
       "13bd1484-e1d0-414c-b70b-256f3904dbbc",
