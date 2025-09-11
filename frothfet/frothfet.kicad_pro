@@ -539,6 +539,9 @@
       "/ESP32-S3/USB_D-": [
         "DP_90R"
       ],
+      "/ESP32-S3/VBUS": [
+        "VBUS"
+      ],
       "/ESP_USB+": [
         "DP_90R"
       ],
@@ -782,12 +785,12 @@
       "Power Supply"
     ],
     [
-      "f57b3d95-1750-4f6f-80d4-cde6393e7020",
-      "ESP32-S3"
-    ],
-    [
       "13bd1484-e1d0-414c-b70b-256f3904dbbc",
       "Piezo Buzzer"
+    ],
+    [
+      "777fe0ac-daa5-4cfe-9bd1-5eba0a425019",
+      "ESP32-S3"
     ]
   ],
   "text_variables": {}
