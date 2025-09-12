@@ -5414,7 +5414,7 @@
 		(at 22.86 166.37 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5427,7 +5427,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole"
+		(property "Value" "SMTSO30100CTJ"
 			(at 21.59 162.56 90)
 			(effects
 				(font
@@ -5435,7 +5435,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+		(property "Footprint" "yarrboard:Standoff-3mm"
 			(at 22.86 166.37 0)
 			(effects
 				(font
@@ -5836,7 +5836,7 @@
 		(at 22.86 186.69 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5849,7 +5849,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole"
+		(property "Value" "SMTSO30100CTJ"
 			(at 21.59 182.88 90)
 			(effects
 				(font
@@ -5857,7 +5857,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+		(property "Footprint" "yarrboard:Standoff-3mm"
 			(at 22.86 186.69 0)
 			(effects
 				(font
@@ -5983,7 +5983,7 @@
 		(at 22.86 154.94 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5996,7 +5996,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole"
+		(property "Value" "SMTSO30100CTJ"
 			(at 21.59 151.13 90)
 			(effects
 				(font
@@ -6004,7 +6004,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+		(property "Footprint" "yarrboard:Standoff-3mm"
 			(at 22.86 154.94 0)
 			(effects
 				(font
@@ -6123,7 +6123,7 @@
 		(at 22.86 176.53 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "df608621-6c39-4291-8161-8b80862f7ebd")
@@ -6135,7 +6135,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole"
+		(property "Value" "SMTSO30100CTJ"
 			(at 21.59 172.72 90)
 			(effects
 				(font
@@ -6143,7 +6143,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+		(property "Footprint" "yarrboard:Standoff-3mm"
 			(at 22.86 176.53 0)
 			(effects
 				(font

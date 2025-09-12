@@ -9677,7 +9677,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 59.69 51.308 90)
 			(effects
 				(font
@@ -9704,7 +9704,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "find 0603 and check current"
+		(property "LCSC" ""
 			(at 59.69 49.53 90)
 			(effects
 				(font
