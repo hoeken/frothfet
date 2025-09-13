@@ -940,7 +940,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47843b63-a255-4398-80c2-b4a913c3cd53")
-		(property "Reference" "R98"
+		(property "Reference" "R90"
 			(at 120.65 93.98 90)
 			(effects
 				(font
@@ -983,7 +983,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C95781"
+		(property "LCSC" ""
 			(at 120.65 100.33 0)
 			(effects
 				(font
@@ -1010,7 +1010,7 @@
 		(instances
 			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/13bd1484-e1d0-414c-b70b-256f3904dbbc"
-					(reference "R98")
+					(reference "R90")
 					(unit 1)
 				)
 			)
@@ -1119,7 +1119,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a24017db-4d86-445f-83bc-caece0d498f9")
-		(property "Reference" "#PWR0115"
+		(property "Reference" "#PWR0108"
 			(at 134.62 76.2 0)
 			(effects
 				(font
@@ -1169,7 +1169,7 @@
 		(instances
 			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/13bd1484-e1d0-414c-b70b-256f3904dbbc"
-					(reference "#PWR0115")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -1264,7 +1264,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7e13ef6-a3ca-46b1-ab60-303d095bf294")
-		(property "Reference" "#PWR0116"
+		(property "Reference" "#PWR0109"
 			(at 134.62 115.57 0)
 			(effects
 				(font
@@ -1314,7 +1314,7 @@
 		(instances
 			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/13bd1484-e1d0-414c-b70b-256f3904dbbc"
-					(reference "#PWR0116")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)

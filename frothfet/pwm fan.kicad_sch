@@ -1443,7 +1443,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "18fa4b4f-ad68-4670-ae55-4c7d1c857ab3")
-		(property "Reference" "D40"
+		(property "Reference" "D33"
 			(at 156.21 95.25 90)
 			(effects
 				(font
@@ -1506,11 +1506,11 @@
 		(instances
 			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/02f6e629-b0e2-41e8-b2e4-f0e125a92a71"
-					(reference "D41")
+					(reference "D34")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/ad82ad0c-2ba8-4934-bb2a-ed6e11658eb2"
-					(reference "D40")
+					(reference "D33")
 					(unit 1)
 				)
 			)
@@ -1526,7 +1526,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4acb91a9-fc3a-4029-ade4-4b90b364e03b")
-		(property "Reference" "R99"
+		(property "Reference" "R60"
 			(at 156.21 72.39 0)
 			(effects
 				(font
@@ -1589,11 +1589,11 @@
 		(instances
 			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/02f6e629-b0e2-41e8-b2e4-f0e125a92a71"
-					(reference "R100")
+					(reference "R62")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/ad82ad0c-2ba8-4934-bb2a-ed6e11658eb2"
-					(reference "R99")
+					(reference "R60")
 					(unit 1)
 				)
 			)
@@ -1609,7 +1609,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9599dc77-c049-4435-baa0-14030cb0194e")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR078"
 			(at 142.24 111.76 0)
 			(effects
 				(font
@@ -1659,11 +1659,11 @@
 		(instances
 			(project "8ch-mosfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/02f6e629-b0e2-41e8-b2e4-f0e125a92a71"
-					(reference "#PWR089")
+					(reference "#PWR081")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/ad82ad0c-2ba8-4934-bb2a-ed6e11658eb2"
-					(reference "#PWR087")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -1776,7 +1776,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c563e27e-b844-43f9-aa39-6eab16be7df2")
-		(property "Reference" "#PWR0117"
+		(property "Reference" "#PWR079"
 			(at 153.67 72.39 0)
 			(effects
 				(font
@@ -1826,11 +1826,11 @@
 		(instances
 			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/02f6e629-b0e2-41e8-b2e4-f0e125a92a71"
-					(reference "#PWR0118")
+					(reference "#PWR082")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/ad82ad0c-2ba8-4934-bb2a-ed6e11658eb2"
-					(reference "#PWR0117")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -1892,6 +1892,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C86503"
+			(at 133.35 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "0a6bdceb-df4a-4ab8-8f06-f70640939de1")
 		)
@@ -1924,7 +1933,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc39e9e6-a8ba-4166-9cfa-165adfd43a8c")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR077"
 			(at 133.35 76.2 0)
 			(effects
 				(font
@@ -1974,11 +1983,11 @@
 		(instances
 			(project "8ch-mosfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/02f6e629-b0e2-41e8-b2e4-f0e125a92a71"
-					(reference "#PWR088")
+					(reference "#PWR080")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/ad82ad0c-2ba8-4934-bb2a-ed6e11658eb2"
-					(reference "#PWR086")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -1994,7 +2003,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f75726a1-6743-4939-9274-174810d28b83")
-		(property "Reference" "R67"
+		(property "Reference" "R59"
 			(at 119.38 90.17 90)
 			(effects
 				(font
@@ -2037,7 +2046,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C95781"
+		(property "LCSC" ""
 			(at 119.38 96.52 0)
 			(effects
 				(font
@@ -2064,11 +2073,11 @@
 		(instances
 			(project "8ch-mosfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/02f6e629-b0e2-41e8-b2e4-f0e125a92a71"
-					(reference "R68")
+					(reference "R61")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/ad82ad0c-2ba8-4934-bb2a-ed6e11658eb2"
-					(reference "R67")
+					(reference "R59")
 					(unit 1)
 				)
 			)
