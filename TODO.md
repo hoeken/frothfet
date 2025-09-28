@@ -2,11 +2,12 @@
 
 ### Rev E Changes:
 
-* re-layout the board
+* reddit post about gate driver
+* reddit post about analog supply/ground
+* re-layout and re-route the board
 * 3d models for all components
 * better silkscreen for terminal block
 * double check all part numbers
 * consolidate components to standard values where possible.
-* see what improvements can be made for noise and ADC routing.
 * channels:
   * add current measurement chip alternates
