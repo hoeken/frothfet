@@ -3518,14 +3518,14 @@
 		)
 		(uuid "0df75a6a-6429-4d0d-afef-16f55d0775a8")
 	)
-	(text_box "Mosfet Alternatives:\n\n* ISC011N06LM5ATMA1\n* BSC010N04LS"
+	(text_box "Mosfet Alternatives:\n\n* BSC010N04LS\n* ISC011N06LM5ATMA1\n"
 		(exclude_from_sim no)
 		(at 165.1 53.34 0)
 		(size 25.4 10.16)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
-			(type default)
+			(type solid)
 		)
 		(fill
 			(type none)
@@ -3558,14 +3558,14 @@
 		)
 		(uuid "18a79630-b3e2-4489-83a8-02fa03d8af8b")
 	)
-	(text_box "Current Sensor Alternatives:\n\n* MCS1802GS-20-Z\n* CT427-HSN820MR "
+	(text_box "Current Sensor Alternatives:\n\n* 725LLCTR20AUT - 132mv/A\n* CT427-HSN820DR - 100mv/A\n* CT427-ASN820DR - 100mv/A\n* TMCS1108A2U - 100mV/A\n* ACS725LLCTR-30AU - 88mv/A\n* MCS1802GS-20-Z - 66mv/A\n"
 		(exclude_from_sim no)
 		(at 215.9 93.98 0)
-		(size 31.75 11.43)
+		(size 36.195 21.59)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
-			(type default)
+			(type solid)
 		)
 		(fill
 			(type none)
@@ -3577,6 +3577,26 @@
 			(justify left top)
 		)
 		(uuid "30113360-b51c-495a-8302-e0c500e9a7ca")
+	)
+	(text_box "Possible to replace with 3 x C41371870?\nC41355742 might be better?"
+		(exclude_from_sim no)
+		(at 225.425 46.355 0)
+		(size 47.625 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "6c448e1e-cabb-4f5e-a5be-cbad3e1e8be6")
 	)
 	(junction
 		(at 69.85 152.4)

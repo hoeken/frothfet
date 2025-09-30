@@ -3860,7 +3860,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "dd5b9be8-5fc5-475d-ad55-4c8b48aa7d88")
 		(property "Reference" "FB3"
