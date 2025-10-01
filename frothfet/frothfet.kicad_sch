@@ -5918,7 +5918,7 @@
 		(lib_id "yarrboard:Yarrboard")
 		(at 261.62 173.99 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
