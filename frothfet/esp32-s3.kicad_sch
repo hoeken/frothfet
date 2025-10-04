@@ -6223,7 +6223,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 175.26) (xy 193.04 175.26)
+			(xy 189.23 175.26) (xy 194.31 175.26)
 		)
 		(stroke
 			(width 0)
@@ -6280,6 +6280,16 @@
 			(type default)
 		)
 		(uuid "0f851fa1-0a61-46a6-862d-962fc26b1e37")
+	)
+	(wire
+		(pts
+			(xy 208.28 175.26) (xy 210.82 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fabe0c2-86ca-4c4f-9107-6647e2290427")
 	)
 	(wire
 		(pts
@@ -7013,7 +7023,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 175.26) (xy 201.93 175.26)
+			(xy 199.39 175.26) (xy 200.66 175.26)
 		)
 		(stroke
 			(width 0)
@@ -7380,16 +7390,6 @@
 			(type default)
 		)
 		(uuid "c596f05e-597d-4082-971d-6628e397c07f")
-	)
-	(wire
-		(pts
-			(xy 207.01 175.26) (xy 210.82 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6260abe-f12f-4576-b3e4-94c9af9dc248")
 	)
 	(wire
 		(pts
@@ -9430,7 +9430,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 196.85 175.26 180)
+		(at 204.47 175.26 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9438,7 +9438,7 @@
 		(dnp no)
 		(uuid "346080d3-eb5c-4d2e-929e-c016c513fb49")
 		(property "Reference" "D46"
-			(at 196.342 170.18 0)
+			(at 203.962 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9446,7 +9446,7 @@
 			)
 		)
 		(property "Value" "RED"
-			(at 196.342 172.72 0)
+			(at 203.962 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9454,7 +9454,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 196.85 175.26 0)
+			(at 204.47 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9463,7 +9463,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 196.85 175.26 0)
+			(at 204.47 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9472,7 +9472,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 196.85 175.26 0)
+			(at 204.47 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9481,7 +9481,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 196.85 175.26 0)
+			(at 204.47 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9490,7 +9490,7 @@
 			)
 		)
 		(property "LCSC" "C965799"
-			(at 196.85 175.26 0)
+			(at 204.47 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9608,7 +9608,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 204.47 175.26 90)
+		(at 196.85 175.26 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9616,7 +9616,7 @@
 		(dnp no)
 		(uuid "46ede41d-5e67-4cdd-8faa-a96e1134918a")
 		(property "Reference" "R97"
-			(at 203.962 170.18 90)
+			(at 196.342 170.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9624,7 +9624,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 203.962 172.72 90)
+			(at 196.342 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9632,7 +9632,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 204.47 175.26 0)
+			(at 196.85 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9641,7 +9641,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 204.47 175.26 0)
+			(at 196.85 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9650,7 +9650,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 204.47 175.26 0)
+			(at 196.85 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)

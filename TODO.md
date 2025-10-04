@@ -4,8 +4,10 @@
 
 * make sure its x7r caps on the output of adc
 * check button part number
-* reddit post about gate driver
 * re-layout and re-route the board
+* check erc and drc
+* silkscreen
+* via stitching
 * 3d models for all components
 * better silkscreen for terminal block
 * double check all part numbers
