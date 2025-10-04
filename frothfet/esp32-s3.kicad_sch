@@ -5599,8 +5599,8 @@
 		(uuid bf75d399-3732-4f5e-b8aa-3e5141125c33)
 	)
 	(rectangle
-		(start 176.53 163.83)
-		(end 223.52 177.8)
+		(start 143.51 86.36)
+		(end 129.54 133.35)
 		(stroke
 			(width 0)
 			(type default)
@@ -5660,7 +5660,7 @@
 	)
 	(text "POWER"
 		(exclude_from_sim no)
-		(at 179.324 176.276 90)
+		(at 131.064 89.154 0)
 		(effects
 			(font
 				(size 2 2)
@@ -5779,11 +5779,11 @@
 	)
 	(text_box "Originally forked from: github.com/eggsampler/ESP32-S3-Breakout\nUpdates based on www.waveshare.com/wiki/ESP32-S3-DEV-KIT-N8R8\n\nDesign by Zach Hoeken"
 		(exclude_from_sim no)
-		(at 229.235 163.83 0)
-		(size 53.975 13.97)
+		(at 179.705 167.64 0)
+		(size 99.695 11.43)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
-			(width 0)
+			(width -0.0001)
 			(type solid)
 		)
 		(fill
@@ -6223,7 +6223,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 175.26) (xy 194.31 175.26)
+			(xy 132.08 99.06) (xy 132.08 104.14)
 		)
 		(stroke
 			(width 0)
@@ -6283,7 +6283,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 175.26) (xy 210.82 175.26)
+			(xy 132.08 118.11) (xy 132.08 120.65)
 		)
 		(stroke
 			(width 0)
@@ -7023,7 +7023,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 175.26) (xy 200.66 175.26)
+			(xy 132.08 109.22) (xy 132.08 110.49)
 		)
 		(stroke
 			(width 0)
@@ -8058,12 +8058,12 @@
 	)
 	(hierarchical_label "ESP_GND"
 		(shape input)
-		(at 210.82 175.26 0)
+		(at 132.08 120.65 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "182e0da9-92ec-45d5-bd30-e6b8131bafb9")
 	)
@@ -8817,12 +8817,12 @@
 	)
 	(hierarchical_label "3.3V"
 		(shape input)
-		(at 189.23 175.26 180)
+		(at 132.08 99.06 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "fed140d8-4d30-43e9-9e25-0e9d60580851")
 	)
@@ -9430,7 +9430,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 204.47 175.26 180)
+		(at 132.08 114.3 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9438,7 +9438,7 @@
 		(dnp no)
 		(uuid "346080d3-eb5c-4d2e-929e-c016c513fb49")
 		(property "Reference" "D46"
-			(at 203.962 170.18 0)
+			(at 137.16 113.792 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9446,7 +9446,7 @@
 			)
 		)
 		(property "Value" "RED"
-			(at 203.962 172.72 0)
+			(at 134.62 113.792 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9454,7 +9454,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 204.47 175.26 0)
+			(at 132.08 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9463,7 +9463,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 204.47 175.26 0)
+			(at 132.08 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9472,7 +9472,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 204.47 175.26 0)
+			(at 132.08 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9481,7 +9481,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 204.47 175.26 0)
+			(at 132.08 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9490,7 +9490,7 @@
 			)
 		)
 		(property "LCSC" "C965799"
-			(at 204.47 175.26 0)
+			(at 132.08 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9608,7 +9608,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 196.85 175.26 90)
+		(at 132.08 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9616,7 +9616,7 @@
 		(dnp no)
 		(uuid "46ede41d-5e67-4cdd-8faa-a96e1134918a")
 		(property "Reference" "R97"
-			(at 196.342 170.18 90)
+			(at 137.16 106.172 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9624,7 +9624,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 196.342 172.72 90)
+			(at 134.62 106.172 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9632,7 +9632,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 196.85 175.26 0)
+			(at 132.08 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9641,7 +9641,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 196.85 175.26 0)
+			(at 132.08 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9650,7 +9650,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 196.85 175.26 0)
+			(at 132.08 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)

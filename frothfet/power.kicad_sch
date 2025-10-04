@@ -5915,7 +5915,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 128.27) (xy 92.71 127)
+			(xy 92.71 128.27) (xy 92.71 123.19)
 		)
 		(stroke
 			(width 0)
@@ -6005,7 +6005,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 114.3) (xy 92.71 119.38)
+			(xy 92.71 114.3) (xy 92.71 115.57)
 		)
 		(stroke
 			(width 0)
@@ -7166,7 +7166,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C527225"
 			(at 82.55 123.19 0)
 			(effects
 				(font
@@ -7466,7 +7466,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 256.54 43.1799 0)
 			(effects
 				(font
@@ -8884,7 +8884,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "RED"
 			(at 54.61 52.3874 90)
 			(effects
 				(font
@@ -9651,6 +9651,15 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 148.59 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rotation Offset" "90"
 			(at 148.59 115.57 0)
 			(effects
 				(font
@@ -10658,6 +10667,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rotation Offset" "180"
+			(at 176.53 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e208ee95-ea43-4bb9-a2e2-09ff8d8c8adf")
 		)
@@ -10860,7 +10878,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "978d5f3d-c261-4e43-809f-761cf00f6bf1")
 		(property "Reference" "C89"
@@ -11056,7 +11074,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "RED"
 			(at 257.81 52.3874 90)
 			(effects
 				(font
@@ -11141,7 +11159,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "9ddf12c3-215e-4e49-a1c4-32794a6f642e")
 		(property "Reference" "R86"
@@ -12430,7 +12448,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 92.71 123.19 90)
+		(at 92.71 119.38 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12438,7 +12456,7 @@
 		(dnp no)
 		(uuid "d049088c-9ac0-4ffd-8ff7-0be67f913c03")
 		(property "Reference" "D39"
-			(at 95.25 121.92 90)
+			(at 95.25 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12447,7 +12465,7 @@
 			)
 		)
 		(property "Value" "PESD3V3L1BA"
-			(at 95.25 124.46 90)
+			(at 95.25 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12456,7 +12474,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 92.71 123.19 0)
+			(at 92.71 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12465,7 +12483,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 92.71 123.19 0)
+			(at 92.71 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12474,7 +12492,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 92.71 123.19 0)
+			(at 92.71 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12483,7 +12501,7 @@
 			)
 		)
 		(property "LCSC" "C316020"
-			(at 92.71 123.19 90)
+			(at 92.71 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)

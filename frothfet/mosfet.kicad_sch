@@ -6730,6 +6730,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rotation Offset" "-90"
+			(at 156.21 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fe0e7a04-6435-4039-b39b-6148b4ded136")
 		)
@@ -7542,6 +7551,15 @@
 			)
 		)
 		(property "ALT" ""
+			(at 143.51 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rotation Offset" "-90"
 			(at 143.51 58.42 0)
 			(effects
 				(font
