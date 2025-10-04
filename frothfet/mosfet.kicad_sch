@@ -1624,6 +1624,7 @@
 		)
 		(symbol "Transistor_FET:AO3400A"
 			(pin_names
+				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -1839,7 +1840,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+						(xy 2.921 0.381) (xy 3.683 0.381)
 					)
 					(stroke
 						(width 0)
@@ -3100,7 +3101,31 @@
 				)
 				(polyline
 					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 0 -2.54) (xy 0 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0 0)
 					)
 					(stroke
 						(width 0)
@@ -3131,42 +3156,6 @@
 					)
 				)
 				(pin passive line
-					(at 0 1.27 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -1.27 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 0 -8.89 90)
 					(length 1.27)
 					(name "~"
@@ -3177,6 +3166,24 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3623,12 +3630,6 @@
 		(uuid "0c8184dc-5080-46e5-a435-debe60bc4be9")
 	)
 	(junction
-		(at 200.66 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "11ae565d-d6ea-4732-b974-55df4fddefe4")
-	)
-	(junction
 		(at 146.05 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3775,16 +3776,6 @@
 			(type default)
 		)
 		(uuid "00108e54-7c0f-4ece-bc27-2f5a22ea1bc6")
-	)
-	(wire
-		(pts
-			(xy 200.66 58.42) (xy 200.66 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "074badbd-7b9d-4d67-8952-648c10ff9fc8")
 	)
 	(wire
 		(pts
@@ -4108,16 +4099,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 59.69) (xy 204.47 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ac6e79d-854a-44be-a707-8609b6519603")
-	)
-	(wire
-		(pts
 			(xy 69.85 113.03) (xy 69.85 123.19)
 		)
 		(stroke
@@ -4275,6 +4256,16 @@
 			(type default)
 		)
 		(uuid "82635029-bfef-4f4f-ad42-f19d3b875316")
+	)
+	(wire
+		(pts
+			(xy 203.2 59.69) (xy 204.47 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83348c04-a293-4ede-9a80-12deb4e636ca")
 	)
 	(wire
 		(pts
@@ -4575,16 +4566,6 @@
 			(type default)
 		)
 		(uuid "cc8a9a55-0372-4ce0-8d1f-c0bdcac14a19")
-	)
-	(wire
-		(pts
-			(xy 200.66 59.69) (xy 200.66 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cde82887-cbfb-462c-9ee2-901bf5a07278")
 	)
 	(wire
 		(pts
@@ -5615,9 +5596,6 @@
 		(pin "2"
 			(uuid "beb6504b-3022-45d9-a5f0-81f414b966f2")
 		)
-		(pin "2"
-			(uuid "f6612f37-a514-4db1-a27d-97098dcd4f09")
-		)
 		(pin "3"
 			(uuid "4c374e70-c3ab-49b2-94a7-c12361675763")
 		)
@@ -5995,13 +5973,12 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-8"
+		(property "Footprint" "yarrboard:SOT-23-8"
 			(at 100.838 79.756 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -8627,7 +8604,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
 			(at 72.39 132.08 0)
 			(effects
 				(font
@@ -8637,7 +8614,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
 			(at 67.31 128.27 0)
 			(effects
 				(font

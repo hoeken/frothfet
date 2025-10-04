@@ -1794,6 +1794,15 @@
 					(hide yes)
 				)
 			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "LED diode"
 				(at 0 0 0)
 				(effects
@@ -4623,6 +4632,12 @@
 		(uuid "8b9df90e-4164-49e7-b153-4487626aae5f")
 	)
 	(junction
+		(at 96.52 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c8051de-f228-4992-b808-310aeb99bf7f")
+	)
+	(junction
 		(at 41.91 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4707,12 +4722,6 @@
 		(uuid "babc7719-117c-4d46-b98c-a3f4c87b71e2")
 	)
 	(junction
-		(at 92.71 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bc5e2c96-8775-46d8-90cf-acf5be3f3fb2")
-	)
-	(junction
 		(at 254 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4767,10 +4776,22 @@
 		(uuid "e439c79c-1bec-400d-930f-1c7f3ce3d821")
 	)
 	(junction
+		(at 92.71 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7abda20-e90e-42ba-a3b5-e78509112384")
+	)
+	(junction
 		(at 59.69 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e963e532-6434-4d70-b24c-0992a339c771")
+	)
+	(junction
+		(at 191.77 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eef9c6f0-a56d-4434-818f-0545b3d8c15a")
 	)
 	(junction
 		(at 260.35 110.49)
@@ -4944,16 +4965,6 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 101.6) (xy 92.71 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11094101-0359-4c3a-aab2-dc2cd25ebfa8")
-	)
-	(wire
-		(pts
 			(xy 128.27 125.73) (xy 148.59 125.73)
 		)
 		(stroke
@@ -5081,6 +5092,16 @@
 			(type default)
 		)
 		(uuid "201042d0-f178-446c-9f0d-45d7f6a02f02")
+	)
+	(wire
+		(pts
+			(xy 39.37 110.49) (xy 39.37 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "212b2afd-07de-44a9-a52d-1d4405e82dbf")
 	)
 	(wire
 		(pts
@@ -5441,6 +5462,16 @@
 			(type default)
 		)
 		(uuid "4ab9ea6e-1907-408d-8d8c-83ba974d0c75")
+	)
+	(wire
+		(pts
+			(xy 92.71 101.6) (xy 96.52 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fca1fb0-228d-4e42-943c-eaa07e079fe4")
 	)
 	(wire
 		(pts
@@ -6184,7 +6215,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 106.68) (xy 189.23 106.68)
+			(xy 194.31 106.68) (xy 191.77 106.68)
 		)
 		(stroke
 			(width 0)
@@ -6201,6 +6232,16 @@
 			(type default)
 		)
 		(uuid "b10371d1-d8f0-4606-89f8-d2581fb92dab")
+	)
+	(wire
+		(pts
+			(xy 90.17 101.6) (xy 92.71 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b27cb1b6-bc68-405a-9388-13990ec31474")
 	)
 	(wire
 		(pts
@@ -6341,16 +6382,6 @@
 			(type default)
 		)
 		(uuid "bdd79025-8ecb-417d-9954-416cd481983a")
-	)
-	(wire
-		(pts
-			(xy 92.71 101.6) (xy 90.17 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be13ec39-240c-40d2-aaad-5d080f3b6aa9")
 	)
 	(wire
 		(pts
@@ -6501,6 +6532,16 @@
 			(type default)
 		)
 		(uuid "ca70927a-96a7-4a53-b7a3-dd6ee7c1ff91")
+	)
+	(wire
+		(pts
+			(xy 191.77 106.68) (xy 189.23 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cad6b774-4cb4-4544-9dab-7287e8416d3b")
 	)
 	(wire
 		(pts
@@ -6671,6 +6712,16 @@
 			(type default)
 		)
 		(uuid "e11be9f8-5185-4a7d-9a39-79b82c3649e3")
+	)
+	(wire
+		(pts
+			(xy 96.52 101.6) (xy 97.79 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3195cea-78f8-4f7a-aec3-e5c94c59239e")
 	)
 	(wire
 		(pts
@@ -7327,7 +7378,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "100k"
 			(at 53.34 43.1799 0)
 			(effects
 				(font
@@ -7479,6 +7530,73 @@
 			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef"
 					(reference "R89")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 191.77 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a05e6f7-d7ad-49e4-b2ff-475f5789d84c")
+		(property "Reference" "#FLG06"
+			(at 191.77 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 191.77 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 191.77 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b555a7be-faed-42d2-b708-b976f06f395f")
+		)
+		(instances
+			(project "frothfet"
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef"
+					(reference "#FLG06")
 					(unit 1)
 				)
 			)
@@ -8244,6 +8362,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 39.37 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2854bc0e-4322-4ed3-a223-22da54818489")
+		(property "Reference" "#FLG01"
+			(at 39.37 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 39.37 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 39.37 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8cf3214e-6d85-4f5e-9e89-226443016736")
+		)
+		(instances
+			(project ""
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Screw_Terminal_01x08")
 		(at 251.46 110.49 0)
 		(mirror y)
@@ -8746,6 +8930,15 @@
 			)
 		)
 		(property "ALT" ""
+			(at 50.8 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 50.8 49.53 0)
 			(effects
 				(font
@@ -10909,6 +11102,15 @@
 			)
 		)
 		(property "ALT" ""
+			(at 254 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 254 49.53 0)
 			(effects
 				(font
@@ -13175,16 +13377,16 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 176.53 69.85 0)
+		(at 96.52 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fdfb5b6d-84b8-40cd-bcec-6539675407b5")
-		(property "Reference" "#FLG06"
-			(at 176.53 67.945 0)
+		(uuid "f630c9b0-1bca-44a1-b02e-5521b1ab0dec")
+		(property "Reference" "#FLG012"
+			(at 96.52 99.695 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13193,15 +13395,16 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 176.53 64.77 0)
+			(at 96.52 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 69.85 0)
+			(at 96.52 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13210,7 +13413,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 176.53 69.85 0)
+			(at 96.52 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13219,7 +13422,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 176.53 69.85 0)
+			(at 96.52 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13228,12 +13431,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "58d7b103-4971-4afe-bd8b-3f6025f5f0f1")
+			(uuid "3b0eb042-4d78-4984-9773-233ea1fbad70")
 		)
 		(instances
-			(project "8ch-mosfet"
+			(project ""
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef"
-					(reference "#FLG06")
+					(reference "#FLG012")
 					(unit 1)
 				)
 			)

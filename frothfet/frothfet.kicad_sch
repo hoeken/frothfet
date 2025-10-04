@@ -1310,166 +1310,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:PWR_FLAG"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "flag power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "yarrboard:Yarrboard"
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "#SYM"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Yarrboard_1_1"
-				(text "YARRBOARD\nLOGO"
-					(at 0 -2.794 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(rectangle
 		(start 110.49 81.28)
@@ -1723,12 +1563,6 @@
 		(uuid "5e97c49b-7bee-4438-ba0f-b55f511fd2b5")
 	)
 	(junction
-		(at 133.35 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7c918a97-525d-498a-bf4b-343fd64f7acf")
-	)
-	(junction
 		(at 52.07 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1747,31 +1581,31 @@
 		(uuid "c1f2963c-8271-443c-bd79-3c0879ad41e4")
 	)
 	(no_connect
-		(at 137.16 109.22)
+		(at 127 109.22)
 		(uuid "1b72f8e3-b4a6-460c-9708-5af69259dbde")
 	)
 	(no_connect
-		(at 135.89 97.79)
+		(at 127 97.79)
 		(uuid "23927917-9114-412f-bf57-98fca9a21d18")
 	)
 	(no_connect
-		(at 81.28 99.06)
+		(at 90.17 99.06)
 		(uuid "2b029f43-9fe1-409d-90e2-f34c53232eed")
 	)
 	(no_connect
-		(at 135.89 123.19)
+		(at 127 123.19)
 		(uuid "2ff0cd17-5996-4e70-a60d-15aa8215b76c")
 	)
 	(no_connect
-		(at 135.89 82.55)
+		(at 127 82.55)
 		(uuid "404080a2-dd9b-4a01-ba81-924b066113b4")
 	)
 	(no_connect
-		(at 135.89 118.11)
+		(at 127 118.11)
 		(uuid "7922e07c-6ae6-4770-afed-0f7561ae3f21")
 	)
 	(no_connect
-		(at 137.16 111.76)
+		(at 127 111.76)
 		(uuid "7b70ce1b-f497-4570-b543-6d174e7e4a4c")
 	)
 	(no_connect
@@ -1783,23 +1617,23 @@
 		(uuid "835594bd-a6d5-4a87-a1b9-2bdc98ae2942")
 	)
 	(no_connect
-		(at 135.89 87.63)
+		(at 127 87.63)
 		(uuid "86a2f783-e5d2-4148-b6e4-f9b844d43627")
 	)
 	(no_connect
-		(at 135.89 90.17)
+		(at 127 90.17)
 		(uuid "86fc41ba-ca99-4a48-ba33-cf374bb51685")
 	)
 	(no_connect
-		(at 137.16 105.41)
+		(at 127 105.41)
 		(uuid "870ae487-9a4e-455e-bf9c-7943760884f7")
 	)
 	(no_connect
-		(at 137.16 102.87)
+		(at 127 102.87)
 		(uuid "95179651-2dc6-4cea-93fc-4b990ca4d771")
 	)
 	(no_connect
-		(at 135.89 85.09)
+		(at 127 85.09)
 		(uuid "abba3861-75ef-41b8-917c-08fa517f51ea")
 	)
 	(no_connect
@@ -1807,7 +1641,7 @@
 		(uuid "b1302e9c-a343-4ba5-b061-b5bd164fb3a2")
 	)
 	(no_connect
-		(at 135.89 95.25)
+		(at 127 95.25)
 		(uuid "cbded096-f4f8-401b-b0a0-671853c70939")
 	)
 	(no_connect
@@ -1815,7 +1649,7 @@
 		(uuid "e9e94dce-bb0c-43f9-9422-6e7568285948")
 	)
 	(no_connect
-		(at 135.89 120.65)
+		(at 127 120.65)
 		(uuid "fd87ccf3-f9c3-4d9a-a2bc-f57ed424849a")
 	)
 	(wire
@@ -1980,16 +1814,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 95.25) (xy 135.89 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19206ff8-31d1-40ca-b74b-6b6297595fc0")
-	)
-	(wire
-		(pts
 			(xy 90.17 109.22) (xy 81.28 109.22)
 		)
 		(stroke
@@ -2097,16 +1921,6 @@
 			(type default)
 		)
 		(uuid "33e1a84a-debf-4450-afc5-8e5689973e27")
-	)
-	(wire
-		(pts
-			(xy 127 111.76) (xy 137.16 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34193773-7560-4a44-8b32-be05d6da032a")
 	)
 	(wire
 		(pts
@@ -2250,16 +2064,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 120.65) (xy 135.89 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51249076-d95c-4a29-b846-8e527128b46b")
-	)
-	(wire
-		(pts
 			(xy 205.74 85.09) (xy 208.28 85.09)
 		)
 		(stroke
@@ -2277,16 +2081,6 @@
 			(type default)
 		)
 		(uuid "5783bf32-fe16-4955-b164-2e5085d8b619")
-	)
-	(wire
-		(pts
-			(xy 127 90.17) (xy 135.89 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57ac224c-20a3-432e-a2c0-b274064c25d0")
 	)
 	(wire
 		(pts
@@ -2320,16 +2114,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 105.41) (xy 137.16 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c178e15-eb01-446f-887c-9585ea5a5902")
-	)
-	(wire
-		(pts
 			(xy 170.18 142.24) (xy 170.18 156.21)
 		)
 		(stroke
@@ -2337,16 +2121,6 @@
 			(type default)
 		)
 		(uuid "5c4535a2-a08a-4c37-aa49-e2c85f848f2e")
-	)
-	(wire
-		(pts
-			(xy 127 82.55) (xy 135.89 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f9b0e40-4d53-4ae5-b44c-abc15ea84689")
 	)
 	(wire
 		(pts
@@ -2440,16 +2214,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 123.19) (xy 135.89 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6cb0372a-5cba-4f6c-b827-a533bc1733d3")
-	)
-	(wire
-		(pts
 			(xy 127 59.69) (xy 139.7 59.69)
 		)
 		(stroke
@@ -2520,16 +2284,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 118.11) (xy 135.89 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ecca71c-2767-4ef0-92e4-1577154518ce")
-	)
-	(wire
-		(pts
 			(xy 90.17 74.93) (xy 81.28 74.93)
 		)
 		(stroke
@@ -2537,16 +2291,6 @@
 			(type default)
 		)
 		(uuid "8036156d-9e4e-430b-914e-0b908b1de3c4")
-	)
-	(wire
-		(pts
-			(xy 127 97.79) (xy 135.89 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "831b7bd9-6a72-4506-93ef-833f5624645c")
 	)
 	(wire
 		(pts
@@ -2597,16 +2341,6 @@
 			(type default)
 		)
 		(uuid "a4ed689c-0c2e-4cda-9cbb-377b6d7008b1")
-	)
-	(wire
-		(pts
-			(xy 127 85.09) (xy 135.89 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a53e527d-f2c2-4dc5-8dec-42fa84dc782a")
 	)
 	(wire
 		(pts
@@ -2770,16 +2504,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 99.06) (xy 81.28 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e14a3ece-9d01-4a58-be55-2d039285431d")
-	)
-	(wire
-		(pts
 			(xy 25.4 182.88) (xy 31.75 182.88)
 		)
 		(stroke
@@ -2797,16 +2521,6 @@
 			(type default)
 		)
 		(uuid "e1dfefd7-a7ba-4490-ade7-6350cc896e47")
-	)
-	(wire
-		(pts
-			(xy 127 109.22) (xy 137.16 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e382f08f-5899-49ae-a5ee-2be32b3b3761")
 	)
 	(wire
 		(pts
@@ -2870,16 +2584,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 87.63) (xy 135.89 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0097d7b-8962-4ea5-8eb3-d46435221e2c")
-	)
-	(wire
-		(pts
 			(xy 208.28 35.56) (xy 170.18 35.56)
 		)
 		(stroke
@@ -2907,16 +2611,6 @@
 			(type default)
 		)
 		(uuid "f4d83699-c373-47c8-a6a7-d5251cf8e3ed")
-	)
-	(wire
-		(pts
-			(xy 127 102.87) (xy 137.16 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f802ac02-f93d-4dcb-a4d8-ce7a7075b23d")
 	)
 	(wire
 		(pts
@@ -2967,376 +2661,6 @@
 			(type default)
 		)
 		(uuid "feb68dfa-0cf0-4ef7-8c8d-84bd0070058f")
-	)
-	(label "GPIO39"
-		(at 81.28 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "022145bb-89c8-4ca3-a720-a8a9bf744599")
-	)
-	(label "ESP_RX0"
-		(at 137.16 102.87 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "035486e9-1700-4e0e-8750-e6437e80f1d3")
-	)
-	(label "GPIO14"
-		(at 81.28 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "049d17b5-1446-4dd6-8bc2-c56881b89a52")
-	)
-	(label "GPIO16"
-		(at 135.89 97.79 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2fe4a990-13fd-4373-872f-f50e4c803074")
-	)
-	(label "GPIO5"
-		(at 81.28 64.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "388c9135-b91d-4deb-b2b9-79e4e3d5ad31")
-	)
-	(label "GPIO40"
-		(at 81.28 109.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3d0df0f9-4666-4aa6-bf45-a3ad812110a6")
-	)
-	(label "GPIO2"
-		(at 81.28 59.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4ab714d4-e497-4bbe-b7ad-d260c2c34138")
-	)
-	(label "GPIO38"
-		(at 81.28 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "560c704d-4ce6-4da3-a505-21847d1e356c")
-	)
-	(label "GPIO47"
-		(at 81.28 119.38 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5710eace-2d53-47f9-8297-297dd1715fa0")
-	)
-	(label "GPIO48"
-		(at 81.28 121.92 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "580acdfa-5334-4e64-9afe-3bbd405f38a2")
-	)
-	(label "GPIO42"
-		(at 81.28 114.3 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5f62abae-3a74-4978-bdc4-b2a608551b7f")
-	)
-	(label "GPIO41"
-		(at 81.28 111.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6d736cf8-a8e7-40cf-ac71-53887d66f2e2")
-	)
-	(label "GPIO7"
-		(at 81.28 69.85 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7bbbdbda-2b13-4bf1-8271-8e7fc9b5963f")
-	)
-	(label "GPIO10"
-		(at 81.28 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "83016870-3d61-482f-b77b-da81ee5ed895")
-	)
-	(label "GPIO46"
-		(at 135.89 90.17 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "83de7566-94fd-4e28-afdd-8cb3bca55cd7")
-	)
-	(label "GPIO45"
-		(at 135.89 87.63 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8a64b229-eaf0-4d7b-b0ec-c2aa3812b0d2")
-	)
-	(label "GPIO0"
-		(at 135.89 82.55 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9161769a-597d-49bd-925c-624c95ee1969")
-	)
-	(label "GPIO13"
-		(at 81.28 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "981ab83e-52d5-49d7-8761-bbfa53fd3597")
-	)
-	(label "LED_OUT"
-		(at 81.28 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "984348f4-c765-45db-b60d-2f92a5071280")
-	)
-	(label "GPIO3"
-		(at 135.89 85.09 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9a69e568-f202-417b-986d-ce92d53c769b")
-	)
-	(label "GPIO15"
-		(at 135.89 95.25 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9c885949-f3f8-4677-b4e5-2ac11cfeae77")
-	)
-	(label "ESP_TX0"
-		(at 137.16 105.41 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a064cb66-edc1-462e-8de0-4bec61853cbf")
-	)
-	(label "GPIO17"
-		(at 81.28 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a2427547-3972-4351-afa8-eb9f0c0bd75c")
-	)
-	(label "ESP_USB-"
-		(at 137.16 111.76 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "aaae808b-49e2-4cf6-b4d6-94b5f4bce0f6")
-	)
-	(label "GPIO9"
-		(at 81.28 74.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c172409c-0da3-456b-89a9-4451573486d0")
-	)
-	(label "GPIO12"
-		(at 81.28 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c9900ee7-352c-4746-a415-71ec9b1f1558")
-	)
-	(label "GPIO35"
-		(at 135.89 118.11 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cd6fcc74-8186-46e0-969c-a8ab49c52b01")
-	)
-	(label "GPIO4"
-		(at 81.28 62.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d6f27949-e6ad-411f-a5fa-bbf6ea11521f")
-	)
-	(label "GPIO37"
-		(at 135.89 123.19 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e3f08873-0a86-46d1-bffc-fe6d97e55131")
-	)
-	(label "GPIO6"
-		(at 81.28 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e5945d49-ace5-4b73-82dd-d7c51f4736f4")
-	)
-	(label "GPIO36"
-		(at 135.89 120.65 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e8ff245d-368f-48f5-9b60-dda3f9a5fee6")
-	)
-	(label "GPIO11"
-		(at 81.28 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ea280485-862f-4448-a0bf-4b6425549121")
-	)
-	(label "GPIO18"
-		(at 81.28 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ec3f0663-6a05-44bc-88cf-51f70105bb66")
-	)
-	(label "ESP_USB+"
-		(at 137.16 109.22 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f1ecd0fe-3b7c-43c7-85b5-fe63e758059b")
-	)
-	(label "GPIO8"
-		(at 81.28 72.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f59217fe-997e-410f-92bb-1e402670675a")
-	)
-	(label "GPIO1"
-		(at 81.28 57.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f849f29b-d47e-4beb-a4c9-88eeb9ba86bc")
-	)
-	(label "GPIO21"
-		(at 81.28 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f9982593-d2c3-4ed2-9632-7389758f39cf")
 	)
 	(global_label "AMPS7"
 		(shape input)
@@ -5659,7 +4983,7 @@
 				)
 			)
 		)
-		(property "Value" "SMTSO30100CTJ"
+		(property "Value" "~"
 			(at 21.59 157.48 90)
 			(effects
 				(font
@@ -5668,7 +4992,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "yarrboard:Standoff-3mm"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
 			(at 22.86 161.29 0)
 			(effects
 				(font
@@ -5850,133 +5174,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 133.35 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "64de151c-8784-4ab4-95ef-c2da49e32618")
-		(property "Reference" "#FLG01"
-			(at 133.35 70.485 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 138.684 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 133.35 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 133.35 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 133.35 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "07d4567d-675d-4fd9-936b-da9c14151490")
-		)
-		(instances
-			(project "frothfet"
-				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966"
-					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "yarrboard:Yarrboard")
-		(at 261.62 173.99 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "75416057-5733-43ed-921c-699728920475")
-		(property "Reference" "LOGO1"
-			(at 261.62 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 261.62 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "yarrboard:Logo Small"
-			(at 261.62 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 261.62 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 261.62 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project ""
-				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966"
-					(reference "LOGO1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 52.07 113.03 180)
 		(unit 1)
@@ -6081,7 +5278,7 @@
 				)
 			)
 		)
-		(property "Value" "SMTSO30100CTJ"
+		(property "Value" "~"
 			(at 21.59 179.07 90)
 			(effects
 				(font
@@ -6090,7 +5287,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "yarrboard:Standoff-3mm"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
 			(at 22.86 182.88 0)
 			(effects
 				(font
@@ -6142,7 +5339,7 @@
 		(lib_id "Graphic:Logo_Open_Hardware_Small")
 		(at 275.59 173.99 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -6166,7 +5363,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Symbol:OSHW-Logo2_14.6x12mm_SilkScreen"
+		(property "Footprint" "Symbol:OSHW-Logo2_7.3x6mm_SilkScreen"
 			(at 275.59 173.99 0)
 			(effects
 				(font
@@ -6228,7 +5425,7 @@
 				)
 			)
 		)
-		(property "Value" "SMTSO30100CTJ"
+		(property "Value" "~"
 			(at 21.59 151.13 90)
 			(effects
 				(font
@@ -6237,7 +5434,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "yarrboard:Standoff-3mm"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
 			(at 22.86 154.94 0)
 			(effects
 				(font
@@ -6368,7 +5565,7 @@
 				)
 			)
 		)
-		(property "Value" "SMTSO30100CTJ"
+		(property "Value" "~"
 			(at 21.59 172.72 90)
 			(effects
 				(font
@@ -6377,7 +5574,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "yarrboard:Standoff-3mm"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
 			(at 22.86 176.53 0)
 			(effects
 				(font
