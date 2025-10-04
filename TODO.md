@@ -2,13 +2,10 @@
 
 ### Rev E Changes:
 
-* footprint
 * check led resistor values - copy from brineomatic
 * make sure its x7r caps on the output of adc
 * check button part number
-* via stitching
 * 3d models for all components
-* better silkscreen for terminal block
 * double check all part numbers
 * check part rotation on jlc
 * consolidate components to standard values where possible.
