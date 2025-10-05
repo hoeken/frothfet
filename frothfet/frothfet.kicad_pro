@@ -76,6 +76,10 @@
           ""
         ],
         [
+          "silk_overlap|191432276|113700000|22800dde-2edf-403f-8568-6d047638f0e6|cb0b4413-f519-4995-b927-67cb1448350f",
+          ""
+        ],
+        [
           "silk_overlap|193650000|80669989|151474ed-23a3-47ea-8f65-80aacc15dd7b|cb0b4413-f519-4995-b927-67cb1448350f",
           ""
         ],
@@ -84,7 +88,7 @@
           ""
         ],
         [
-          "silk_overlap|195878110|80669989|22800dde-2edf-403f-8568-6d047638f0e6|cb0b4413-f519-4995-b927-67cb1448350f",
+          "zones_intersect|87000000|23700000|f15a557d-523a-42aa-b64f-d5d4bc561205|98af2965-0130-40d6-80b6-e20f144dc0e4",
           ""
         ]
       ],
@@ -281,20 +285,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "multiple_net_names|596900|1879600|9b2401f9-229a-4645-99bd-13240b738ff0|3a08651d-a697-4137-8fdb-e8add74983bb|/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef|/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef|/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef",
-        ""
-      ],
-      [
-        "pin_to_pin|2540000|381000|dfdb3e5d-cdb8-48c1-9fa1-774b7fc59514|98059e52-7d2f-4036-92f4-f6a3ca72474e|/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef|/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef|/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/777fe0ac-daa5-4cfe-9bd1-5eba0a425019",
-        ""
-      ],
-      [
-        "unconnected_wire_endpoint|1638300|1524000|218102f0-3d35-49eb-8fc8-b118cc3adb0a|00000000-0000-0000-0000-000000000000|/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/a8a81147-5613-4820-beb3-a7ca76d0db8e||",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -590,7 +581,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "frothfet-rev-d.STEP",
+      "step": "frothfet-rev-e.step",
       "svg": "",
       "vrml": "Gnarboard.wrl"
     },
