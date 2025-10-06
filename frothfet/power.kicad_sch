@@ -8454,7 +8454,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "yarrboard:Busbar Rev E"
+		(property "Footprint" "yarrboard:Frothfet Busbar Positive Rev E"
 			(at 251.46 110.49 0)
 			(effects
 				(font
@@ -9855,7 +9855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "yarrboard:Busbar Rev E"
+		(property "Footprint" "yarrboard:Frothfet Busbar Negative Rev E"
 			(at 266.7 110.49 0)
 			(effects
 				(font

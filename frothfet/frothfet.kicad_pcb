@@ -95080,7 +95080,7 @@
 			)
 		)
 	)
-	(footprint "yarrboard:Busbar Rev E"
+	(footprint "yarrboard:Frothfet Busbar Positive Rev E"
 		(layer "B.Cu")
 		(uuid "5177510c-820b-48e8-bd30-e213d75f15dd")
 		(at 93.5 36.5)
@@ -95092,7 +95092,7 @@
 			(uuid "2de2bdc7-b842-4b0e-9213-71caf36f825a")
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1 1)
 					(thickness 0.1)
 				)
 				(justify mirror)
@@ -95143,7 +95143,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "5cfb7ce7-6897-4dfc-98fc-30d8949e922b")
+			(uuid "c77f119d-06a4-4f68-a934-0608913caa01")
 			(effects
 				(font
 					(size 1 1)
@@ -95156,7 +95156,7 @@
 		(path "/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef/3588fa1e-e069-40af-9bd8-3c573e50ff58")
 		(sheetname "/Power Supply/")
 		(sheetfile "power.kicad_sch")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -6 3.5)
 			(end -6 -3.499999)
@@ -95165,37 +95165,37 @@
 				(type default)
 			)
 			(layer "Dwgs.User")
-			(uuid "d3a307ae-b473-4e50-a045-53eaa0507302")
+			(uuid "083888fe-6747-493a-b666-849f20d3d326")
 		)
 		(fp_line
 			(start -1.000001 8.5)
-			(end 124 8.5)
+			(end 149 8.5)
 			(stroke
 				(width 0.2)
 				(type default)
 			)
 			(layer "Dwgs.User")
-			(uuid "36bc9cf0-08cd-4623-a119-07dd1c9881c4")
+			(uuid "668ea8d9-dd18-47b7-86c5-ae13576d111b")
 		)
 		(fp_line
-			(start 124 -8.5)
+			(start 149 -8.5)
 			(end -1 -8.5)
 			(stroke
 				(width 0.2)
 				(type default)
 			)
 			(layer "Dwgs.User")
-			(uuid "f58ecee1-a206-4837-b1ff-646567d0c1b2")
+			(uuid "17ce69dd-fa85-4f5c-a169-8a2b3652214a")
 		)
 		(fp_line
-			(start 129 3.5)
-			(end 129 -3.5)
+			(start 154 3.5)
+			(end 154 -3.5)
 			(stroke
 				(width 0.2)
 				(type default)
 			)
 			(layer "Dwgs.User")
-			(uuid "11dfe296-c508-4c2c-b41f-c7efb9fb8ab4")
+			(uuid "7327bae7-7bca-4c21-8560-1914736231d4")
 		)
 		(fp_arc
 			(start -6 -3.499999)
@@ -95206,7 +95206,7 @@
 				(type default)
 			)
 			(layer "Dwgs.User")
-			(uuid "8f6ef9d2-5d46-4e8e-8213-51b0b022967f")
+			(uuid "99f89944-8027-477a-92c3-357adb3940ca")
 		)
 		(fp_arc
 			(start -1.000001 8.5)
@@ -95217,29 +95217,29 @@
 				(type default)
 			)
 			(layer "Dwgs.User")
-			(uuid "40a22c53-9b08-4635-a18b-adf08647706d")
+			(uuid "450cd0a6-a926-44ea-9951-fe8fc65e12e0")
 		)
 		(fp_arc
-			(start 124 -8.5)
-			(mid 127.535534 -7.035534)
-			(end 129 -3.5)
+			(start 149 -8.5)
+			(mid 152.535534 -7.035534)
+			(end 154 -3.5)
 			(stroke
 				(width 0.2)
 				(type default)
 			)
 			(layer "Dwgs.User")
-			(uuid "edc8ac9d-f480-4727-98b0-ae07031677f0")
+			(uuid "06d6ce2e-d91f-4845-94d5-1ad209b3ac7b")
 		)
 		(fp_arc
-			(start 129 3.5)
-			(mid 127.535534 7.035534)
-			(end 124 8.5)
+			(start 154 3.5)
+			(mid 152.535534 7.035534)
+			(end 149 8.5)
 			(stroke
 				(width 0.2)
 				(type default)
 			)
 			(layer "Dwgs.User")
-			(uuid "8733a5a5-c571-455b-803f-b5c79c1f3b27")
+			(uuid "cfa2b2c5-4b9f-4dd9-8846-1747f1a4deb8")
 		)
 		(fp_circle
 			(center 0 0)
@@ -95250,7 +95250,7 @@
 			)
 			(fill no)
 			(layer "Dwgs.User")
-			(uuid "d5db6869-e428-4347-a942-60a3cc2c6cfe")
+			(uuid "85fc8120-e93d-467f-ba73-2db86d60a0c9")
 		)
 		(fp_circle
 			(center 13 0)
@@ -95261,7 +95261,7 @@
 			)
 			(fill no)
 			(layer "Dwgs.User")
-			(uuid "19528700-45c3-4459-894c-06c804ed3e6a")
+			(uuid "d5c3b2b7-07b8-408d-bb90-b8443d9c11e4")
 		)
 		(fp_circle
 			(center 26 0)
@@ -95272,7 +95272,7 @@
 			)
 			(fill no)
 			(layer "Dwgs.User")
-			(uuid "9c43f1bd-855e-4ab6-9e0d-9fe28a6fed45")
+			(uuid "54e74a54-1c6c-4b7f-8fce-1efe123fd146")
 		)
 		(fp_circle
 			(center 39 0)
@@ -95283,7 +95283,7 @@
 			)
 			(fill no)
 			(layer "Dwgs.User")
-			(uuid "cb226617-6814-44a9-bc90-f0b98f0a7714")
+			(uuid "15009c6e-5599-49d6-8871-46eb71dba2f8")
 		)
 		(fp_circle
 			(center 52 0)
@@ -95294,7 +95294,7 @@
 			)
 			(fill no)
 			(layer "Dwgs.User")
-			(uuid "d31f6164-613f-4f0e-a7e8-9e807375ef56")
+			(uuid "24629c94-5bcc-44d3-9d51-b1dabcb0336f")
 		)
 		(fp_circle
 			(center 65 0)
@@ -95305,7 +95305,7 @@
 			)
 			(fill no)
 			(layer "Dwgs.User")
-			(uuid "889f2a5e-a654-4ca0-8652-36e17062e277")
+			(uuid "48107d2f-d77a-4bb7-94a9-d584571b663a")
 		)
 		(fp_circle
 			(center 78 0)
@@ -95316,7 +95316,7 @@
 			)
 			(fill no)
 			(layer "Dwgs.User")
-			(uuid "011ee016-82c5-4748-99cf-804eb24ccc96")
+			(uuid "1bdf373e-8612-433b-a96f-9d345424d47f")
 		)
 		(fp_circle
 			(center 91 0)
@@ -95327,18 +95327,18 @@
 			)
 			(fill no)
 			(layer "Dwgs.User")
-			(uuid "17fb8aea-a37a-487a-8fc5-2aa3b4636a5d")
+			(uuid "0784c3f0-90e7-4858-9cd7-ac6a698e9736")
 		)
 		(fp_circle
-			(center 117 0)
-			(end 120.4 0)
+			(center 142 0)
+			(end 145.4 0)
 			(stroke
 				(width 0.2)
 				(type default)
 			)
 			(fill no)
 			(layer "Dwgs.User")
-			(uuid "f05ba0a6-c5f8-47c8-9bed-42821222e731")
+			(uuid "1190d6be-011f-4a24-ba54-8e28285dd198")
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
@@ -95429,20 +95429,20 @@
 			(uuid "a3735870-361b-4367-9929-b16f24727fe9")
 		)
 		(group ""
-			(uuid "7684d472-a298-4a58-89d2-e17d0e38b0c8")
-			(members "011ee016-82c5-4748-99cf-804eb24ccc96" "11dfe296-c508-4c2c-b41f-c7efb9fb8ab4"
-				"17fb8aea-a37a-487a-8fc5-2aa3b4636a5d" "19528700-45c3-4459-894c-06c804ed3e6a"
-				"36bc9cf0-08cd-4623-a119-07dd1c9881c4" "40a22c53-9b08-4635-a18b-adf08647706d"
-				"8733a5a5-c571-455b-803f-b5c79c1f3b27" "889f2a5e-a654-4ca0-8652-36e17062e277"
-				"8f6ef9d2-5d46-4e8e-8213-51b0b022967f" "9c43f1bd-855e-4ab6-9e0d-9fe28a6fed45"
-				"cb226617-6814-44a9-bc90-f0b98f0a7714" "d31f6164-613f-4f0e-a7e8-9e807375ef56"
-				"d3a307ae-b473-4e50-a045-53eaa0507302" "d5db6869-e428-4347-a942-60a3cc2c6cfe"
-				"edc8ac9d-f480-4727-98b0-ae07031677f0" "f05ba0a6-c5f8-47c8-9bed-42821222e731"
-				"f58ecee1-a206-4837-b1ff-646567d0c1b2"
+			(uuid "a8d8f776-a173-4f98-b61a-f435def54f8a")
+			(members "06d6ce2e-d91f-4845-94d5-1ad209b3ac7b" "0784c3f0-90e7-4858-9cd7-ac6a698e9736"
+				"083888fe-6747-493a-b666-849f20d3d326" "1190d6be-011f-4a24-ba54-8e28285dd198"
+				"15009c6e-5599-49d6-8871-46eb71dba2f8" "17ce69dd-fa85-4f5c-a169-8a2b3652214a"
+				"1bdf373e-8612-433b-a96f-9d345424d47f" "24629c94-5bcc-44d3-9d51-b1dabcb0336f"
+				"450cd0a6-a926-44ea-9951-fe8fc65e12e0" "48107d2f-d77a-4bb7-94a9-d584571b663a"
+				"54e74a54-1c6c-4b7f-8fce-1efe123fd146" "668ea8d9-dd18-47b7-86c5-ae13576d111b"
+				"7327bae7-7bca-4c21-8560-1914736231d4" "85fc8120-e93d-467f-ba73-2db86d60a0c9"
+				"99f89944-8027-477a-92c3-357adb3940ca" "cfa2b2c5-4b9f-4dd9-8846-1747f1a4deb8"
+				"d5c3b2b7-07b8-408d-bb90-b8443d9c11e4"
 			)
 		)
 		(embedded_fonts no)
-		(model "/Users/hoeken/github/yarrboard-hardware/models/busbar-rev-e.step"
+		(model "/Users/hoeken/github/yarrboard-hardware/models/busbar-positive-rev-e.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -95454,7 +95454,7 @@
 			)
 		)
 	)
-	(footprint "yarrboard:Busbar Rev E"
+	(footprint "yarrboard:Frothfet Busbar Negative Rev E"
 		(layer "B.Cu")
 		(uuid "5dd22e3b-dd73-4097-93ca-6340368062d1")
 		(at 93.5 146.5)
@@ -95466,7 +95466,7 @@
 			(uuid "d1718d0b-1a5b-40ef-acb0-4e6849022267")
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1 1)
 					(thickness 0.1)
 				)
 				(justify mirror)
@@ -95517,7 +95517,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "ace20afd-d0a1-4e8b-8420-ac3b20251971")
+			(uuid "31303aad-7883-4356-accf-64ece451af2b")
 			(effects
 				(font
 					(size 1 1)
@@ -95530,7 +95530,7 @@
 		(path "/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef/63160c16-57c4-455d-84ea-9aa82a2e5657")
 		(sheetname "/Power Supply/")
 		(sheetfile "power.kicad_sch")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -6 3.5)
 			(end -6 -3.499999)
@@ -95539,7 +95539,7 @@
 				(type default)
 			)
 			(layer "Dwgs.User")
-			(uuid "13087e65-614c-4692-b9d3-6879c08d51d9")
+			(uuid "8b5a01bd-ae72-410b-8571-2990ddfa566b")
 		)
 		(fp_line
 			(start -1.000001 8.5)
@@ -95549,7 +95549,7 @@
 				(type default)
 			)
 			(layer "Dwgs.User")
-			(uuid "10892e7c-1100-4cbb-a840-310c443ba168")
+			(uuid "8d94dcac-d29c-4d55-a38b-093d8f0c39d7")
 		)
 		(fp_line
 			(start 124 -8.5)
@@ -95559,7 +95559,7 @@
 				(type default)
 			)
 			(layer "Dwgs.User")
-			(uuid "7f12008b-fdab-43c6-9d6c-297047302d48")
+			(uuid "fb2f6d73-add3-4a60-9c25-9d660ef8f6a0")
 		)
 		(fp_line
 			(start 129 3.5)
@@ -95569,7 +95569,7 @@
 				(type default)
 			)
 			(layer "Dwgs.User")
-			(uuid "06f42f96-c287-40ea-82c2-1ff583b5afda")
+			(uuid "3a534730-173f-48d7-9892-cf93fe8db8a0")
 		)
 		(fp_arc
 			(start -6 -3.499999)
@@ -95580,7 +95580,7 @@
 				(type default)
 			)
 			(layer "Dwgs.User")
-			(uuid "577499b0-96bc-4c14-aac4-b28faad179d7")
+			(uuid "9414c8d6-2801-4357-8442-de18d53662ff")
 		)
 		(fp_arc
 			(start -1.000001 8.5)
@@ -95591,7 +95591,7 @@
 				(type default)
 			)
 			(layer "Dwgs.User")
-			(uuid "8138f110-9bdc-4c75-9c78-9871ecd1aa7d")
+			(uuid "86c39580-4538-43df-8e6b-de43638a51ea")
 		)
 		(fp_arc
 			(start 124 -8.5)
@@ -95602,7 +95602,7 @@
 				(type default)
 			)
 			(layer "Dwgs.User")
-			(uuid "526558c6-7684-41ae-8f4d-bd90ea64a60c")
+			(uuid "b4406e3a-eb2d-4ee9-9cb5-39dbdd9d5c06")
 		)
 		(fp_arc
 			(start 129 3.5)
@@ -95613,7 +95613,7 @@
 				(type default)
 			)
 			(layer "Dwgs.User")
-			(uuid "68850efd-3cb3-4b16-9275-989434924443")
+			(uuid "0f2b3ca8-b5f5-42a6-93ac-db01e0adc6a3")
 		)
 		(fp_circle
 			(center 0 0)
@@ -95624,7 +95624,7 @@
 			)
 			(fill no)
 			(layer "Dwgs.User")
-			(uuid "cda71638-7c2b-4e36-b57f-223ea01900c4")
+			(uuid "e1794118-7a58-4676-9de3-9d5deda4bd63")
 		)
 		(fp_circle
 			(center 13 0)
@@ -95635,7 +95635,7 @@
 			)
 			(fill no)
 			(layer "Dwgs.User")
-			(uuid "b1fe3069-c5b6-4a60-8dfd-01590d3c1909")
+			(uuid "c3fbbde3-6908-4aef-9a45-0a9f20144feb")
 		)
 		(fp_circle
 			(center 26 0)
@@ -95646,7 +95646,7 @@
 			)
 			(fill no)
 			(layer "Dwgs.User")
-			(uuid "6aec5e34-baf9-4aff-ab62-24e472179566")
+			(uuid "10b471dd-3d9a-4d63-99c5-3bfdc2d5bbd3")
 		)
 		(fp_circle
 			(center 39 0)
@@ -95657,7 +95657,7 @@
 			)
 			(fill no)
 			(layer "Dwgs.User")
-			(uuid "695a531e-8e51-405e-95af-ea2a78e1e602")
+			(uuid "f73ad380-561d-4d26-bafa-a03d95e18d43")
 		)
 		(fp_circle
 			(center 52 0)
@@ -95668,7 +95668,7 @@
 			)
 			(fill no)
 			(layer "Dwgs.User")
-			(uuid "47756e7b-6f09-4604-80a3-91b3a723932b")
+			(uuid "b3cc1822-7ab1-4887-ae1c-5665d8635025")
 		)
 		(fp_circle
 			(center 65 0)
@@ -95679,7 +95679,7 @@
 			)
 			(fill no)
 			(layer "Dwgs.User")
-			(uuid "16f9570f-a509-40c3-8da0-3bab5688fc9a")
+			(uuid "efe67f48-b71e-4ba3-9ae6-29a8448c609e")
 		)
 		(fp_circle
 			(center 78 0)
@@ -95690,7 +95690,7 @@
 			)
 			(fill no)
 			(layer "Dwgs.User")
-			(uuid "38d0804c-37c9-4380-ad6a-40a9898ac633")
+			(uuid "1928ddd9-f222-4a9d-bfb8-384050f450d8")
 		)
 		(fp_circle
 			(center 91 0)
@@ -95701,7 +95701,7 @@
 			)
 			(fill no)
 			(layer "Dwgs.User")
-			(uuid "64f8ab1c-c3a0-4c40-b11e-28209ebd2ac9")
+			(uuid "23162f7b-09f8-4b05-a68d-e0ee7564504e")
 		)
 		(fp_circle
 			(center 117 0)
@@ -95712,7 +95712,7 @@
 			)
 			(fill no)
 			(layer "Dwgs.User")
-			(uuid "fc38b93b-87b9-4c4a-bb1d-3cedaa20f358")
+			(uuid "bc4c7e0b-e920-419b-a16e-698cbb6d3bde")
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
@@ -95803,20 +95803,20 @@
 			(uuid "85386906-4376-4ec2-b001-f46d03eaca3f")
 		)
 		(group ""
-			(uuid "e1eae770-55d0-45ea-ac04-3d3919d114ca")
-			(members "06f42f96-c287-40ea-82c2-1ff583b5afda" "10892e7c-1100-4cbb-a840-310c443ba168"
-				"13087e65-614c-4692-b9d3-6879c08d51d9" "16f9570f-a509-40c3-8da0-3bab5688fc9a"
-				"38d0804c-37c9-4380-ad6a-40a9898ac633" "47756e7b-6f09-4604-80a3-91b3a723932b"
-				"526558c6-7684-41ae-8f4d-bd90ea64a60c" "577499b0-96bc-4c14-aac4-b28faad179d7"
-				"64f8ab1c-c3a0-4c40-b11e-28209ebd2ac9" "68850efd-3cb3-4b16-9275-989434924443"
-				"695a531e-8e51-405e-95af-ea2a78e1e602" "6aec5e34-baf9-4aff-ab62-24e472179566"
-				"7f12008b-fdab-43c6-9d6c-297047302d48" "8138f110-9bdc-4c75-9c78-9871ecd1aa7d"
-				"b1fe3069-c5b6-4a60-8dfd-01590d3c1909" "cda71638-7c2b-4e36-b57f-223ea01900c4"
-				"fc38b93b-87b9-4c4a-bb1d-3cedaa20f358"
+			(uuid "62766d9c-51cd-42c6-a915-c5211a376297")
+			(members "0f2b3ca8-b5f5-42a6-93ac-db01e0adc6a3" "10b471dd-3d9a-4d63-99c5-3bfdc2d5bbd3"
+				"1928ddd9-f222-4a9d-bfb8-384050f450d8" "23162f7b-09f8-4b05-a68d-e0ee7564504e"
+				"3a534730-173f-48d7-9892-cf93fe8db8a0" "86c39580-4538-43df-8e6b-de43638a51ea"
+				"8b5a01bd-ae72-410b-8571-2990ddfa566b" "8d94dcac-d29c-4d55-a38b-093d8f0c39d7"
+				"9414c8d6-2801-4357-8442-de18d53662ff" "b3cc1822-7ab1-4887-ae1c-5665d8635025"
+				"b4406e3a-eb2d-4ee9-9cb5-39dbdd9d5c06" "bc4c7e0b-e920-419b-a16e-698cbb6d3bde"
+				"c3fbbde3-6908-4aef-9a45-0a9f20144feb" "e1794118-7a58-4676-9de3-9d5deda4bd63"
+				"efe67f48-b71e-4ba3-9ae6-29a8448c609e" "f73ad380-561d-4d26-bafa-a03d95e18d43"
+				"fb2f6d73-add3-4a60-9c25-9d660ef8f6a0"
 			)
 		)
 		(embedded_fonts no)
-		(model "/Users/hoeken/github/yarrboard-hardware/models/busbar-rev-e.step"
+		(model "/Users/hoeken/github/yarrboard-hardware/models/busbar-negative-rev-e.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -96288,6 +96288,17 @@
 			(justify left)
 		)
 	)
+	(gr_text "BOOT"
+		(at 82 148.4 0)
+		(layer "F.SilkS" knockout)
+		(uuid "54e29d20-eef9-4d63-baee-7f0d72c545ac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(gr_text "NEGATIVE\n-BUS-"
 		(locked yes)
 		(at 193.2 147 90)
@@ -96592,6 +96603,17 @@
 		(at 119.8 78.65 90)
 		(layer "F.SilkS" knockout)
 		(uuid "f4e2ca9b-2542-490f-9f94-c6fea6bdd2ef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "RESET"
+		(at 58 148 0)
+		(layer "F.SilkS" knockout)
+		(uuid "f9708c28-671b-4a13-8460-b32fc29e90df")
 		(effects
 			(font
 				(size 1 1)
