@@ -8,6 +8,7 @@
 
 * measure actual lug dimensions for fit
 
-* re-do fuse holders
+* add fuse holders
+  * make it an insertable box
   * 1 x mega
   * 3 x ATC
