@@ -9,13 +9,8 @@
 
 #### Rev F
 
-* usb 5v does not power ADC, buzzer, etc.
-* add buffer to pwm pins: 74VHC540FT (or 74VHC541FT) or 74LVC540A (74LVC541A also works)
-  * 4 options, all tssop-20 package, interchangeable except for normal/inverting
-  * choose the most common / cheapest and all good
-  * add output enable pin from esp32-s3 to buffer
-  * also needs its own pullup resistor to keep it off during boot
-  * add pullup resistors to output of buffer to keep mosfets off during boot
+* test code from https://github.com/atomic14/esp32-s3-pinouts before doing the buffer chip.
+* usb 5v does not power ADC, buzzer, etc. (pull idea diode circuit from brineomatic)
 * temperature sensor should have copper from the power trace running underneath
 * switch to SMTSO3080CTJ for mounting holes - top
 * add 4x mount holes for board to case bottom - just in case
@@ -37,23 +32,12 @@
 * change to ina226 w/ 2mOhm / 3920 shunt resistor (C5224159, ASR-F-5-2F, etc)
 * move bypass fuse to only bypass mosfet.  shunt resistor should be solid
 * add 3.3v to 5.0v level shifter for rgb leds
+* add buffer to pwm pins: 74VHC540FT (or 74VHC541FT) or 74LVC540A (74LVC541A also works)
+  * 4 options, all tssop-20 package, interchangeable except for normal/inverting
+  * choose the most common / cheapest and all good
+  * add output enable pin from esp32-s3 to buffer
+  * also needs its own pullup resistor to keep it off during boot
+  * add pullup resistors to output of buffer to keep mosfets off during boot
   
 ##### I2C Addresses:
 
-* 1000000 - ina226 ch1 - 3pf
-* 1000001 - ina226 ch2
-* 1000010 - ina226 ch3
-* 1000011 - ina226 ch4
-* 1000100 - ina226 ch5
-* 1000101 - ina226 ch6
-* 1000110 - ina226 ch7
-* 1000111 - ina226 ch7
-* 1001000 - lm75 ch1 - 20pf
-* 1001001 - lm75 ch1
-* 1001010 - lm75 ch1
-* 1001011 - lm75 ch1
-* 1001100 - lm75 ch1
-* 1001101 - lm75 ch1
-* 1001110 - lm75 ch1
-* 1001111 - lm75 ch1
-* 1101000 - bus voltage - 10pf
