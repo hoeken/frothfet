@@ -10,15 +10,12 @@
 #### Rev F
 
 * usb 5v does not power ADC, buzzer, etc.
-* remove bleed circuit
 * add buffer to pwm pins: 74VHC540FT (or 74VHC541FT) or 74LVC540A (74LVC541A also works)
   * 4 options, all tssop-20 package, interchangeable except for normal/inverting
   * choose the most common / cheapest and all good
   * add output enable pin from esp32-s3 to buffer
   * also needs its own pullup resistor to keep it off during boot
   * add pullup resistors to output of buffer to keep mosfets off during boot
-* change to ina226 w/ 2mOhm / 3920 shunt resistor (C5224159, ASR-F-5-2F, etc)
-* move bypass resistor to only bypass mosfet.  shunt resistor should be solid
 * add temperature sensor close to current sense resistor or mosfet (LM75BDP)
   * temperature sensor should have copper from the power trace running underneath
 * switch to SMTSO3080CTJ for mounting holes - top
@@ -39,6 +36,9 @@
 * pulled in updated esp32-s3 schematic
 * remove adc vref schematic
 * remove mcp3526r adc schematic
+* remove bleed circuit
+* change to ina226 w/ 2mOhm / 3920 shunt resistor (C5224159, ASR-F-5-2F, etc)
+* move bypass fuse to only bypass mosfet.  shunt resistor should be solid
   
 ##### I2C Addresses:
 
