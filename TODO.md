@@ -9,6 +9,7 @@
 
 #### Rev F
 
+* usb 5v does not power ADC, buzzer, etc.
 * remove rtc clock
 * remove bleed circuit
 * remove adc vref
@@ -35,6 +36,10 @@
   * add spi connector
   * add ttl connector
   * or just a generic pin header
+  
+#### Rev F Done
+
+* pulled in updated esp32-s3 schematic
   
 ##### I2C Addresses:
 

@@ -5319,7 +5319,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3123cd4b-56d0-4092-bf0c-dfc442b3cec8")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR012"
 			(at 233.68 73.66 0)
 			(effects
 				(font
@@ -5369,35 +5369,35 @@
 		(instances
 			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/0eec6767-666b-42c0-ba36-2a83c9caeade"
-					(reference "#PWR015")
+					(reference "#PWR012")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/1e692482-a022-407a-8cb5-d9a3b23521a6"
-					(reference "#PWR035")
+					(reference "#PWR032")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/424e7b24-5644-46f2-85bb-1e459a343705"
-					(reference "#PWR065")
+					(reference "#PWR062")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/4c1df725-56ca-4be4-8107-a39054acbca4"
-					(reference "#PWR075")
+					(reference "#PWR072")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/5952e660-2bb6-45cf-b9ea-f7a7c2d0954e"
-					(reference "#PWR045")
+					(reference "#PWR042")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/772d44f5-8758-48db-a140-72ed8e75e88c"
-					(reference "#PWR055")
+					(reference "#PWR052")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/a8a81147-5613-4820-beb3-a7ca76d0db8e"
-					(reference "#PWR085")
+					(reference "#PWR082")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/ccdb1c25-8d0f-4f30-ab70-bbc1ecf3f6f7"
-					(reference "#PWR025")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -5646,7 +5646,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45978ab2-a682-4d6d-bada-521bd2df7ae4")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR04"
 			(at 81.28 85.09 0)
 			(effects
 				(font
@@ -5696,35 +5696,35 @@
 		(instances
 			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/0eec6767-666b-42c0-ba36-2a83c9caeade"
-					(reference "#PWR07")
+					(reference "#PWR04")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/1e692482-a022-407a-8cb5-d9a3b23521a6"
-					(reference "#PWR027")
+					(reference "#PWR024")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/424e7b24-5644-46f2-85bb-1e459a343705"
-					(reference "#PWR057")
+					(reference "#PWR054")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/4c1df725-56ca-4be4-8107-a39054acbca4"
-					(reference "#PWR067")
+					(reference "#PWR064")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/5952e660-2bb6-45cf-b9ea-f7a7c2d0954e"
-					(reference "#PWR037")
+					(reference "#PWR034")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/772d44f5-8758-48db-a140-72ed8e75e88c"
-					(reference "#PWR047")
+					(reference "#PWR044")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/a8a81147-5613-4820-beb3-a7ca76d0db8e"
-					(reference "#PWR077")
+					(reference "#PWR074")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/ccdb1c25-8d0f-4f30-ab70-bbc1ecf3f6f7"
-					(reference "#PWR017")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -5740,7 +5740,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4dcdc467-8636-4544-be2e-afebc3868d35")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR05"
 			(at 105.41 123.19 0)
 			(effects
 				(font
@@ -5790,35 +5790,35 @@
 		(instances
 			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/0eec6767-666b-42c0-ba36-2a83c9caeade"
-					(reference "#PWR08")
+					(reference "#PWR05")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/1e692482-a022-407a-8cb5-d9a3b23521a6"
-					(reference "#PWR028")
+					(reference "#PWR025")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/424e7b24-5644-46f2-85bb-1e459a343705"
-					(reference "#PWR058")
+					(reference "#PWR055")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/4c1df725-56ca-4be4-8107-a39054acbca4"
-					(reference "#PWR068")
+					(reference "#PWR065")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/5952e660-2bb6-45cf-b9ea-f7a7c2d0954e"
-					(reference "#PWR038")
+					(reference "#PWR035")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/772d44f5-8758-48db-a140-72ed8e75e88c"
-					(reference "#PWR048")
+					(reference "#PWR045")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/a8a81147-5613-4820-beb3-a7ca76d0db8e"
-					(reference "#PWR078")
+					(reference "#PWR075")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/ccdb1c25-8d0f-4f30-ab70-bbc1ecf3f6f7"
-					(reference "#PWR018")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -7060,7 +7060,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b3a3b15-1d58-4251-97a1-52130e258a2b")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR011"
 			(at 233.68 50.8 0)
 			(effects
 				(font
@@ -7110,35 +7110,35 @@
 		(instances
 			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/0eec6767-666b-42c0-ba36-2a83c9caeade"
-					(reference "#PWR014")
+					(reference "#PWR011")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/1e692482-a022-407a-8cb5-d9a3b23521a6"
-					(reference "#PWR034")
+					(reference "#PWR031")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/424e7b24-5644-46f2-85bb-1e459a343705"
-					(reference "#PWR064")
+					(reference "#PWR061")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/4c1df725-56ca-4be4-8107-a39054acbca4"
-					(reference "#PWR074")
+					(reference "#PWR071")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/5952e660-2bb6-45cf-b9ea-f7a7c2d0954e"
-					(reference "#PWR044")
+					(reference "#PWR041")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/772d44f5-8758-48db-a140-72ed8e75e88c"
-					(reference "#PWR054")
+					(reference "#PWR051")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/a8a81147-5613-4820-beb3-a7ca76d0db8e"
-					(reference "#PWR084")
+					(reference "#PWR081")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/ccdb1c25-8d0f-4f30-ab70-bbc1ecf3f6f7"
-					(reference "#PWR024")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -7275,7 +7275,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7a7edfb-0830-4d4c-9bdc-fde1c9b7a699")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR07"
 			(at 146.05 162.56 0)
 			(effects
 				(font
@@ -7325,35 +7325,35 @@
 		(instances
 			(project "8ch-mosfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/0eec6767-666b-42c0-ba36-2a83c9caeade"
-					(reference "#PWR010")
+					(reference "#PWR07")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/1e692482-a022-407a-8cb5-d9a3b23521a6"
-					(reference "#PWR030")
+					(reference "#PWR027")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/424e7b24-5644-46f2-85bb-1e459a343705"
-					(reference "#PWR060")
+					(reference "#PWR057")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/4c1df725-56ca-4be4-8107-a39054acbca4"
-					(reference "#PWR070")
+					(reference "#PWR067")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/5952e660-2bb6-45cf-b9ea-f7a7c2d0954e"
-					(reference "#PWR040")
+					(reference "#PWR037")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/772d44f5-8758-48db-a140-72ed8e75e88c"
-					(reference "#PWR050")
+					(reference "#PWR047")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/a8a81147-5613-4820-beb3-a7ca76d0db8e"
-					(reference "#PWR080")
+					(reference "#PWR077")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/ccdb1c25-8d0f-4f30-ab70-bbc1ecf3f6f7"
-					(reference "#PWR020")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -7623,7 +7623,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c0db417e-55c5-44d9-b28a-2feb68a9c4f9")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR06"
 			(at 114.3 152.4 0)
 			(effects
 				(font
@@ -7673,35 +7673,35 @@
 		(instances
 			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/0eec6767-666b-42c0-ba36-2a83c9caeade"
-					(reference "#PWR09")
+					(reference "#PWR06")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/1e692482-a022-407a-8cb5-d9a3b23521a6"
-					(reference "#PWR029")
+					(reference "#PWR026")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/424e7b24-5644-46f2-85bb-1e459a343705"
-					(reference "#PWR059")
+					(reference "#PWR056")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/4c1df725-56ca-4be4-8107-a39054acbca4"
-					(reference "#PWR069")
+					(reference "#PWR066")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/5952e660-2bb6-45cf-b9ea-f7a7c2d0954e"
-					(reference "#PWR039")
+					(reference "#PWR036")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/772d44f5-8758-48db-a140-72ed8e75e88c"
-					(reference "#PWR049")
+					(reference "#PWR046")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/a8a81147-5613-4820-beb3-a7ca76d0db8e"
-					(reference "#PWR079")
+					(reference "#PWR076")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/ccdb1c25-8d0f-4f30-ab70-bbc1ecf3f6f7"
-					(reference "#PWR019")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -7717,7 +7717,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cce7b568-e0e9-4537-9202-d8991bf69635")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR010"
 			(at 204.47 33.02 0)
 			(effects
 				(font
@@ -7767,35 +7767,35 @@
 		(instances
 			(project "8ch-mosfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/0eec6767-666b-42c0-ba36-2a83c9caeade"
-					(reference "#PWR013")
+					(reference "#PWR010")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/1e692482-a022-407a-8cb5-d9a3b23521a6"
-					(reference "#PWR033")
+					(reference "#PWR030")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/424e7b24-5644-46f2-85bb-1e459a343705"
-					(reference "#PWR063")
+					(reference "#PWR060")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/4c1df725-56ca-4be4-8107-a39054acbca4"
-					(reference "#PWR073")
+					(reference "#PWR070")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/5952e660-2bb6-45cf-b9ea-f7a7c2d0954e"
-					(reference "#PWR043")
+					(reference "#PWR040")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/772d44f5-8758-48db-a140-72ed8e75e88c"
-					(reference "#PWR053")
+					(reference "#PWR050")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/a8a81147-5613-4820-beb3-a7ca76d0db8e"
-					(reference "#PWR083")
+					(reference "#PWR080")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/ccdb1c25-8d0f-4f30-ab70-bbc1ecf3f6f7"
-					(reference "#PWR023")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -8079,7 +8079,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e75d7d1b-eee2-412f-aa5a-6bf5064be810")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR08"
 			(at 156.21 100.33 0)
 			(effects
 				(font
@@ -8129,35 +8129,35 @@
 		(instances
 			(project "8ch-mosfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/0eec6767-666b-42c0-ba36-2a83c9caeade"
-					(reference "#PWR011")
+					(reference "#PWR08")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/1e692482-a022-407a-8cb5-d9a3b23521a6"
-					(reference "#PWR031")
+					(reference "#PWR028")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/424e7b24-5644-46f2-85bb-1e459a343705"
-					(reference "#PWR061")
+					(reference "#PWR058")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/4c1df725-56ca-4be4-8107-a39054acbca4"
-					(reference "#PWR071")
+					(reference "#PWR068")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/5952e660-2bb6-45cf-b9ea-f7a7c2d0954e"
-					(reference "#PWR041")
+					(reference "#PWR038")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/772d44f5-8758-48db-a140-72ed8e75e88c"
-					(reference "#PWR051")
+					(reference "#PWR048")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/a8a81147-5613-4820-beb3-a7ca76d0db8e"
-					(reference "#PWR081")
+					(reference "#PWR078")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/ccdb1c25-8d0f-4f30-ab70-bbc1ecf3f6f7"
-					(reference "#PWR021")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -8405,7 +8405,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0ba7f73-e4fb-47d0-b3a0-d42317cca940")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR09"
 			(at 156.21 127 0)
 			(effects
 				(font
@@ -8455,35 +8455,35 @@
 		(instances
 			(project "8ch-mosfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/0eec6767-666b-42c0-ba36-2a83c9caeade"
-					(reference "#PWR012")
+					(reference "#PWR09")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/1e692482-a022-407a-8cb5-d9a3b23521a6"
-					(reference "#PWR032")
+					(reference "#PWR029")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/424e7b24-5644-46f2-85bb-1e459a343705"
-					(reference "#PWR062")
+					(reference "#PWR059")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/4c1df725-56ca-4be4-8107-a39054acbca4"
-					(reference "#PWR072")
+					(reference "#PWR069")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/5952e660-2bb6-45cf-b9ea-f7a7c2d0954e"
-					(reference "#PWR042")
+					(reference "#PWR039")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/772d44f5-8758-48db-a140-72ed8e75e88c"
-					(reference "#PWR052")
+					(reference "#PWR049")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/a8a81147-5613-4820-beb3-a7ca76d0db8e"
-					(reference "#PWR082")
+					(reference "#PWR079")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/ccdb1c25-8d0f-4f30-ab70-bbc1ecf3f6f7"
-					(reference "#PWR022")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -8499,7 +8499,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2118e5c-49d3-4c11-ba68-efdc8f16e4b6")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR03"
 			(at 36.83 119.38 0)
 			(effects
 				(font
@@ -8549,35 +8549,35 @@
 		(instances
 			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/0eec6767-666b-42c0-ba36-2a83c9caeade"
-					(reference "#PWR06")
+					(reference "#PWR03")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/1e692482-a022-407a-8cb5-d9a3b23521a6"
-					(reference "#PWR026")
+					(reference "#PWR023")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/424e7b24-5644-46f2-85bb-1e459a343705"
-					(reference "#PWR056")
+					(reference "#PWR053")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/4c1df725-56ca-4be4-8107-a39054acbca4"
-					(reference "#PWR066")
+					(reference "#PWR063")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/5952e660-2bb6-45cf-b9ea-f7a7c2d0954e"
-					(reference "#PWR036")
+					(reference "#PWR033")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/772d44f5-8758-48db-a140-72ed8e75e88c"
-					(reference "#PWR046")
+					(reference "#PWR043")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/a8a81147-5613-4820-beb3-a7ca76d0db8e"
-					(reference "#PWR076")
+					(reference "#PWR073")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/ccdb1c25-8d0f-4f30-ab70-bbc1ecf3f6f7"
-					(reference "#PWR016")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
