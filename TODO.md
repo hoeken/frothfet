@@ -10,10 +10,9 @@
 #### Rev F
 
 * test code from https://github.com/atomic14/esp32-s3-pinouts before doing the buffer chip.
-* usb 5v does not power ADC, buzzer, etc. (pull idea diode circuit from brineomatic)
+* add 24v esd and reverse polarity protection from brineomatic
 * temperature sensor should have copper from the power trace running underneath
 * switch to SMTSO3080CTJ for mounting holes - top
-* add 4x mount holes for board to case bottom - just in case
 * add test points for 3.3v, 5.0v, 24v, gnd, sda, scl, mosfet gate, load+, etc.
 * all test points -> 1.5x0.7mm
 * add a decent sized bulk capacitor on 24v - 220uF / 50v
@@ -38,6 +37,8 @@
   * add output enable pin from esp32-s3 to buffer
   * also needs its own pullup resistor to keep it off during boot
   * add pullup resistors to output of buffer to keep mosfets off during boot
+* usb 5v does not power ADC, buzzer, etc. (pull idea diode circuit from brineomatic)
+
   
 ##### I2C Addresses:
 
