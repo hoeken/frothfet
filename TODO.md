@@ -10,10 +10,7 @@
 #### Rev F
 
 * usb 5v does not power ADC, buzzer, etc.
-* remove rtc clock
 * remove bleed circuit
-* remove adc vref
-* remove mcp3526r
 * add buffer to pwm pins: 74VHC540FT (or 74VHC541FT) or 74LVC540A (74LVC541A also works)
   * 4 options, all tssop-20 package, interchangeable except for normal/inverting
   * choose the most common / cheapest and all good
@@ -40,6 +37,8 @@
 #### Rev F Done
 
 * pulled in updated esp32-s3 schematic
+* remove adc vref schematic
+* remove mcp3526r adc schematic
   
 ##### I2C Addresses:
 
