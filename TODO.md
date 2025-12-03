@@ -16,8 +16,7 @@
   * add output enable pin from esp32-s3 to buffer
   * also needs its own pullup resistor to keep it off during boot
   * add pullup resistors to output of buffer to keep mosfets off during boot
-* add temperature sensor close to current sense resistor or mosfet (LM75BDP)
-  * temperature sensor should have copper from the power trace running underneath
+* temperature sensor should have copper from the power trace running underneath
 * switch to SMTSO3080CTJ for mounting holes - top
 * add 4x mount holes for board to case bottom - just in case
 * add test points for 3.3v, 5.0v, 24v, gnd, sda, scl, mosfet gate, load+, etc.
