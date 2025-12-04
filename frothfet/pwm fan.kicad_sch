@@ -7,7 +7,7 @@
 	(title_block
 		(title "FrothFET 8CH")
 		(date "2024-08-21")
-		(rev "E")
+		(rev "F")
 		(company "https://github.com/hoeken/frothfet")
 	)
 	(lib_symbols
@@ -1651,7 +1651,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9599dc77-c049-4435-baa0-14030cb0194e")
-		(property "Reference" "#PWR0115"
+		(property "Reference" "#PWR0120"
 			(at 142.24 111.76 0)
 			(effects
 				(font
@@ -1701,11 +1701,11 @@
 		(instances
 			(project "8ch-mosfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/02f6e629-b0e2-41e8-b2e4-f0e125a92a71"
-					(reference "#PWR0118")
+					(reference "#PWR0123")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/ad82ad0c-2ba8-4934-bb2a-ed6e11658eb2"
-					(reference "#PWR0115")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -1818,7 +1818,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c563e27e-b844-43f9-aa39-6eab16be7df2")
-		(property "Reference" "#PWR0116"
+		(property "Reference" "#PWR0121"
 			(at 153.67 72.39 0)
 			(effects
 				(font
@@ -1868,11 +1868,11 @@
 		(instances
 			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/02f6e629-b0e2-41e8-b2e4-f0e125a92a71"
-					(reference "#PWR0119")
+					(reference "#PWR0124")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/ad82ad0c-2ba8-4934-bb2a-ed6e11658eb2"
-					(reference "#PWR0116")
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -1975,7 +1975,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc39e9e6-a8ba-4166-9cfa-165adfd43a8c")
-		(property "Reference" "#PWR0114"
+		(property "Reference" "#PWR0119"
 			(at 133.35 76.2 0)
 			(effects
 				(font
@@ -2025,11 +2025,11 @@
 		(instances
 			(project "8ch-mosfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/02f6e629-b0e2-41e8-b2e4-f0e125a92a71"
-					(reference "#PWR0117")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/ad82ad0c-2ba8-4934-bb2a-ed6e11658eb2"
-					(reference "#PWR0114")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)

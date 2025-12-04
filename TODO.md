@@ -12,11 +12,6 @@
 * test code from https://github.com/atomic14/esp32-s3-pinouts before doing the buffer chip.
 * change to 3 separate fuse clips for channel fuse (C41371870)
 * temperature sensor should have copper from the power trace running underneath
-* switch to SMTSO3080CTJ for mounting holes - top
-* extra IO
-  * add qwiic connector
-  * add spi connector
-  * generic pin header
   
 #### Rev F Done
 
@@ -36,6 +31,9 @@
 * usb 5v does not power ADC, buzzer, etc. (pull idea diode circuit from brineomatic)
 * add test points for 3.3v, 5.0v, 24v, gnd, sda, scl, mosfet gate, load+, etc.
 * all test points -> 1.5x0.7mm
-  
+* add qwiic connector
+* added generic pin header  
+* switch to SMTSO3080CTJ for mounting holes - top
+
 ##### I2C Addresses:
 

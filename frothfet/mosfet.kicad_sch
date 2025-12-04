@@ -7,10 +7,132 @@
 	(title_block
 		(title "FrothFET 8CH")
 		(date "2024-08-21")
-		(rev "E")
+		(rev "F")
 		(company "https://github.com/hoeken/frothfet")
 	)
 	(lib_symbols
+		(symbol "Connector:Conn_01x01_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01_Pin"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -2522,207 +2644,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "yarrboard:ATC Fuse Bypass"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "F"
-				(at 2.032 5.08 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "ATC Fuse Bypass"
-				(at -1.905 5.08 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 5.08 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Fuse"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "fuse"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*Fuse*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "ATC Fuse Bypass_0_1"
-				(rectangle
-					(start -0.762 2.54)
-					(end 0.762 7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -0.762 -7.62)
-					(end 0.762 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 7.62) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -7.62)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "ATC Fuse Bypass_1_1"
-				(pin passive line
-					(at 0 8.89 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -8.89 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "yarrboard:LM74502H"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2970,6 +2891,45 @@
 		(uuid 5bc5e38f-a419-41f0-abac-66135b57d02a)
 	)
 	(rectangle
+		(start 177.165 57.15)
+		(end 178.435 62.23)
+		(stroke
+			(width 0.3)
+			(type solid)
+			(color 132 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 757dbad3-2d58-4d3a-89b1-38d845ed5ba7)
+	)
+	(rectangle
+		(start 177.8 62.23)
+		(end 177.8 64.77)
+		(stroke
+			(width 0.3)
+			(type solid)
+			(color 132 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b6390bc6-1fdf-47a9-956a-9a780ab965d8)
+	)
+	(rectangle
+		(start 177.165 64.77)
+		(end 178.435 69.85)
+		(stroke
+			(width 0.3)
+			(type solid)
+			(color 132 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid cc343a01-2c6a-4e07-bb4a-f7c44a5d5637)
+	)
+	(rectangle
 		(start 144.78 148.59)
 		(end 147.32 151.13)
 		(stroke
@@ -3025,9 +2985,9 @@
 		)
 		(uuid "73961981-7860-4a87-a060-842054f96e5a")
 	)
-	(text "BYPASS\nFUSE"
+	(text "ATC\nBYPASS\nFUSE"
 		(exclude_from_sim no)
-		(at 165.862 62.738 0)
+		(at 165.862 65.278 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3106,26 +3066,6 @@
 			(justify left top)
 		)
 		(uuid "18a79630-b3e2-4489-83a8-02fa03d8af8b")
-	)
-	(text_box "Possible to replace with 3 x C41371870?\nC41355742 might be better?"
-		(exclude_from_sim no)
-		(at 130.175 36.83 0)
-		(size 47.625 7.62)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "6c448e1e-cabb-4f5e-a5be-cbad3e1e8be6")
 	)
 	(junction
 		(at 123.19 142.24)
@@ -3335,16 +3275,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 69.85) (xy 177.8 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18c02725-1385-4723-8bd3-bac30a218f10")
-	)
-	(wire
-		(pts
 			(xy 140.97 149.86) (xy 123.19 149.86)
 		)
 		(stroke
@@ -3422,6 +3352,16 @@
 			(type default)
 		)
 		(uuid "2758581c-8d78-403b-8457-65ffc3bbc5d3")
+	)
+	(wire
+		(pts
+			(xy 186.69 63.5) (xy 182.88 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28788a1a-a06c-4974-997f-cf5478242710")
 	)
 	(wire
 		(pts
@@ -3665,16 +3605,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 60.96) (xy 181.61 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83348c04-a293-4ede-9a80-12deb4e636ca")
-	)
-	(wire
-		(pts
 			(xy 245.11 104.14) (xy 245.11 105.41)
 		)
 		(stroke
@@ -3915,7 +3845,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 30.48) (xy 181.61 60.96)
+			(xy 186.69 59.69) (xy 186.69 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3932,6 +3862,16 @@
 			(type default)
 		)
 		(uuid "cd712419-4f88-4ca6-aa6b-4e2fe1e50935")
+	)
+	(wire
+		(pts
+			(xy 177.8 74.93) (xy 177.8 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf08d143-28ae-4725-baf3-27ae31a23f3c")
 	)
 	(wire
 		(pts
@@ -4758,7 +4698,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3123cd4b-56d0-4092-bf0c-dfc442b3cec8")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR053"
 			(at 232.41 77.47 0)
 			(effects
 				(font
@@ -4808,35 +4748,35 @@
 		(instances
 			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/0eec6767-666b-42c0-ba36-2a83c9caeade"
-					(reference "#PWR048")
+					(reference "#PWR053")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/1e692482-a022-407a-8cb5-d9a3b23521a6"
-					(reference "#PWR066")
+					(reference "#PWR071")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/424e7b24-5644-46f2-85bb-1e459a343705"
-					(reference "#PWR093")
+					(reference "#PWR098")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/4c1df725-56ca-4be4-8107-a39054acbca4"
-					(reference "#PWR0102")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/5952e660-2bb6-45cf-b9ea-f7a7c2d0954e"
-					(reference "#PWR075")
+					(reference "#PWR080")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/772d44f5-8758-48db-a140-72ed8e75e88c"
-					(reference "#PWR084")
+					(reference "#PWR089")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/a8a81147-5613-4820-beb3-a7ca76d0db8e"
-					(reference "#PWR0111")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/ccdb1c25-8d0f-4f30-ab70-bbc1ecf3f6f7"
-					(reference "#PWR057")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -4957,132 +4897,6 @@
 		)
 	)
 	(symbol
-		(lib_id "yarrboard:ATC Fuse Bypass")
-		(at 177.8 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3f7b9cb2-caa0-4b74-b3d2-bf6e0c14c2a2")
-		(property "Reference" "F1"
-			(at 179.324 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ATC Fuse Bypass"
-			(at 175.514 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "yarrboard:ATC Bypass Fuse"
-			(at 176.022 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 177.8 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fuse"
-			(at 177.8 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "534-3522-3 "
-			(at 177.8 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT" ""
-			(at 177.8 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C3204220"
-			(at 177.8 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c6f50d7d-c385-4d20-b3ff-d9d10289d6c6")
-		)
-		(pin "2"
-			(uuid "beb6504b-3022-45d9-a5f0-81f414b966f2")
-		)
-		(pin "3"
-			(uuid "4c374e70-c3ab-49b2-94a7-c12361675763")
-		)
-		(instances
-			(project "8ch-mosfet"
-				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/0eec6767-666b-42c0-ba36-2a83c9caeade"
-					(reference "F1")
-					(unit 1)
-				)
-				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/1e692482-a022-407a-8cb5-d9a3b23521a6"
-					(reference "F3")
-					(unit 1)
-				)
-				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/424e7b24-5644-46f2-85bb-1e459a343705"
-					(reference "F6")
-					(unit 1)
-				)
-				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/4c1df725-56ca-4be4-8107-a39054acbca4"
-					(reference "F7")
-					(unit 1)
-				)
-				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/5952e660-2bb6-45cf-b9ea-f7a7c2d0954e"
-					(reference "F4")
-					(unit 1)
-				)
-				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/772d44f5-8758-48db-a140-72ed8e75e88c"
-					(reference "F5")
-					(unit 1)
-				)
-				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/a8a81147-5613-4820-beb3-a7ca76d0db8e"
-					(reference "F8")
-					(unit 1)
-				)
-				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/ccdb1c25-8d0f-4f30-ab70-bbc1ecf3f6f7"
-					(reference "F2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 58.42 85.09 0)
 		(unit 1)
@@ -5092,7 +4906,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45978ab2-a682-4d6d-bada-521bd2df7ae4")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR047"
 			(at 58.42 91.44 0)
 			(effects
 				(font
@@ -5142,35 +4956,35 @@
 		(instances
 			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/0eec6767-666b-42c0-ba36-2a83c9caeade"
-					(reference "#PWR042")
+					(reference "#PWR047")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/1e692482-a022-407a-8cb5-d9a3b23521a6"
-					(reference "#PWR060")
+					(reference "#PWR065")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/424e7b24-5644-46f2-85bb-1e459a343705"
-					(reference "#PWR087")
+					(reference "#PWR092")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/4c1df725-56ca-4be4-8107-a39054acbca4"
-					(reference "#PWR096")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/5952e660-2bb6-45cf-b9ea-f7a7c2d0954e"
-					(reference "#PWR069")
+					(reference "#PWR074")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/772d44f5-8758-48db-a140-72ed8e75e88c"
-					(reference "#PWR078")
+					(reference "#PWR083")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/a8a81147-5613-4820-beb3-a7ca76d0db8e"
-					(reference "#PWR0105")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/ccdb1c25-8d0f-4f30-ab70-bbc1ecf3f6f7"
-					(reference "#PWR051")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -6143,7 +5957,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LM75B"
+		(property "Value" "LM75BD"
 			(at 247.2533 106.68 0)
 			(effects
 				(font
@@ -6152,7 +5966,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
 			(at 242.316 114.3 0)
 			(effects
 				(font
@@ -6179,7 +5993,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C34565"
+		(property "LCSC" "C18547812"
 			(at 245.11 114.3 0)
 			(effects
 				(font
@@ -6259,7 +6073,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b3a3b15-1d58-4251-97a1-52130e258a2b")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR052"
 			(at 232.41 53.34 0)
 			(effects
 				(font
@@ -6309,35 +6123,35 @@
 		(instances
 			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/0eec6767-666b-42c0-ba36-2a83c9caeade"
-					(reference "#PWR047")
+					(reference "#PWR052")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/1e692482-a022-407a-8cb5-d9a3b23521a6"
-					(reference "#PWR065")
+					(reference "#PWR070")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/424e7b24-5644-46f2-85bb-1e459a343705"
-					(reference "#PWR092")
+					(reference "#PWR097")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/4c1df725-56ca-4be4-8107-a39054acbca4"
-					(reference "#PWR0101")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/5952e660-2bb6-45cf-b9ea-f7a7c2d0954e"
-					(reference "#PWR074")
+					(reference "#PWR079")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/772d44f5-8758-48db-a140-72ed8e75e88c"
-					(reference "#PWR083")
+					(reference "#PWR088")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/a8a81147-5613-4820-beb3-a7ca76d0db8e"
-					(reference "#PWR0110")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/ccdb1c25-8d0f-4f30-ab70-bbc1ecf3f6f7"
-					(reference "#PWR056")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -6353,7 +6167,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97aa04ba-12e8-437e-a053-d2a66f0e78f2")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR049"
 			(at 161.29 99.06 0)
 			(effects
 				(font
@@ -6403,35 +6217,132 @@
 		(instances
 			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/0eec6767-666b-42c0-ba36-2a83c9caeade"
-					(reference "#PWR044")
+					(reference "#PWR049")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/1e692482-a022-407a-8cb5-d9a3b23521a6"
-					(reference "#PWR062")
+					(reference "#PWR067")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/424e7b24-5644-46f2-85bb-1e459a343705"
-					(reference "#PWR089")
+					(reference "#PWR094")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/4c1df725-56ca-4be4-8107-a39054acbca4"
-					(reference "#PWR098")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/5952e660-2bb6-45cf-b9ea-f7a7c2d0954e"
-					(reference "#PWR071")
+					(reference "#PWR076")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/772d44f5-8758-48db-a140-72ed8e75e88c"
-					(reference "#PWR080")
+					(reference "#PWR085")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/a8a81147-5613-4820-beb3-a7ca76d0db8e"
-					(reference "#PWR0107")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/ccdb1c25-8d0f-4f30-ab70-bbc1ecf3f6f7"
-					(reference "#PWR053")
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 177.8 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ce20330-846c-409c-8773-118e9df27ce4")
+		(property "Reference" "F2"
+			(at 179.07 56.5149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 176.53 55.2451 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "yarrboard:XFCN T507"
+			(at 177.8 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 177.8 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1321ec2e-1bd1-4234-a76d-a26b707d4dcd")
+		)
+		(instances
+			(project "frothfet"
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/0eec6767-666b-42c0-ba36-2a83c9caeade"
+					(reference "F2")
+					(unit 1)
+				)
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/1e692482-a022-407a-8cb5-d9a3b23521a6"
+					(reference "F9")
+					(unit 1)
+				)
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/424e7b24-5644-46f2-85bb-1e459a343705"
+					(reference "F18")
+					(unit 1)
+				)
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/4c1df725-56ca-4be4-8107-a39054acbca4"
+					(reference "F21")
+					(unit 1)
+				)
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/5952e660-2bb6-45cf-b9ea-f7a7c2d0954e"
+					(reference "F12")
+					(unit 1)
+				)
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/772d44f5-8758-48db-a140-72ed8e75e88c"
+					(reference "F15")
+					(unit 1)
+				)
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/a8a81147-5613-4820-beb3-a7ca76d0db8e"
+					(reference "F24")
+					(unit 1)
+				)
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/ccdb1c25-8d0f-4f30-ab70-bbc1ecf3f6f7"
+					(reference "F6")
 					(unit 1)
 				)
 			)
@@ -6447,7 +6358,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7a7edfb-0830-4d4c-9bdc-fde1c9b7a699")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR048"
 			(at 140.97 163.83 0)
 			(effects
 				(font
@@ -6497,35 +6408,35 @@
 		(instances
 			(project "8ch-mosfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/0eec6767-666b-42c0-ba36-2a83c9caeade"
-					(reference "#PWR043")
+					(reference "#PWR048")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/1e692482-a022-407a-8cb5-d9a3b23521a6"
-					(reference "#PWR061")
+					(reference "#PWR066")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/424e7b24-5644-46f2-85bb-1e459a343705"
-					(reference "#PWR088")
+					(reference "#PWR093")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/4c1df725-56ca-4be4-8107-a39054acbca4"
-					(reference "#PWR097")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/5952e660-2bb6-45cf-b9ea-f7a7c2d0954e"
-					(reference "#PWR070")
+					(reference "#PWR075")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/772d44f5-8758-48db-a140-72ed8e75e88c"
-					(reference "#PWR079")
+					(reference "#PWR084")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/a8a81147-5613-4820-beb3-a7ca76d0db8e"
-					(reference "#PWR0106")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/ccdb1c25-8d0f-4f30-ab70-bbc1ecf3f6f7"
-					(reference "#PWR052")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -6541,7 +6452,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b635e7e3-a371-440f-bfcb-b313a9b9d2f0")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR050"
 			(at 157.48 133.35 0)
 			(effects
 				(font
@@ -6591,35 +6502,131 @@
 		(instances
 			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/0eec6767-666b-42c0-ba36-2a83c9caeade"
-					(reference "#PWR045")
+					(reference "#PWR050")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/1e692482-a022-407a-8cb5-d9a3b23521a6"
-					(reference "#PWR063")
+					(reference "#PWR068")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/424e7b24-5644-46f2-85bb-1e459a343705"
-					(reference "#PWR090")
+					(reference "#PWR095")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/4c1df725-56ca-4be4-8107-a39054acbca4"
-					(reference "#PWR099")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/5952e660-2bb6-45cf-b9ea-f7a7c2d0954e"
-					(reference "#PWR072")
+					(reference "#PWR077")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/772d44f5-8758-48db-a140-72ed8e75e88c"
-					(reference "#PWR081")
+					(reference "#PWR086")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/a8a81147-5613-4820-beb3-a7ca76d0db8e"
-					(reference "#PWR0108")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/ccdb1c25-8d0f-4f30-ab70-bbc1ecf3f6f7"
-					(reference "#PWR054")
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 177.8 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6642565-f24d-4e0f-af64-a62f74a281c9")
+		(property "Reference" "F3"
+			(at 178.435 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 179.7049 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "yarrboard:XFCN T507"
+			(at 177.8 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 177.8 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b1210fd1-10e7-4bc4-8f8c-a71344484cfe")
+		)
+		(instances
+			(project "frothfet"
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/0eec6767-666b-42c0-ba36-2a83c9caeade"
+					(reference "F3")
+					(unit 1)
+				)
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/1e692482-a022-407a-8cb5-d9a3b23521a6"
+					(reference "F10")
+					(unit 1)
+				)
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/424e7b24-5644-46f2-85bb-1e459a343705"
+					(reference "F19")
+					(unit 1)
+				)
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/4c1df725-56ca-4be4-8107-a39054acbca4"
+					(reference "F22")
+					(unit 1)
+				)
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/5952e660-2bb6-45cf-b9ea-f7a7c2d0954e"
+					(reference "F13")
+					(unit 1)
+				)
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/772d44f5-8758-48db-a140-72ed8e75e88c"
+					(reference "F16")
+					(unit 1)
+				)
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/a8a81147-5613-4820-beb3-a7ca76d0db8e"
+					(reference "F25")
+					(unit 1)
+				)
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/ccdb1c25-8d0f-4f30-ab70-bbc1ecf3f6f7"
+					(reference "F7")
 					(unit 1)
 				)
 			)
@@ -7003,7 +7010,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 181.61 30.48 0)
+		(at 186.69 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7011,8 +7018,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cce7b568-e0e9-4537-9202-d8991bf69635")
-		(property "Reference" "#PWR046"
-			(at 181.61 34.29 0)
+		(property "Reference" "#PWR051"
+			(at 186.69 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7021,7 +7028,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 181.61 25.4 0)
+			(at 186.69 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7029,7 +7036,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.61 30.48 0)
+			(at 186.69 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7038,7 +7045,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 30.48 0)
+			(at 186.69 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7047,7 +7054,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 181.61 30.48 0)
+			(at 186.69 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7061,35 +7068,35 @@
 		(instances
 			(project "8ch-mosfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/0eec6767-666b-42c0-ba36-2a83c9caeade"
-					(reference "#PWR046")
+					(reference "#PWR051")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/1e692482-a022-407a-8cb5-d9a3b23521a6"
-					(reference "#PWR064")
+					(reference "#PWR069")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/424e7b24-5644-46f2-85bb-1e459a343705"
-					(reference "#PWR091")
+					(reference "#PWR096")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/4c1df725-56ca-4be4-8107-a39054acbca4"
-					(reference "#PWR0100")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/5952e660-2bb6-45cf-b9ea-f7a7c2d0954e"
-					(reference "#PWR073")
+					(reference "#PWR078")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/772d44f5-8758-48db-a140-72ed8e75e88c"
-					(reference "#PWR082")
+					(reference "#PWR087")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/a8a81147-5613-4820-beb3-a7ca76d0db8e"
-					(reference "#PWR0109")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/ccdb1c25-8d0f-4f30-ab70-bbc1ecf3f6f7"
-					(reference "#PWR055")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -7239,6 +7246,103 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 177.8 69.85 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0a304c9-a900-40e3-bc38-bc72ad9a458d")
+		(property "Reference" "F4"
+			(at 179.07 69.2149 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 179.07 71.7549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "yarrboard:XFCN T507"
+			(at 177.8 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 177.8 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52b45922-0311-4142-8bd2-877f0325ff5d")
+		)
+		(instances
+			(project ""
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/0eec6767-666b-42c0-ba36-2a83c9caeade"
+					(reference "F4")
+					(unit 1)
+				)
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/1e692482-a022-407a-8cb5-d9a3b23521a6"
+					(reference "J4")
+					(unit 1)
+				)
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/424e7b24-5644-46f2-85bb-1e459a343705"
+					(reference "J7")
+					(unit 1)
+				)
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/4c1df725-56ca-4be4-8107-a39054acbca4"
+					(reference "J8")
+					(unit 1)
+				)
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/5952e660-2bb6-45cf-b9ea-f7a7c2d0954e"
+					(reference "J5")
+					(unit 1)
+				)
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/772d44f5-8758-48db-a140-72ed8e75e88c"
+					(reference "J6")
+					(unit 1)
+				)
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/a8a81147-5613-4820-beb3-a7ca76d0db8e"
+					(reference "J9")
+					(unit 1)
+				)
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/ccdb1c25-8d0f-4f30-ab70-bbc1ecf3f6f7"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 134.62 142.24 0)
 		(unit 1)
@@ -7343,7 +7447,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3f4b351-b63c-4823-aa64-f8aa041451fd")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR055"
 			(at 245.11 130.81 0)
 			(effects
 				(font
@@ -7393,35 +7497,35 @@
 		(instances
 			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/0eec6767-666b-42c0-ba36-2a83c9caeade"
-					(reference "#PWR050")
+					(reference "#PWR055")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/1e692482-a022-407a-8cb5-d9a3b23521a6"
-					(reference "#PWR068")
+					(reference "#PWR073")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/424e7b24-5644-46f2-85bb-1e459a343705"
-					(reference "#PWR095")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/4c1df725-56ca-4be4-8107-a39054acbca4"
-					(reference "#PWR0104")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/5952e660-2bb6-45cf-b9ea-f7a7c2d0954e"
-					(reference "#PWR077")
+					(reference "#PWR082")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/772d44f5-8758-48db-a140-72ed8e75e88c"
-					(reference "#PWR086")
+					(reference "#PWR091")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/a8a81147-5613-4820-beb3-a7ca76d0db8e"
-					(reference "#PWR0113")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/ccdb1c25-8d0f-4f30-ab70-bbc1ecf3f6f7"
-					(reference "#PWR059")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -7437,7 +7541,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd33f23f-f8e9-4292-b8cc-ac3ab35e6bef")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR054"
 			(at 248.92 105.41 0)
 			(effects
 				(font
@@ -7487,35 +7591,35 @@
 		(instances
 			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/0eec6767-666b-42c0-ba36-2a83c9caeade"
-					(reference "#PWR049")
+					(reference "#PWR054")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/1e692482-a022-407a-8cb5-d9a3b23521a6"
-					(reference "#PWR067")
+					(reference "#PWR072")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/424e7b24-5644-46f2-85bb-1e459a343705"
-					(reference "#PWR094")
+					(reference "#PWR099")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/4c1df725-56ca-4be4-8107-a39054acbca4"
-					(reference "#PWR0103")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/5952e660-2bb6-45cf-b9ea-f7a7c2d0954e"
-					(reference "#PWR076")
+					(reference "#PWR081")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/772d44f5-8758-48db-a140-72ed8e75e88c"
-					(reference "#PWR085")
+					(reference "#PWR090")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/a8a81147-5613-4820-beb3-a7ca76d0db8e"
-					(reference "#PWR0112")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/ccdb1c25-8d0f-4f30-ab70-bbc1ecf3f6f7"
-					(reference "#PWR058")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
