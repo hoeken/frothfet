@@ -10,8 +10,6 @@
 #### Rev F
 
 * test code from https://github.com/atomic14/esp32-s3-pinouts before doing the buffer chip.
-* change to 3 separate fuse clips for channel fuse (C41371870)
-* temperature sensor should have copper from the power trace running underneath
   
 #### Rev F Done
 
@@ -34,6 +32,5 @@
 * add qwiic connector
 * added generic pin header  
 * switch to SMTSO3080CTJ for mounting holes - top
-
-##### I2C Addresses:
-
+* change to 3 separate fuse clips for channel fuse (C41371870)
+* temperature sensor should have copper from the power trace running underneath
