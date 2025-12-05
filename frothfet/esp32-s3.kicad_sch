@@ -6787,7 +6787,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "30dc939a-5559-4c76-a207-51474b247582")
-		(property "Reference" "R51"
+		(property "Reference" "R53"
 			(at 96.52 45.72 90)
 			(effects
 				(font
@@ -6911,7 +6911,7 @@
 			)
 			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/777fe0ac-daa5-4cfe-9bd1-5eba0a425019"
-					(reference "R51")
+					(reference "R53")
 					(unit 1)
 				)
 			)
@@ -8467,7 +8467,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91abd11a-e34b-47d2-a3c4-6c986a4d8ca0")
-		(property "Reference" "R54"
+		(property "Reference" "R56"
 			(at 237.49 38.0999 0)
 			(effects
 				(font
@@ -8521,7 +8521,7 @@
 		(instances
 			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/777fe0ac-daa5-4cfe-9bd1-5eba0a425019"
-					(reference "R54")
+					(reference "R56")
 					(unit 1)
 				)
 			)
@@ -11087,7 +11087,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e74a8e04-e99c-4cce-bf0b-fa886836f2eb")
-		(property "Reference" "R52"
+		(property "Reference" "R54"
 			(at 186.69 118.1099 0)
 			(effects
 				(font
@@ -11204,7 +11204,7 @@
 			)
 			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/777fe0ac-daa5-4cfe-9bd1-5eba0a425019"
-					(reference "R52")
+					(reference "R54")
 					(unit 1)
 				)
 			)
@@ -11297,7 +11297,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ea87ef47-bc4e-417f-98ca-2fe414aafbf9")
-		(property "Reference" "R50"
+		(property "Reference" "R52"
 			(at 96.52 38.1 90)
 			(effects
 				(font
@@ -11421,7 +11421,7 @@
 			)
 			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/777fe0ac-daa5-4cfe-9bd1-5eba0a425019"
-					(reference "R50")
+					(reference "R52")
 					(unit 1)
 				)
 			)
@@ -11647,7 +11647,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb33cef8-6775-46ee-b331-0bccd6f27bc9")
-		(property "Reference" "R53"
+		(property "Reference" "R55"
 			(at 223.52 118.1099 0)
 			(effects
 				(font
@@ -11764,7 +11764,7 @@
 			)
 			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/777fe0ac-daa5-4cfe-9bd1-5eba0a425019"
-					(reference "R53")
+					(reference "R55")
 					(unit 1)
 				)
 			)
