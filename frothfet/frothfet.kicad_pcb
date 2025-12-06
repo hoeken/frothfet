@@ -1776,7 +1776,7 @@
 			(net 16 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "15c0ca00-914d-469a-a174-d8047e510175")
+			(uuid "b1a99fe8-e10f-481f-81da-73bb477770d4")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.32 -3.105)
@@ -1788,7 +1788,7 @@
 			(net 16 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "15c0ca00-914d-469a-a174-d8047e510175")
+			(uuid "378dcac4-35aa-4836-984b-f23bf1676b5f")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.32 1.075)
@@ -1800,7 +1800,7 @@
 			(net 16 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "15c0ca00-914d-469a-a174-d8047e510175")
+			(uuid "c47db25e-fcf5-42ee-b7b0-f761d787ea0c")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.step"
@@ -14925,6 +14925,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C2883763"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d3d2447b-98e9-47dc-aefb-3c7acc71ef8b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/1149a4a6-6a1b-41ff-9baf-c2b2839cd0c2")
 		(sheetname "/")
@@ -22181,6 +22194,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2883763"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d16c1c14-1a02-44b1-8849-1e63e9f9c5cb")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -58249,6 +58275,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C780062"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "02b26209-12c5-4ca4-b69a-be82001011d0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/777fe0ac-daa5-4cfe-9bd1-5eba0a425019/2dd948a2-b5f6-4868-8b48-c482cd669920")
 		(sheetname "/ESP32-S3/")
@@ -65051,7 +65090,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C261919"
+		(property "LCSC" "C282411"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
