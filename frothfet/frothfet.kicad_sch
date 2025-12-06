@@ -2653,7 +2653,7 @@
 	)
 	(text "LOAD DRIVERS - 8 CHANNELS"
 		(exclude_from_sim no)
-		(at 158.75 22.86 0)
+		(at 160.02 22.86 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2864,10 +2864,10 @@
 		)
 		(uuid "27097d0c-4dfc-4291-b693-9a1100e83f0b")
 	)
-	(text_box "I2C Addresses:\n\n* 1000000 - INA226 ch1 (3pf)\n* 1000001 - INA226 ch2\n* 1000010 - INA226 ch3\n* 1000011 - INA226 ch4\n* 1000100 - INA226 ch5\n* 1000101 - INA226 ch6\n* 1000110 - INA226 ch7\n* 1000111 - INA226 ch8\n* 1001000 - LM75 ch1 (20pF)\n* 1001001 - LM75 ch2\n* 1001010 - LM75 ch3\n* 1001011 - LM75 ch4\n* 1001100 - LM75 ch5\n* 1001101 - LM75 ch6\n* 1001110 - LM75 ch7\n* 1001111 - LM75 ch8\n* 1101000 - MCP3425 (10pF)\n\nChip Capacitance: 194pF\nTrace Capacitance: ~25pF\nTotal Capacitance: 219pF"
+	(text_box "I2C Addresses:\n\n* 1000000 - INA226 ch1 (3pf)\n* 1000001 - INA226 ch2\n* 1000010 - INA226 ch3\n* 1000011 - INA226 ch4\n* 1000100 - INA226 ch5\n* 1000101 - INA226 ch6\n* 1000110 - INA226 ch7\n* 1000111 - INA226 ch8\n* 1001000 - LM75 ch1 (20pF)\n* 1001001 - LM75 ch2\n* 1001010 - LM75 ch3\n* 1001011 - LM75 ch4\n* 1001100 - LM75 ch5\n* 1001101 - LM75 ch6\n* 1001110 - LM75 ch7\n* 1001111 - LM75 ch8\n* 1101000 - MCP3425 (10pF)\n\nChip Capacitance: 194pF\nTrace Capacitance: 25pF\nTotal Capacitance: 219pF"
 		(exclude_from_sim no)
 		(at 238.125 31.115 0)
-		(size 33.02 54.61)
+		(size 33.02 50.165)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
