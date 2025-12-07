@@ -10,7 +10,6 @@
 #### Rev F
 
 * remove 0402 and 0805 parts from adc reg
-* change part to XFCN 508 instead of 507
 * change all leds to green
 * other layout / placement tweaks
 * check all silkscreens
@@ -41,3 +40,4 @@
 * temperature sensor should have copper from the power trace running underneath
 * changed pulldown to pullup on LM74502H OV pin (pwm)
 * added support for ALERT pin from INA226 for overcurrent protection (hopefully)
+* changed to XFCN 508 because 507 wasnt available on jlc

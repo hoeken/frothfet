@@ -8320,7 +8320,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6323f17c-2a96-4b73-a03c-6736fa7f617c")
-		(property "Reference" "TP22"
+		(property "Reference" "TP38"
 			(at 167.894 59.69 0)
 			(effects
 				(font
@@ -8372,7 +8372,7 @@
 		(instances
 			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef"
-					(reference "TP22")
+					(reference "TP38")
 					(unit 1)
 				)
 			)
@@ -8656,7 +8656,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6c87d15e-fece-4e44-b87d-3a3e3e184901")
-		(property "Reference" "TP20"
+		(property "Reference" "TP36"
 			(at 81.28 102.87 0)
 			(effects
 				(font
@@ -8708,7 +8708,7 @@
 		(instances
 			(project ""
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef"
-					(reference "TP20")
+					(reference "TP36")
 					(unit 1)
 				)
 			)
@@ -8811,7 +8811,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "72680bb2-b3bd-4ff4-9f07-4da197692201")
-		(property "Reference" "TP19"
+		(property "Reference" "TP35"
 			(at 56.896 33.02 0)
 			(effects
 				(font
@@ -8863,7 +8863,7 @@
 		(instances
 			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef"
-					(reference "TP19")
+					(reference "TP35")
 					(unit 1)
 				)
 			)
@@ -9123,7 +9123,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "903d14d0-d59f-4c72-8878-01cac77e007f")
-		(property "Reference" "TP23"
+		(property "Reference" "TP39"
 			(at 195.326 33.02 0)
 			(effects
 				(font
@@ -9175,7 +9175,7 @@
 		(instances
 			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef"
-					(reference "TP23")
+					(reference "TP39")
 					(unit 1)
 				)
 			)
@@ -9285,7 +9285,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "975a2861-32f7-46ff-a386-eacabb5eac72")
-		(property "Reference" "TP24"
+		(property "Reference" "TP40"
 			(at 258.826 33.02 0)
 			(effects
 				(font
@@ -9337,7 +9337,7 @@
 		(instances
 			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef"
-					(reference "TP24")
+					(reference "TP40")
 					(unit 1)
 				)
 			)
@@ -11352,7 +11352,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ee2fba7c-5c2c-4b3f-b49d-90f8ca79db82")
-		(property "Reference" "TP21"
+		(property "Reference" "TP37"
 			(at 135.636 33.02 0)
 			(effects
 				(font
@@ -11404,7 +11404,7 @@
 		(instances
 			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef"
-					(reference "TP21")
+					(reference "TP37")
 					(unit 1)
 				)
 			)
