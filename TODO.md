@@ -9,7 +9,9 @@
 
 #### Rev F
 
-* test code from https://github.com/atomic14/esp32-s3-pinouts before doing the buffer chip.
+* power led placement
+* other layout / placement tweaks
+* check all silkscreens
 * test bom and placement
   
 #### Rev F Done
