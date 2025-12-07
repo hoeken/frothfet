@@ -3992,6 +3992,12 @@
 		(uuid "2eccdf9c-ee9e-426e-870e-1adb34c128c5")
 	)
 	(junction
+		(at 58.42 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2edee8b6-487f-4b04-bd28-185e9208f36e")
+	)
+	(junction
 		(at 71.12 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4014,6 +4020,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3935d2b6-e6ab-41b0-a056-0364590c9f94")
+	)
+	(junction
+		(at 78.74 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e207aaf-e9cd-40e9-931c-dc6cbf0e2d95")
 	)
 	(junction
 		(at 275.59 119.38)
@@ -4046,6 +4058,12 @@
 		(uuid "440cc24a-d04e-49e1-96f8-339d25b6675f")
 	)
 	(junction
+		(at 254 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "442ad7c0-685c-4631-871a-e87bbdb1062e")
+	)
+	(junction
 		(at 236.22 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4056,12 +4074,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "478a1417-edc8-4c62-8a76-3d59fef7e7f1")
-	)
-	(junction
-		(at 264.16 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "48c2515b-126b-4be5-9140-76ce137aa3ec")
 	)
 	(junction
 		(at 168.91 127)
@@ -4136,22 +4148,16 @@
 		(uuid "7101c3fa-2f8b-4e1d-9361-1f502c5bf60b")
 	)
 	(junction
+		(at 266.7 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74a72491-42fa-4021-8441-4deae27b4161")
+	)
+	(junction
 		(at 151.13 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8861bcbf-0fe3-4ba4-98db-fd5d483e335d")
-	)
-	(junction
-		(at 57.15 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8a55f64b-b920-4aa7-8226-e5107b4e20da")
-	)
-	(junction
-		(at 77.47 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8b9df90e-4164-49e7-b153-4487626aae5f")
 	)
 	(junction
 		(at 96.52 101.6)
@@ -4190,10 +4196,10 @@
 		(uuid "a598982b-88ee-4929-9fe5-e8e3fda20897")
 	)
 	(junction
-		(at 57.15 38.1)
+		(at 260.35 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a5aeed07-2554-4ef3-abed-ca43197d16a0")
+		(uuid "a665f286-05ff-44f9-95ff-25d84e7ffc0e")
 	)
 	(junction
 		(at 82.55 128.27)
@@ -4206,6 +4212,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a8692438-e490-4fee-be9b-5619d58e17f0")
+	)
+	(junction
+		(at 58.42 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a98ce992-f47b-4453-8911-ae41f8c2b9e7")
 	)
 	(junction
 		(at 71.12 128.27)
@@ -4268,6 +4280,12 @@
 		(uuid "cfa455d9-aa16-4f10-8b2e-20eec880deaf")
 	)
 	(junction
+		(at 78.74 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d383840f-38e5-4936-93ad-b8cf789b9479")
+	)
+	(junction
 		(at 222.25 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4278,12 +4296,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "debda53d-e2a4-454e-9d19-9b7ea99882ee")
-	)
-	(junction
-		(at 66.04 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dfb07b48-68b3-42ee-b5ec-405f5d37e15f")
 	)
 	(junction
 		(at 275.59 104.14)
@@ -4316,12 +4328,6 @@
 		(uuid "f756cdbb-938b-4ec8-bf7a-ecce35c7097e")
 	)
 	(junction
-		(at 77.47 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fb1f6ffb-36fb-42c4-9ae1-0d3d75c78e38")
-	)
-	(junction
 		(at 146.05 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4329,7 +4335,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 38.1) (xy 57.15 38.1)
+			(xy 43.18 38.1) (xy 58.42 38.1)
 		)
 		(stroke
 			(width 0)
@@ -4429,13 +4435,13 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 38.1) (xy 270.51 38.1)
+			(xy 78.74 54.61) (xy 95.25 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "10ba0838-537b-45a7-80de-ed224c6062d3")
+		(uuid "10282825-58bb-465e-bf54-51b1ff177114")
 	)
 	(wire
 		(pts
@@ -4446,26 +4452,6 @@
 			(type default)
 		)
 		(uuid "132f2f62-abe9-406d-8bc6-b84c521f5b68")
-	)
-	(wire
-		(pts
-			(xy 77.47 38.1) (xy 82.55 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15311c89-edf8-4eee-980e-8244c37be1be")
-	)
-	(wire
-		(pts
-			(xy 57.15 54.61) (xy 77.47 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "157def6e-8b38-4af1-9f48-854ae940c9d8")
 	)
 	(wire
 		(pts
@@ -4799,7 +4785,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 38.1) (xy 264.16 38.1)
+			(xy 254 38.1) (xy 260.35 38.1)
 		)
 		(stroke
 			(width 0)
@@ -4829,6 +4815,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 38.1) (xy 254 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a7ab48a-74d1-4b46-afa4-299420c4b7a4")
+	)
+	(wire
+		(pts
 			(xy 45.72 101.6) (xy 19.05 101.6)
 		)
 		(stroke
@@ -4839,7 +4835,27 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 34.29) (xy 270.51 38.1)
+			(xy 30.48 179.07) (xy 30.48 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b78b5c0-9d89-4056-89e5-82659a6815f0")
+	)
+	(wire
+		(pts
+			(xy 266.7 38.1) (xy 266.7 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cd06452-7c18-4f00-a4e7-29e59637bfce")
+	)
+	(wire
+		(pts
+			(xy 266.7 29.21) (xy 266.7 38.1)
 		)
 		(stroke
 			(width 0)
@@ -5099,6 +5115,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 38.1) (xy 64.77 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78ff902e-b324-4292-aa77-94c6befb36ad")
+	)
+	(wire
+		(pts
 			(xy 128.27 118.11) (xy 128.27 127)
 		)
 		(stroke
@@ -5119,6 +5145,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 38.1) (xy 78.74 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d1409dc-3d44-414b-aa53-8a8827e6536e")
+	)
+	(wire
+		(pts
 			(xy 271.78 114.3) (xy 275.59 114.3)
 		)
 		(stroke
@@ -5129,7 +5165,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 49.53) (xy 77.47 54.61)
+			(xy 58.42 49.53) (xy 58.42 54.61)
 		)
 		(stroke
 			(width 0)
@@ -5139,13 +5175,13 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 48.26) (xy 57.15 54.61)
+			(xy 78.74 48.26) (xy 78.74 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7fb68c9b-ef4f-4fbf-9274-a3cdb18b9a52")
+		(uuid "7f72257b-fdc9-4cb1-9a9d-910f73733bcd")
 	)
 	(wire
 		(pts
@@ -5199,6 +5235,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 157.48) (xy 30.48 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8be2b242-8922-46cc-aacf-b0d38fb46015")
+	)
+	(wire
+		(pts
 			(xy 22.86 38.1) (xy 31.75 38.1)
 		)
 		(stroke
@@ -5206,6 +5252,26 @@
 			(type default)
 		)
 		(uuid "8cfb8206-5d93-4555-9f54-7cdd8728dda1")
+	)
+	(wire
+		(pts
+			(xy 78.74 38.1) (xy 95.25 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d6c8198-8d51-4a3c-bcef-d892ac45d8c7")
+	)
+	(wire
+		(pts
+			(xy 266.7 54.61) (xy 254 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dd94c3f-56df-4c75-a792-28fddac6c1d3")
 	)
 	(wire
 		(pts
@@ -5339,6 +5405,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 172.72) (xy 30.48 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2ab9a8d-eda5-4eb6-9929-91317aa9cbd4")
+	)
+	(wire
+		(pts
 			(xy 39.37 114.3) (xy 39.37 119.38)
 		)
 		(stroke
@@ -5396,16 +5472,6 @@
 			(type default)
 		)
 		(uuid "ac345a20-aa16-4ba1-9003-ddd3b14ca3a4")
-	)
-	(wire
-		(pts
-			(xy 57.15 38.1) (xy 66.04 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aea6b6f8-955b-4790-a80a-724c241a24d9")
 	)
 	(wire
 		(pts
@@ -5499,6 +5565,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 50.8) (xy 266.7 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8836dab-ff97-4a5e-9b38-eb6a727ae707")
+	)
+	(wire
+		(pts
 			(xy 260.35 97.79) (xy 260.35 101.6)
 		)
 		(stroke
@@ -5519,7 +5595,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 54.61) (xy 57.15 54.61)
+			(xy 43.18 54.61) (xy 58.42 54.61)
 		)
 		(stroke
 			(width 0)
@@ -5599,7 +5675,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 38.1) (xy 95.25 38.1)
+			(xy 72.39 38.1) (xy 78.74 38.1)
 		)
 		(stroke
 			(width 0)
@@ -5629,16 +5705,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 54.61) (xy 95.25 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc2a446b-c6b6-4fa5-9017-9e1c3464b24f")
-	)
-	(wire
-		(pts
 			(xy 43.18 39.37) (xy 43.18 38.1)
 		)
 		(stroke
@@ -5649,13 +5715,13 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 38.1) (xy 77.47 38.1)
+			(xy 58.42 54.61) (xy 78.74 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cf57072e-7672-4746-8273-0a8464ed2fe8")
+		(uuid "d0223b18-8e1b-465c-8677-f79dcfcbb5ad")
 	)
 	(wire
 		(pts
@@ -5909,17 +5975,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 38.1) (xy 254 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef50d8e1-5b4f-408a-ace4-833100c5298e")
-	)
-	(wire
-		(pts
-			(xy 77.47 38.1) (xy 77.47 41.91)
+			(xy 58.42 38.1) (xy 58.42 41.91)
 		)
 		(stroke
 			(width 0)
@@ -5959,6 +6015,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 38.1) (xy 266.7 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f39741d0-b66b-4fcf-ac5e-93a6e7fca7e7")
+	)
+	(wire
+		(pts
 			(xy 95.25 43.18) (xy 95.25 38.1)
 		)
 		(stroke
@@ -5966,16 +6032,6 @@
 			(type default)
 		)
 		(uuid "f4fa0fa9-3ab1-47f1-8687-39d9168c6f91")
-	)
-	(wire
-		(pts
-			(xy 57.15 38.1) (xy 57.15 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6a1f8b5-e53d-4282-a175-f51cb20f2628")
 	)
 	(wire
 		(pts
@@ -6200,7 +6256,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08ee7f53-52ae-4653-ba79-2fda3c39d717")
-		(property "Reference" "D32"
+		(property "Reference" "D33"
 			(at 158.75 111.76 90)
 			(effects
 				(font
@@ -6276,7 +6332,7 @@
 		(instances
 			(project "8ch-mosfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef"
-					(reference "D32")
+					(reference "D33")
 					(unit 1)
 				)
 			)
@@ -6292,7 +6348,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "09b82902-319f-4fac-9caa-a80231f07a33")
-		(property "Reference" "R44"
+		(property "Reference" "R45"
 			(at 45.72 49.5299 0)
 			(effects
 				(font
@@ -6364,7 +6420,7 @@
 		(instances
 			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef"
-					(reference "R44")
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -6380,7 +6436,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "09e49b99-fbb6-465d-8548-d054959096d2")
-		(property "Reference" "R49"
+		(property "Reference" "R50"
 			(at 256.54 49.5299 0)
 			(effects
 				(font
@@ -6452,7 +6508,7 @@
 		(instances
 			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef"
-					(reference "R49")
+					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -6738,7 +6794,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25c1b2f4-be5e-4b63-81ea-46cc50a3368e")
-		(property "Reference" "D33"
+		(property "Reference" "D34"
 			(at 177.165 47.9425 90)
 			(effects
 				(font
@@ -6819,7 +6875,7 @@
 		(instances
 			(project "8ch-mosfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef"
-					(reference "D33")
+					(reference "D34")
 					(unit 1)
 				)
 			)
@@ -7149,72 +7205,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 254 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4007fd20-0081-4c61-876f-569d3976b8bb")
-		(property "Reference" "#FLG08"
-			(at 254 36.195 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 254 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 254 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 254 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 254 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dfdb3e5d-cdb8-48c1-9fa1-774b7fc59514")
-		)
-		(instances
-			(project "8ch-mosfet"
-				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef"
-					(reference "#FLG08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 43.18 43.18 90)
 		(unit 1)
@@ -7224,7 +7214,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "486064b5-3ace-45cc-b02b-64171e7b140e")
-		(property "Reference" "D27"
+		(property "Reference" "D28"
 			(at 46.99 43.4974 90)
 			(effects
 				(font
@@ -7305,7 +7295,7 @@
 		(instances
 			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef"
-					(reference "D27")
+					(reference "D28")
 					(unit 1)
 				)
 			)
@@ -7321,7 +7311,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "494ef5df-61f2-4e0d-ac37-b8da08d14fb1")
-		(property "Reference" "#PWR0127"
+		(property "Reference" "#PWR0135"
 			(at 19.05 102.87 0)
 			(effects
 				(font
@@ -7371,7 +7361,7 @@
 		(instances
 			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef"
-					(reference "#PWR0127")
+					(reference "#PWR0135")
 					(unit 1)
 				)
 			)
@@ -7386,7 +7376,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4a30120f-87e8-4832-9cdd-943291938e4e")
-		(property "Reference" "C53"
+		(property "Reference" "C52"
 			(at 62.23 120.6563 0)
 			(effects
 				(font
@@ -7467,7 +7457,7 @@
 		(instances
 			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef"
-					(reference "C53")
+					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -7699,7 +7689,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4fe067d8-fbff-4c50-b9cf-62278b15687b")
-		(property "Reference" "#PWR0131"
+		(property "Reference" "#PWR0141"
 			(at 106.68 102.87 0)
 			(effects
 				(font
@@ -7749,7 +7739,161 @@
 		(instances
 			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef"
-					(reference "#PWR0131")
+					(reference "#PWR0141")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 30.48 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52aeae43-0c6c-450e-8e85-e0b9c26ade58")
+		(property "Reference" "#PWR0137"
+			(at 30.48 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 30.48 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 30.48 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc62540f-ab0c-462a-998f-ce037327c3fa")
+		)
+		(instances
+			(project "frothfet"
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef"
+					(reference "#PWR0137")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 30.48 168.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53970986-e10a-483a-8aef-cec1cdf28a01")
+		(property "Reference" "D27"
+			(at 34.29 169.2274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 34.29 171.7674 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 30.48 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 30.48 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 30.48 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 30.48 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ca31a7d-1ac6-4ac3-9f61-ab1f805ef96c")
+		)
+		(pin "2"
+			(uuid "6b266b1d-ae84-4532-8b54-07e5cb0ad804")
+		)
+		(instances
+			(project "frothfet"
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef"
+					(reference "D27")
 					(unit 1)
 				)
 			)
@@ -7948,7 +8092,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d84ae85-15ff-4d56-9f44-f4dfebcc1c60")
-		(property "Reference" "#PWR0135"
+		(property "Reference" "#PWR0145"
 			(at 156.21 137.16 0)
 			(effects
 				(font
@@ -7998,7 +8142,7 @@
 		(instances
 			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef"
-					(reference "#PWR0135")
+					(reference "#PWR0145")
 					(unit 1)
 				)
 			)
@@ -8015,7 +8159,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62ee1e78-39bd-49b0-83ed-bc9877e676bf")
-		(property "Reference" "#PWR0130"
+		(property "Reference" "#PWR0140"
 			(at 86.36 100.33 0)
 			(effects
 				(font
@@ -8065,7 +8209,7 @@
 		(instances
 			(project ""
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef"
-					(reference "#PWR0130")
+					(reference "#PWR0140")
 					(unit 1)
 				)
 			)
@@ -8324,15 +8468,15 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 77.47 45.72 90)
+		(at 58.42 45.72 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "6560d8b3-0840-40a5-bcaf-429df9d5b2b9")
-		(property "Reference" "D29"
-			(at 80.01 44.45 90)
+		(property "Reference" "D30"
+			(at 60.96 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8341,7 +8485,7 @@
 			)
 		)
 		(property "Value" "SMBJ30CA"
-			(at 80.01 46.99 90)
+			(at 60.96 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8350,7 +8494,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMB"
-			(at 77.47 45.72 0)
+			(at 58.42 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8359,7 +8503,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 77.47 45.72 0)
+			(at 58.42 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8368,7 +8512,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 77.47 45.72 0)
+			(at 58.42 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8377,7 +8521,7 @@
 			)
 		)
 		(property "LCSC" "C113999"
-			(at 77.47 45.72 90)
+			(at 58.42 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8386,7 +8530,7 @@
 			)
 		)
 		(property "ALT" ""
-			(at 77.47 45.72 0)
+			(at 58.42 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8403,7 +8547,7 @@
 		(instances
 			(project "8ch-mosfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef"
-					(reference "D29")
+					(reference "D30")
 					(unit 1)
 				)
 			)
@@ -8418,7 +8562,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6720a5b5-edd1-4c41-b36f-00b96b0dc131")
-		(property "Reference" "D28"
+		(property "Reference" "D29"
 			(at 49.2125 95.25 0)
 			(effects
 				(font
@@ -8497,7 +8641,7 @@
 		(instances
 			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef"
-					(reference "D28")
+					(reference "D29")
 					(unit 1)
 				)
 			)
@@ -8512,7 +8656,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6c87d15e-fece-4e44-b87d-3a3e3e184901")
-		(property "Reference" "TP19"
+		(property "Reference" "TP20"
 			(at 81.28 102.87 0)
 			(effects
 				(font
@@ -8564,7 +8708,7 @@
 		(instances
 			(project ""
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef"
-					(reference "TP19")
+					(reference "TP20")
 					(unit 1)
 				)
 			)
@@ -8580,7 +8724,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f96b9da-67c3-45a8-b668-f2f590ed2c9d")
-		(property "Reference" "R47"
+		(property "Reference" "R48"
 			(at 140.97 107.95 0)
 			(effects
 				(font
@@ -8652,7 +8796,7 @@
 		(instances
 			(project "8ch-mosfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef"
-					(reference "R47")
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -8660,15 +8804,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 66.04 38.1 0)
+		(at 58.42 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "72680bb2-b3bd-4ff4-9f07-4da197692201")
-		(property "Reference" "TP20"
-			(at 64.516 33.02 0)
+		(property "Reference" "TP19"
+			(at 56.896 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8677,7 +8821,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 68.58 36.0679 0)
+			(at 60.96 36.0679 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8687,7 +8831,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 71.12 38.1 0)
+			(at 63.5 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8696,7 +8840,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 71.12 38.1 0)
+			(at 63.5 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8705,7 +8849,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 66.04 38.1 0)
+			(at 58.42 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8719,7 +8863,73 @@
 		(instances
 			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef"
-					(reference "TP20")
+					(reference "TP19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 30.48 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7cf785c2-62a1-4c38-99a3-d8ae97f2775c")
+		(property "Reference" "#PWR0138"
+			(at 30.48 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 30.48 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 30.48 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7f24c03-53dc-4c50-bdf6-5f617319e174")
+		)
+		(instances
+			(project "frothfet"
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef"
+					(reference "#PWR0138")
 					(unit 1)
 				)
 			)
@@ -8848,7 +9058,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85406e35-85ad-4fbc-997f-a40609dd4b57")
-		(property "Reference" "#PWR0132"
+		(property "Reference" "#PWR0142"
 			(at 138.43 107.95 0)
 			(effects
 				(font
@@ -8898,7 +9108,7 @@
 		(instances
 			(project "8ch-mosfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef"
-					(reference "#PWR0132")
+					(reference "#PWR0142")
 					(unit 1)
 				)
 			)
@@ -9068,7 +9278,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 264.16 38.1 0)
+		(at 260.35 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -9076,7 +9286,7 @@
 		(dnp no)
 		(uuid "975a2861-32f7-46ff-a386-eacabb5eac72")
 		(property "Reference" "TP24"
-			(at 262.636 33.02 0)
+			(at 258.826 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9085,7 +9295,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 266.7 36.0679 0)
+			(at 262.89 36.0679 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9095,7 +9305,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 269.24 38.1 0)
+			(at 265.43 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9104,7 +9314,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 269.24 38.1 0)
+			(at 265.43 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9113,7 +9323,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 264.16 38.1 0)
+			(at 260.35 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9222,15 +9432,15 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_Small_US")
-		(at 57.15 45.72 0)
+		(at 78.74 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "9d0d4b3e-dac9-4b37-8bfa-6676b27025a6")
-		(property "Reference" "C52"
-			(at 59.436 44.958 0)
+		(property "Reference" "C54"
+			(at 81.026 44.958 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9239,7 +9449,7 @@
 			)
 		)
 		(property "Value" "100uF/35v"
-			(at 59.69 46.99 0)
+			(at 81.28 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9248,7 +9458,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
-			(at 57.15 45.72 0)
+			(at 78.74 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9257,7 +9467,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 57.15 45.72 0)
+			(at 78.74 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9266,7 +9476,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small US symbol"
-			(at 57.15 45.72 0)
+			(at 78.74 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9275,7 +9485,7 @@
 			)
 		)
 		(property "LCSC" "C2836442"
-			(at 57.15 45.72 0)
+			(at 78.74 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9284,7 +9494,7 @@
 			)
 		)
 		(property "Rotation Offset" "180"
-			(at 57.15 45.72 0)
+			(at 78.74 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9301,7 +9511,7 @@
 		(instances
 			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef"
-					(reference "C52")
+					(reference "C54")
 					(unit 1)
 				)
 			)
@@ -9317,7 +9527,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d1eeb93-f68e-4b5a-aef1-b22154330377")
-		(property "Reference" "D34"
+		(property "Reference" "D35"
 			(at 257.81 43.4974 90)
 			(effects
 				(font
@@ -9398,7 +9608,7 @@
 		(instances
 			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef"
-					(reference "D34")
+					(reference "D35")
 					(unit 1)
 				)
 			)
@@ -9414,7 +9624,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1c0d392-34f4-46ec-b498-6429fb461dac")
-		(property "Reference" "#PWR0138"
+		(property "Reference" "#PWR0148"
 			(at 275.59 130.81 0)
 			(effects
 				(font
@@ -9464,7 +9674,7 @@
 		(instances
 			(project "8ch-mosfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef"
-					(reference "#PWR0138")
+					(reference "#PWR0148")
 					(unit 1)
 				)
 			)
@@ -9480,7 +9690,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4e535cc-aa2e-4e66-bf6b-1e8aef612b4e")
-		(property "Reference" "#PWR0136"
+		(property "Reference" "#PWR0146"
 			(at 260.35 101.6 0)
 			(effects
 				(font
@@ -9530,7 +9740,7 @@
 		(instances
 			(project "8ch-mosfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef"
-					(reference "#PWR0136")
+					(reference "#PWR0146")
 					(unit 1)
 				)
 			)
@@ -9633,7 +9843,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab09d5f5-1dbf-430b-bf3d-865f5d515c87")
-		(property "Reference" "#PWR0133"
+		(property "Reference" "#PWR0143"
 			(at 156.21 64.77 0)
 			(effects
 				(font
@@ -9683,7 +9893,7 @@
 		(instances
 			(project "8ch-mosfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef"
-					(reference "#PWR0133")
+					(reference "#PWR0143")
 					(unit 1)
 				)
 			)
@@ -9699,7 +9909,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "addd814b-9364-4fd8-a35c-9c4e700dbfde")
-		(property "Reference" "R45"
+		(property "Reference" "R46"
 			(at 76.2 103.632 90)
 			(effects
 				(font
@@ -9769,7 +9979,94 @@
 		(instances
 			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef"
-					(reference "R45")
+					(reference "R46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS")
+		(at 266.7 46.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "af24bcfd-f085-4934-a507-421ddac1596c")
+		(property "Reference" "D36"
+			(at 269.24 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SMAJ5.0A"
+			(at 269.24 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 266.7 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 266.7 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 266.7 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C87074"
+			(at 266.7 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT" ""
+			(at 266.7 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "313d7636-660c-4f90-951f-4a029592b920")
+		)
+		(pin "2"
+			(uuid "ff4d5c63-2481-4e7a-89c2-fd6b905708e6")
+		)
+		(instances
+			(project "frothfet"
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef"
+					(reference "D36")
 					(unit 1)
 				)
 			)
@@ -9969,7 +10266,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 270.51 34.29 0)
+		(at 266.7 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9977,8 +10274,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2948f3f-e605-43ac-abed-0bba541b4f38")
-		(property "Reference" "#PWR0137"
-			(at 270.51 38.1 0)
+		(property "Reference" "#PWR0147"
+			(at 266.7 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9987,7 +10284,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 270.51 29.21 0)
+			(at 266.7 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9995,7 +10292,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 270.51 34.29 0)
+			(at 266.7 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10004,7 +10301,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 270.51 34.29 0)
+			(at 266.7 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10013,7 +10310,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 270.51 34.29 0)
+			(at 266.7 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10027,7 +10324,7 @@
 		(instances
 			(project "8ch-mosfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef"
-					(reference "#PWR0137")
+					(reference "#PWR0147")
 					(unit 1)
 				)
 			)
@@ -10043,7 +10340,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6081745-b62c-4e99-9bae-142343402f3f")
-		(property "Reference" "#PWR0129"
+		(property "Reference" "#PWR0139"
 			(at 49.53 137.16 0)
 			(effects
 				(font
@@ -10093,7 +10390,7 @@
 		(instances
 			(project ""
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef"
-					(reference "#PWR0129")
+					(reference "#PWR0139")
 					(unit 1)
 				)
 			)
@@ -10109,7 +10406,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "b8c48a17-5a83-452e-98bc-282256d7ca4d")
-		(property "Reference" "R46"
+		(property "Reference" "R47"
 			(at 101.6 103.632 90)
 			(effects
 				(font
@@ -10179,7 +10476,7 @@
 		(instances
 			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef"
-					(reference "R46")
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -10195,7 +10492,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4fbc678-f381-4076-9c55-3561e1eb05be")
-		(property "Reference" "R48"
+		(property "Reference" "R49"
 			(at 140.97 115.57 0)
 			(effects
 				(font
@@ -10267,7 +10564,7 @@
 		(instances
 			(project "8ch-mosfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef"
-					(reference "R48")
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -10385,7 +10682,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 86.36 38.1 180)
+		(at 68.58 38.1 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10393,8 +10690,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c94afec1-5bdd-489f-b849-f19511fd6e50")
-		(property "Reference" "D30"
-			(at 86.36 31.75 0)
+		(property "Reference" "D31"
+			(at 68.58 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10402,7 +10699,7 @@
 			)
 		)
 		(property "Value" "SS54"
-			(at 86.36 34.29 0)
+			(at 68.58 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10410,7 +10707,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 86.36 38.1 0)
+			(at 68.58 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10419,7 +10716,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 86.36 38.1 0)
+			(at 68.58 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10428,7 +10725,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 86.36 38.1 0)
+			(at 68.58 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10437,7 +10734,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 86.36 38.1 90)
+			(at 68.58 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10446,7 +10743,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 86.36 38.1 0)
+			(at 68.58 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10455,7 +10752,7 @@
 			)
 		)
 		(property "ALT" ""
-			(at 86.36 38.1 0)
+			(at 68.58 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10472,7 +10769,7 @@
 		(instances
 			(project "8ch-mosfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef"
-					(reference "D30")
+					(reference "D31")
 					(unit 1)
 				)
 			)
@@ -10488,7 +10785,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce526344-9746-4ecb-ae55-c3d19468e167")
-		(property "Reference" "#PWR0128"
+		(property "Reference" "#PWR0136"
 			(at 22.86 33.02 0)
 			(effects
 				(font
@@ -10538,7 +10835,7 @@
 		(instances
 			(project "8ch-mosfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef"
-					(reference "#PWR0128")
+					(reference "#PWR0136")
 					(unit 1)
 				)
 			)
@@ -10553,7 +10850,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d049088c-9ac0-4ffd-8ff7-0be67f913c03")
-		(property "Reference" "D31"
+		(property "Reference" "D32"
 			(at 95.25 120.65 90)
 			(effects
 				(font
@@ -10616,7 +10913,7 @@
 		(instances
 			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef"
-					(reference "D31")
+					(reference "D32")
 					(unit 1)
 				)
 			)
@@ -10728,7 +11025,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d3161808-0a85-4cec-bf37-5ccd0f9d2e1e")
-		(property "Reference" "C54"
+		(property "Reference" "C53"
 			(at 73.66 120.6563 0)
 			(effects
 				(font
@@ -10809,7 +11106,77 @@
 		(instances
 			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef"
-					(reference "C54")
+					(reference "C53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 30.48 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3189e57-b5ff-42b6-9a88-eaa2bc56f9fb")
+		(property "Reference" "R44"
+			(at 33.02 175.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 33.02 177.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 30.48 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 30.48 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4b2078c-8d43-4b2c-93f3-82aa7f441f4a")
+		)
+		(pin "2"
+			(uuid "bd393b0d-4e33-4651-9fa2-06e9b7a1cc82")
+		)
+		(instances
+			(project "frothfet"
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef"
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -11053,7 +11420,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "efc08251-479b-420d-8121-a2350b63707c")
-		(property "Reference" "#PWR0134"
+		(property "Reference" "#PWR0144"
 			(at 160.02 93.98 0)
 			(effects
 				(font
@@ -11103,7 +11470,7 @@
 		(instances
 			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef"
-					(reference "#PWR0134")
+					(reference "#PWR0144")
 					(unit 1)
 				)
 			)
