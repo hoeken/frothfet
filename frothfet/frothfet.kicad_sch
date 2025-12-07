@@ -5764,7 +5764,7 @@
 		(at 26.67 149.86 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "3c6f0f26-f10e-4b4a-8a0d-8ecdf3a54d63")
@@ -5814,6 +5814,15 @@
 		)
 		(property "ALT" ""
 			(at 26.67 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2916369"
+			(at 26.67 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7457,7 +7466,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "a4167764-c682-42f3-ae6a-e02e64f4d820")
@@ -7507,6 +7516,15 @@
 		)
 		(property "ALT" ""
 			(at 39.37 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2916369"
+			(at 39.37 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8072,7 +8090,7 @@
 		(at 26.67 143.51 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "c8c5b976-67b8-4c71-b558-3ba3f58bc55c")
@@ -8122,6 +8140,15 @@
 		)
 		(property "ALT" ""
 			(at 26.67 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2916369"
+			(at 26.67 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8431,7 +8458,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "df608621-6c39-4291-8161-8b80862f7ebd")
@@ -8481,6 +8508,15 @@
 		)
 		(property "ALT" ""
 			(at 39.37 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2916369"
+			(at 39.37 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)

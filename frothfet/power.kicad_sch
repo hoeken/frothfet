@@ -7023,7 +7023,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3588fa1e-e069-40af-9bd8-3c573e50ff58")
-		(property "Reference" "J9"
+		(property "Reference" "J2"
 			(at 251.714 99.06 0)
 			(effects
 				(font
@@ -7103,7 +7103,7 @@
 		(instances
 			(project ""
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef"
-					(reference "J9")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -8225,7 +8225,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "63160c16-57c4-455d-84ea-9aa82a2e5657")
-		(property "Reference" "J10"
+		(property "Reference" "J3"
 			(at 266.954 99.06 0)
 			(effects
 				(font
@@ -8305,7 +8305,7 @@
 		(instances
 			(project ""
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef"
-					(reference "J10")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -9353,7 +9353,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9825e74b-17db-4f95-8b50-d235a004a5c5")
-		(property "Reference" "F19"
+		(property "Reference" "F26"
 			(at 205.74 31.75 90)
 			(effects
 				(font
@@ -9424,7 +9424,7 @@
 		(instances
 			(project "8ch-mosfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef"
-					(reference "F19")
+					(reference "F26")
 					(unit 1)
 				)
 			)
@@ -9756,7 +9756,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a87cc96d-4c90-4c8d-a542-6c083dcc6578")
-		(property "Reference" "F18"
+		(property "Reference" "F25"
 			(at 34.29 31.75 90)
 			(effects
 				(font
@@ -9827,7 +9827,7 @@
 		(instances
 			(project "8ch-mosfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef"
-					(reference "F18")
+					(reference "F25")
 					(unit 1)
 				)
 			)

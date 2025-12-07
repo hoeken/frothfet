@@ -6785,7 +6785,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2dd948a2-b5f6-4868-8b48-c482cd669920")
-		(property "Reference" "J12"
+		(property "Reference" "J5"
 			(at 121.92 179.0699 0)
 			(effects
 				(font
@@ -6803,7 +6803,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical_SMD_Pin1Left"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical_SMD_Pin1Right"
 			(at 119.38 179.07 0)
 			(effects
 				(font
@@ -6851,7 +6851,7 @@
 			)
 			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/777fe0ac-daa5-4cfe-9bd1-5eba0a425019"
-					(reference "J12")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -10576,7 +10576,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cafa538a-9fc5-463f-867d-6e5ef0dc8380")
-		(property "Reference" "J11"
+		(property "Reference" "J4"
 			(at 68.58 27.94 0)
 			(effects
 				(font
@@ -10754,7 +10754,7 @@
 			)
 			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/777fe0ac-daa5-4cfe-9bd1-5eba0a425019"
-					(reference "J11")
+					(reference "J4")
 					(unit 1)
 				)
 			)

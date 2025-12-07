@@ -5007,7 +5007,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7R 0.1%"
+		(property "Value" "4.7R 1%"
 			(at 130.81 109.22 90)
 			(effects
 				(font
@@ -5453,7 +5453,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7R 0.1%"
+		(property "Value" "4.7R 1%"
 			(at 130.81 121.92 90)
 			(effects
 				(font
@@ -6515,6 +6515,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C41371870"
+			(at 177.8 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1321ec2e-1bd1-4234-a76d-a26b707d4dcd")
 		)
@@ -6525,27 +6534,27 @@
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/1e692482-a022-407a-8cb5-d9a3b23521a6"
-					(reference "F6")
+					(reference "F7")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/424e7b24-5644-46f2-85bb-1e459a343705"
-					(reference "F12")
+					(reference "F16")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/4c1df725-56ca-4be4-8107-a39054acbca4"
-					(reference "F14")
+					(reference "F19")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/5952e660-2bb6-45cf-b9ea-f7a7c2d0954e"
-					(reference "F8")
-					(unit 1)
-				)
-				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/772d44f5-8758-48db-a140-72ed8e75e88c"
 					(reference "F10")
 					(unit 1)
 				)
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/772d44f5-8758-48db-a140-72ed8e75e88c"
+					(reference "F13")
+					(unit 1)
+				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/a8a81147-5613-4820-beb3-a7ca76d0db8e"
-					(reference "F16")
+					(reference "F22")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/ccdb1c25-8d0f-4f30-ab70-bbc1ecf3f6f7"
@@ -6892,6 +6901,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C41371870"
+			(at 177.8 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b1210fd1-10e7-4bc4-8f8c-a71344484cfe")
 		)
@@ -6902,27 +6920,27 @@
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/1e692482-a022-407a-8cb5-d9a3b23521a6"
-					(reference "F7")
+					(reference "F8")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/424e7b24-5644-46f2-85bb-1e459a343705"
-					(reference "F13")
+					(reference "F17")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/4c1df725-56ca-4be4-8107-a39054acbca4"
-					(reference "F15")
+					(reference "F20")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/5952e660-2bb6-45cf-b9ea-f7a7c2d0954e"
-					(reference "F9")
-					(unit 1)
-				)
-				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/772d44f5-8758-48db-a140-72ed8e75e88c"
 					(reference "F11")
 					(unit 1)
 				)
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/772d44f5-8758-48db-a140-72ed8e75e88c"
+					(reference "F14")
+					(unit 1)
+				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/a8a81147-5613-4820-beb3-a7ca76d0db8e"
-					(reference "F17")
+					(reference "F23")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/ccdb1c25-8d0f-4f30-ab70-bbc1ecf3f6f7"
@@ -7233,6 +7251,24 @@
 			)
 		)
 		(property "Description" "High-Side or Low-Side Measurement, Bi-Directional Current and Power Monitor (0-36V) with I2C Compatible Interface, VSSOP-10"
+			(at 157.48 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2653870"
+			(at 157.48 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rotation Offset" "270"
 			(at 157.48 111.76 0)
 			(effects
 				(font
@@ -7715,6 +7751,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C41371870"
+			(at 177.8 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "52b45922-0311-4142-8bd2-877f0325ff5d")
 		)
@@ -7725,31 +7770,31 @@
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/1e692482-a022-407a-8cb5-d9a3b23521a6"
-					(reference "J3")
+					(reference "F9")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/424e7b24-5644-46f2-85bb-1e459a343705"
-					(reference "J6")
+					(reference "F18")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/4c1df725-56ca-4be4-8107-a39054acbca4"
-					(reference "J7")
+					(reference "F21")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/5952e660-2bb6-45cf-b9ea-f7a7c2d0954e"
-					(reference "J4")
+					(reference "F12")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/772d44f5-8758-48db-a140-72ed8e75e88c"
-					(reference "J5")
+					(reference "F15")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/a8a81147-5613-4820-beb3-a7ca76d0db8e"
-					(reference "J8")
+					(reference "F24")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/ccdb1c25-8d0f-4f30-ab70-bbc1ecf3f6f7"
-					(reference "J2")
+					(reference "F6")
 					(unit 1)
 				)
 			)

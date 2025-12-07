@@ -9,7 +9,9 @@
 
 #### Rev F
 
-* power led placement
+* remove 0402 and 0805 parts from adc reg
+* change part to XFCN 508 instead of 507
+* change all leds to green
 * other layout / placement tweaks
 * check all silkscreens
 * test bom and placement
