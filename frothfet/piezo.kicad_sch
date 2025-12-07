@@ -982,7 +982,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03b68a61-7956-49f6-80df-f982b9623b23")
-		(property "Reference" "R52"
+		(property "Reference" "R60"
 			(at 127 104.1399 0)
 			(effects
 				(font
@@ -1036,7 +1036,7 @@
 		(instances
 			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/13bd1484-e1d0-414c-b70b-256f3904dbbc"
-					(reference "R52")
+					(reference "R60")
 					(unit 1)
 				)
 			)
@@ -1052,7 +1052,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47843b63-a255-4398-80c2-b4a913c3cd53")
-		(property "Reference" "R51"
+		(property "Reference" "R59"
 			(at 119.38 93.98 90)
 			(effects
 				(font
@@ -1104,7 +1104,7 @@
 		(instances
 			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/13bd1484-e1d0-414c-b70b-256f3904dbbc"
-					(reference "R51")
+					(reference "R59")
 					(unit 1)
 				)
 			)

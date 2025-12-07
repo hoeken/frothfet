@@ -36,3 +36,4 @@
 * change to 3 separate fuse clips for channel fuse (C41371870)
 * temperature sensor should have copper from the power trace running underneath
 * changed pulldown to pullup on LM74502H OV pin (pwm)
+* added support for ALERT pin from INA226 for overcurrent protection (hopefully)
