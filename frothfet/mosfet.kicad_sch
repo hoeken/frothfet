@@ -3192,10 +3192,10 @@
 		)
 		(uuid "18a79630-b3e2-4489-83a8-02fa03d8af8b")
 	)
-	(text_box "PWM / OV is inverted."
+	(text_box "PWM / OV is inverted.\nLOW = ON | HIGH = OFF"
 		(exclude_from_sim no)
-		(at 43.18 74.93 0)
-		(size 24.13 3.175)
+		(at 39.37 74.93 0)
+		(size 27.94 5.715)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -3918,7 +3918,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 73.66) (xy 52.07 73.66)
+			(xy 45.72 73.66) (xy 52.07 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4410,7 +4410,7 @@
 	)
 	(hierarchical_label "PWM"
 		(shape input)
-		(at 46.99 73.66 180)
+		(at 45.72 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
