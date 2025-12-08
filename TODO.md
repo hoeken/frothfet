@@ -9,7 +9,8 @@
 
 #### Rev F
 
-* test bom and placement
+* test a basic arduino sketch to make sure we can support 8 gpio interrupts
+* get lcsc numbers for the bom
   
 #### Rev F Done
 
