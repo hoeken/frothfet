@@ -7223,7 +7223,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RED"
+		(property "Value" "GREEN"
 			(at 46.99 46.0374 90)
 			(effects
 				(font
@@ -7259,7 +7259,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2286"
+		(property "LCSC" ""
 			(at 43.18 43.18 0)
 			(effects
 				(font
@@ -9536,7 +9536,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RED"
+		(property "Value" "GREEN"
 			(at 257.81 46.0374 90)
 			(effects
 				(font
@@ -9572,7 +9572,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2286"
+		(property "LCSC" ""
 			(at 254 43.18 0)
 			(effects
 				(font

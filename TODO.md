@@ -9,8 +9,6 @@
 
 #### Rev F
 
-* remove 0402 and 0805 parts from adc reg
-* change all leds to green
 * other layout / placement tweaks
 * check all silkscreens
 * test bom and placement
