@@ -9,8 +9,6 @@
 
 #### Rev F
 
-* other layout / placement tweaks
-* check all silkscreens
 * test bom and placement
   
 #### Rev F Done
