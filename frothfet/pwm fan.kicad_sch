@@ -1485,7 +1485,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "18fa4b4f-ad68-4670-ae55-4c7d1c857ab3")
-		(property "Reference" "D25"
+		(property "Reference" "D33"
 			(at 156.21 95.25 90)
 			(effects
 				(font
@@ -1548,11 +1548,11 @@
 		(instances
 			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/02f6e629-b0e2-41e8-b2e4-f0e125a92a71"
-					(reference "D26")
+					(reference "D34")
 					(unit 1)
 				)
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/ad82ad0c-2ba8-4934-bb2a-ed6e11658eb2"
-					(reference "D25")
+					(reference "D33")
 					(unit 1)
 				)
 			)

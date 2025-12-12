@@ -9,6 +9,7 @@
 
 #### Rev F
 
+* switch to rt7272 for 24v -> 5v regulator
 * test a basic arduino sketch to make sure we can support 8 gpio interrupts
 * get lcsc numbers for the bom
   
@@ -38,3 +39,4 @@
 * changed pulldown to pullup on LM74502H OV pin (pwm)
 * added support for ALERT pin from INA226 for overcurrent protection (hopefully)
 * changed to XFCN 508 because 507 wasnt available on jlc
+* add esd protection to each channel output
