@@ -5034,7 +5034,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C527089.pdf"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10976,7 +10976,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C501508.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10989,7 +10989,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "MOSFET N-CH 40V 247A TDSON-8FL"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11595,7 +11595,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5219203.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11607,7 +11607,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SOT-23-8-THIN OR Controllers, Ideal Diodes RoHS"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -13325,7 +13325,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5219203.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -13337,7 +13337,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SOT-23-8-THIN OR Controllers, Ideal Diodes RoHS"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -19035,7 +19035,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C527089.pdf"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19693,7 +19693,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C391033.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21366,7 +21366,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5219203.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -21378,7 +21378,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SOT-23-8-THIN OR Controllers, Ideal Diodes RoHS"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -21761,7 +21761,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5219203.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -21773,7 +21773,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SOT-23-8-THIN OR Controllers, Ideal Diodes RoHS"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -23270,7 +23270,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C527089.pdf"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35702,7 +35702,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C501508.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35715,7 +35715,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "MOSFET N-CH 40V 247A TDSON-8FL"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36107,7 +36107,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C501508.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36120,7 +36120,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "MOSFET N-CH 40V 247A TDSON-8FL"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -38226,7 +38226,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C527089.pdf"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43417,7 +43417,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C501508.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43430,7 +43430,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "MOSFET N-CH 40V 247A TDSON-8FL"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -44770,7 +44770,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C527089.pdf"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -46485,7 +46485,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C527089.pdf"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -49225,7 +49225,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5219203.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -49237,7 +49237,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SOT-23-8-THIN OR Controllers, Ideal Diodes RoHS"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -54001,7 +54001,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5219203.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -54013,7 +54013,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SOT-23-8-THIN OR Controllers, Ideal Diodes RoHS"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -54396,7 +54396,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5219203.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -54408,7 +54408,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SOT-23-8-THIN OR Controllers, Ideal Diodes RoHS"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -56096,7 +56096,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C501508.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -56109,7 +56109,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "MOSFET N-CH 40V 247A TDSON-8FL"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -59286,7 +59286,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5219203.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -59298,7 +59298,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SOT-23-8-THIN OR Controllers, Ideal Diodes RoHS"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -60551,7 +60551,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C527089.pdf"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -61078,7 +61078,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C527089.pdf"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -61698,7 +61698,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C501508.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -61711,7 +61711,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "MOSFET N-CH 40V 247A TDSON-8FL"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -69642,7 +69642,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C501508.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -69655,7 +69655,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "MOSFET N-CH 40V 247A TDSON-8FL"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -70848,7 +70848,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahc541.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C113281.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -71653,7 +71653,7 @@
 				)
 			)
 		)
-		(property "Value" "BAT54S"
+		(property "Value" "BAV199"
 			(at 0 2.4 90)
 			(layer "F.Fab")
 			(uuid "f6558ba6-64ca-4342-8db6-6f8612a74283")
@@ -71664,7 +71664,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds11005.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C40919.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -71690,7 +71690,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C727126"
+		(property "LCSC" "C40919"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -72482,7 +72482,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C501508.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -72495,7 +72495,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "MOSFET N-CH 40V 247A TDSON-8FL"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")

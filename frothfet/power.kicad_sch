@@ -6235,7 +6235,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BAT54S"
+		(property "Value" "BAV199"
 			(at 158.75 114.3 90)
 			(effects
 				(font
@@ -6254,7 +6254,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds11005.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C40919.pdf"
 			(at 156.21 116.078 0)
 			(effects
 				(font
@@ -6272,7 +6272,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C727126"
+		(property "LCSC" "C40919"
 			(at 156.21 113.03 90)
 			(effects
 				(font
