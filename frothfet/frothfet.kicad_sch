@@ -3668,7 +3668,7 @@
 	)
 	(global_label "SCL"
 		(shape input)
-		(at 57.15 110.49 180)
+		(at 57.15 107.95 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3678,7 +3678,7 @@
 		)
 		(uuid "2506adca-af9c-4137-8cf0-77c1054bee7e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.6572 110.49 0)
+			(at 50.6572 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4856,7 +4856,7 @@
 	)
 	(global_label "SDA"
 		(shape input)
-		(at 57.15 107.95 180)
+		(at 57.15 110.49 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4866,7 +4866,7 @@
 		)
 		(uuid "f6d311bd-f8db-4d82-97c6-4c9db0c02ca6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.5967 107.95 0)
+			(at 50.5967 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
