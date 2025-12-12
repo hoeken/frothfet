@@ -9,7 +9,6 @@
 
 #### Rev F
 
-* switch to rt7272 for 24v -> 5v regulator
 * test a basic arduino sketch to make sure we can support 8 gpio interrupts
 * get lcsc numbers for the bom
   
