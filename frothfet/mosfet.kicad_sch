@@ -5341,7 +5341,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C527089.pdf"
 			(at 234.95 69.215 0)
 			(effects
 				(font
@@ -6201,7 +6201,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5219203.pdf"
 			(at 82.55 66.04 0)
 			(effects
 				(font
@@ -6210,7 +6210,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SOT-23-8-THIN OR Controllers, Ideal Diodes RoHS"
 			(at 82.55 66.04 0)
 			(effects
 				(font
@@ -7730,7 +7730,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C501508.pdf"
 			(at 125.73 63.5 0)
 			(effects
 				(font
@@ -7740,7 +7740,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "MOSFET N-CH 40V 247A TDSON-8FL"
 			(at 120.65 59.69 0)
 			(effects
 				(font

@@ -5069,7 +5069,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahc541.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C113281.pdf"
 			(at 60.96 53.34 0)
 			(effects
 				(font
