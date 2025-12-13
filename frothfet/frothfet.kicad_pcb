@@ -2097,7 +2097,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25804"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3324,6 +3324,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C23186"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3a0f3b79-50d3-477c-84ce-3195af2b91d9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/777fe0ac-daa5-4cfe-9bd1-5eba0a425019/f0b7dd37-f9ef-4e8d-91d2-3b0fc45069e9")
 		(sheetname "/ESP32-S3/")
@@ -3750,7 +3763,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25804"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4179,7 +4192,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x01_Pin"
+		(property "Value" "T508"
 			(at 0 -2 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4217,7 +4230,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C41371870"
+		(property "LCSC" "C41355742"
 			(at 0 5.4 0)
 			(layer "Dwgs.User")
 			(hide yes)
@@ -4298,7 +4311,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x01_Pin"
+		(property "Value" "T508"
 			(at 0 -2 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4336,7 +4349,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C41371870"
+		(property "LCSC" "C41355742"
 			(at 0 5.4 0)
 			(layer "Dwgs.User")
 			(hide yes)
@@ -4832,7 +4845,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25804"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5451,7 +5464,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C844794"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7689,7 +7702,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C12624"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11041,6 +11054,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C501508"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7c1bec7b-a8cd-49c9-a03a-1fe5b742db6e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "DirectFET*ME*")
 		(path "/a8a81147-5613-4820-beb3-a7ca76d0db8e/baff1051-5781-4312-ae63-79bcb60ee398")
 		(sheetname "/CHANNEL 8/")
@@ -12193,7 +12219,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x01_Pin"
+		(property "Value" "T508"
 			(at 0 -2 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12231,7 +12257,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C41371870"
+		(property "LCSC" "C41355742"
 			(at 0 5.4 0)
 			(layer "Dwgs.User")
 			(hide yes)
@@ -12347,7 +12373,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25804"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13984,7 +14010,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C21189"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16507,6 +16533,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C25803"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "99684059-c664-4118-8e79-40a4af21c0a3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/ad82ad0c-2ba8-4934-bb2a-ed6e11658eb2/e0d6d45c-8f22-4a59-abd9-5e3d303b10a8")
 		(sheetname "/FAN1/")
@@ -16709,7 +16748,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25803"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17377,7 +17416,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x01_Pin"
+		(property "Value" "T508"
 			(at 0 -2 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17415,7 +17454,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C41371870"
+		(property "LCSC" "C41355742"
 			(at 0 5.4 0)
 			(layer "Dwgs.User")
 			(hide yes)
@@ -18261,7 +18300,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25804"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18451,7 +18490,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x01_Pin"
+		(property "Value" "T508"
 			(at 0 -2 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18489,7 +18528,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C41371870"
+		(property "LCSC" "C41355742"
 			(at 0 5.4 0)
 			(layer "Dwgs.User")
 			(hide yes)
@@ -18605,7 +18644,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25804"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18833,7 +18872,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C21189"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19346,7 +19385,7 @@
 				)
 			)
 		)
-		(property "Mouser" " 579-MCP1754ST3302EMB "
+		(property "Mouser" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19365,6 +19404,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a65577a4-23bc-421d-9efb-326fd65697c1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2862740"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7747006c-b737-47e8-950d-de7f5767190f")
 			(effects
 				(font
 					(size 1 1)
@@ -20030,7 +20082,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25804"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20529,7 +20581,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C844794"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20754,7 +20806,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C844794"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22758,7 +22810,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25804"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27505,7 +27557,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C4190"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27903,7 +27955,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C22775"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28572,7 +28624,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x01_Pin"
+		(property "Value" "T508"
 			(at 0 -2 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28610,7 +28662,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C41371870"
+		(property "LCSC" "C41355742"
 			(at 0 5.4 0)
 			(layer "Dwgs.User")
 			(hide yes)
@@ -29176,7 +29228,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x01_Pin"
+		(property "Value" "T508"
 			(at 0 -2 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29214,7 +29266,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C41371870"
+		(property "LCSC" "C41355742"
 			(at 0 5.4 0)
 			(layer "Dwgs.User")
 			(hide yes)
@@ -29664,6 +29716,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C25803"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6ab425b2-a2a3-4ca7-88ae-dfdadbbff5d2")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -30321,7 +30386,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C844794"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30758,7 +30823,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C844794"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32447,7 +32512,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x01_Pin"
+		(property "Value" "T508"
 			(at 0 -2 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32485,7 +32550,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C41371870"
+		(property "LCSC" "C41355742"
 			(at 0 5.4 0)
 			(layer "Dwgs.User")
 			(hide yes)
@@ -33349,7 +33414,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25804"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35767,6 +35832,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C501508"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6a513e9a-7d87-47dd-8f24-f306ecda9d4c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "DirectFET*ME*")
 		(path "/ccdb1c25-8d0f-4f30-ab70-bbc1ecf3f6f7/baff1051-5781-4312-ae63-79bcb60ee398")
 		(sheetname "/CHANNEL 2/")
@@ -36165,6 +36243,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5f5e0254-a0cb-4cbd-a338-925515b8a891")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C501508"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "52bf5b5c-7a53-4f19-8f90-ab1133d6d8ac")
 			(effects
 				(font
 					(size 1 1)
@@ -36642,7 +36733,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25804"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36867,7 +36958,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C844794"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -37750,7 +37841,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C844794"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39741,7 +39832,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C844794"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -40149,7 +40240,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C21189"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41401,7 +41492,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x01_Pin"
+		(property "Value" "T508"
 			(at 0 -2 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41439,7 +41530,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C41371870"
+		(property "LCSC" "C41355742"
 			(at 0 5.4 0)
 			(layer "Dwgs.User")
 			(hide yes)
@@ -42243,7 +42334,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x01_Pin"
+		(property "Value" "T508"
 			(at 0 -2 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42281,7 +42372,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C41371870"
+		(property "LCSC" "C41355742"
 			(at 0 5.4 0)
 			(layer "Dwgs.User")
 			(hide yes)
@@ -43475,6 +43566,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d0f72869-63e2-46d2-89b8-c1df450aee8c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C501508"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f0c22dce-e657-411a-bb92-f95039314eb2")
 			(effects
 				(font
 					(size 1 1)
@@ -45046,7 +45150,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x01_Pin"
+		(property "Value" "T508"
 			(at 0 -2 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -45084,7 +45188,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C41371870"
+		(property "LCSC" "C41355742"
 			(at 0 5.4 0)
 			(layer "Dwgs.User")
 			(hide yes)
@@ -45412,7 +45516,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C23186"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -45796,7 +45900,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25804"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -46035,7 +46139,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C12624"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -46798,6 +46902,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C22775"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3b7ef96a-f7d8-4e8e-a1f0-0eb8b60d748a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/13bd1484-e1d0-414c-b70b-256f3904dbbc/47843b63-a255-4398-80c2-b4a913c3cd53")
 		(sheetname "/Piezo Buzzer/")
@@ -46997,7 +47114,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25804"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -47597,6 +47714,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C25804"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c55394d2-7b5b-4391-88c5-2def82d1f042")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/777fe0ac-daa5-4cfe-9bd1-5eba0a425019/e74a8e04-e99c-4cce-bf0b-fa886836f2eb")
 		(sheetname "/ESP32-S3/")
@@ -48082,7 +48212,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C844794"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -48272,7 +48402,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x01_Pin"
+		(property "Value" "T508"
 			(at 0 -2 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -48310,7 +48440,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C41371870"
+		(property "LCSC" "C41355742"
 			(at 0 5.4 0)
 			(layer "Dwgs.User")
 			(hide yes)
@@ -48426,7 +48556,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C844794"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -48881,7 +49011,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x01_Pin"
+		(property "Value" "T508"
 			(at 0 -2 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -48919,7 +49049,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C41371870"
+		(property "LCSC" "C41355742"
 			(at 0 5.4 0)
 			(layer "Dwgs.User")
 			(hide yes)
@@ -49037,7 +49167,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25804"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -50255,7 +50385,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x01_Pin"
+		(property "Value" "T508"
 			(at 0 -2 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -50293,7 +50423,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C41371870"
+		(property "LCSC" "C41355742"
 			(at 0 5.4 0)
 			(layer "Dwgs.User")
 			(hide yes)
@@ -50648,7 +50778,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C844794"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -51283,7 +51413,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x01_Pin"
+		(property "Value" "T508"
 			(at 0 -2 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -51321,7 +51451,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C41371870"
+		(property "LCSC" "C41355742"
 			(at 0 5.4 0)
 			(layer "Dwgs.User")
 			(hide yes)
@@ -51677,7 +51807,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25804"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -52933,7 +53063,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C4190"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -53536,7 +53666,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25804"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -53819,6 +53949,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "25bb1843-fc65-45c1-a317-c313a7a5b2e9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C25804"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "52276b84-eb49-459b-b7b8-1ff860d7e28c")
 			(effects
 				(font
 					(size 1 1)
@@ -55724,7 +55867,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C23186"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -55966,7 +56109,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x01_Pin"
+		(property "Value" "T508"
 			(at 0 -2 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -56004,7 +56147,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C41371870"
+		(property "LCSC" "C41355742"
 			(at 0 5.4 0)
 			(layer "Dwgs.User")
 			(hide yes)
@@ -56154,6 +56297,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cbeb875c-1b8a-40af-a1f5-2e7c485e402f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C501508"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "98204cb4-5d7a-4f6f-ba4e-d2ae5e8e47a3")
 			(effects
 				(font
 					(size 1 1)
@@ -57536,7 +57692,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C22775"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -57761,7 +57917,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C844794"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -58504,7 +58660,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x01_Pin"
+		(property "Value" "T508"
 			(at 0 -2 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -58542,7 +58698,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C41371870"
+		(property "LCSC" "C41355742"
 			(at 0 5.4 0)
 			(layer "Dwgs.User")
 			(hide yes)
@@ -61763,6 +61919,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C501508"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d5a8130a-1f9e-405f-86bd-6ec98e29a8b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "DirectFET*ME*")
 		(path "/5952e660-2bb6-45cf-b9ea-f7a7c2d0954e/baff1051-5781-4312-ae63-79bcb60ee398")
 		(sheetname "/CHANNEL 4/")
@@ -63483,7 +63652,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C844794"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -64011,7 +64180,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x01_Pin"
+		(property "Value" "T508"
 			(at 0 -2 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -64049,7 +64218,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C41371870"
+		(property "LCSC" "C41355742"
 			(at 0 5.4 0)
 			(layer "Dwgs.User")
 			(hide yes)
@@ -64512,7 +64681,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25804"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -66023,7 +66192,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C844794"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -68218,6 +68387,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C25803"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0620922c-e6a0-49a3-b903-d5f7642d113f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/02f6e629-b0e2-41e8-b2e4-f0e125a92a71/e0d6d45c-8f22-4a59-abd9-5e3d303b10a8")
 		(sheetname "/FAN2/")
@@ -68382,7 +68564,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x01_Pin"
+		(property "Value" "T508"
 			(at 0 -2 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -68420,7 +68602,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C41371870"
+		(property "LCSC" "C41355742"
 			(at 0 5.4 0)
 			(layer "Dwgs.User")
 			(hide yes)
@@ -68618,7 +68800,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x01_Pin"
+		(property "Value" "T508"
 			(at 0 -2 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -68656,7 +68838,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C41371870"
+		(property "LCSC" "C41355742"
 			(at 0 5.4 0)
 			(layer "Dwgs.User")
 			(hide yes)
@@ -68775,7 +68957,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25804"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -69707,6 +69889,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C501508"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4e9fd56d-b93f-45a7-b352-dce854ad6571")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "DirectFET*ME*")
 		(path "/772d44f5-8758-48db-a140-72ed8e75e88c/baff1051-5781-4312-ae63-79bcb60ee398")
 		(sheetname "/CHANNEL 5/")
@@ -70073,7 +70268,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25804"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -71534,7 +71729,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x01_Pin"
+		(property "Value" "T508"
 			(at 0 -2 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -71572,7 +71767,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C41371870"
+		(property "LCSC" "C41355742"
 			(at 0 5.4 0)
 			(layer "Dwgs.User")
 			(hide yes)
@@ -72006,7 +72201,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x01_Pin"
+		(property "Value" "T508"
 			(at 0 -2 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -72044,7 +72239,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C41371870"
+		(property "LCSC" "C41355742"
 			(at 0 5.4 0)
 			(layer "Dwgs.User")
 			(hide yes)
@@ -72540,6 +72735,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "417a205d-5290-41a2-8c61-d33328a86d28")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C501508"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed1a63c5-5751-465b-8108-e0a5532e1aa5")
 			(effects
 				(font
 					(size 1 1)
@@ -73325,7 +73533,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C12624"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -74405,7 +74613,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x01_Pin"
+		(property "Value" "T508"
 			(at 0 -2 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -74443,7 +74651,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C41371870"
+		(property "LCSC" "C41355742"
 			(at 0 5.4 0)
 			(layer "Dwgs.User")
 			(hide yes)
@@ -74524,7 +74732,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x01_Pin"
+		(property "Value" "T508"
 			(at 0 -2 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -74562,7 +74770,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C41371870"
+		(property "LCSC" "C41355742"
 			(at 0 5.4 0)
 			(layer "Dwgs.User")
 			(hide yes)
@@ -74678,7 +74886,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C844794"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -75190,7 +75398,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C844794"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -77131,7 +77339,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25804"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -77581,7 +77789,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25804"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")

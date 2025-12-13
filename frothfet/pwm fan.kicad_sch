@@ -1613,7 +1613,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25804"
 			(at 153.67 73.66 0)
 			(effects
 				(font
@@ -2090,6 +2090,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25803"
+			(at 119.38 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f9ea0c53-c258-4838-adfd-4dc373532d86")
 		)
@@ -2162,7 +2171,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C22775"
 			(at 115.57 96.52 0)
 			(effects
 				(font

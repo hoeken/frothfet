@@ -1027,6 +1027,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25803"
+			(at 124.46 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9f351699-ec8c-4ca0-8052-058b42dbb6b9")
 		)
@@ -1088,6 +1097,15 @@
 		)
 		(property "Description" ""
 			(at 119.38 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22775"
+			(at 119.38 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
