@@ -9,7 +9,6 @@
 
 #### Rev F
 
-* pull in brineomatic esp32 schematic
 * 24v esd needs to be first
 * update 24v to 5v power supply with brineomatic one
 * beef up the 5v rail traces
