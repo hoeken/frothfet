@@ -9,8 +9,6 @@
 
 #### Rev F
 
-* 24v esd needs to be first
-* update 24v to 5v power supply with brineomatic one
 * beef up the 5v rail traces
 * beef up the 3.3v rail traces
 * add test points to the bottom for each signal
