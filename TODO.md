@@ -9,7 +9,12 @@
 
 #### Rev F
 
-* test a basic arduino sketch to make sure we can support 8 gpio interrupts
+* pull in brineomatic esp32 schematic
+* 24v esd needs to be first
+* update 24v to 5v power supply with brineomatic one
+* beef up the 5v rail traces
+* beef up the 3.3v rail traces
+* add test points to the bottom for each signal
 * get lcsc numbers for the bom
   
 #### Rev F Done
