@@ -92,19 +92,19 @@
           ""
         ],
         [
-          "hole_clearance|193400000|117000000|9f2b508e-b3f7-42f0-9d1b-54db89fe0617|5d6baf1d-1026-41bf-a1bb-0ceed29fd7ad",
+          "hole_clearance|193400000|117000000|5d6baf1d-1026-41bf-a1bb-0ceed29fd7ad|9f2b508e-b3f7-42f0-9d1b-54db89fe0617",
           ""
         ],
         [
-          "hole_clearance|193400000|49000000|a6febd84-8f6b-4db3-a188-a1eac088fed4|2b514f8f-dfe5-48fe-9185-98f242891996",
+          "hole_clearance|193400000|49000000|2b514f8f-dfe5-48fe-9185-98f242891996|a6febd84-8f6b-4db3-a188-a1eac088fed4",
           ""
         ],
         [
-          "hole_clearance|56600000|151400000|53b82404-504b-43e2-b36b-ec303a95e514|cac653c5-eda7-437a-9c33-2d3e5a4ef456",
+          "hole_clearance|56600000|151400000|cac653c5-eda7-437a-9c33-2d3e5a4ef456|53b82404-504b-43e2-b36b-ec303a95e514",
           ""
         ],
         [
-          "hole_clearance|56600000|31600000|abc725a0-68fe-4f04-92d1-c714d232c0b9|726f06ee-e516-43d6-9b1a-3bde82753016",
+          "hole_clearance|56600000|31600000|726f06ee-e516-43d6-9b1a-3bde82753016|abc725a0-68fe-4f04-92d1-c714d232c0b9",
           ""
         ],
         [
@@ -787,6 +787,12 @@
           "group_by": false,
           "label": "LCSC Part Name",
           "name": "LCSC Part Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PN",
+          "name": "PN",
           "show": false
         }
       ],
