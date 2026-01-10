@@ -6568,7 +6568,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+		(property "Footprint" "yarrboard:TestPoint_THTPad_D1.0mm_Drill0.5mm"
 			(at 88.9 111.76 0)
 			(effects
 				(font
@@ -7178,7 +7178,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+		(property "Footprint" "yarrboard:TestPoint_THTPad_D1.0mm_Drill0.5mm"
 			(at 88.9 106.68 0)
 			(effects
 				(font

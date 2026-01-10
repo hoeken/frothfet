@@ -8278,7 +8278,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+		(property "Footprint" "yarrboard:TestPoint_THTPad_D1.0mm_Drill0.5mm"
 			(at 185.42 29.21 0)
 			(effects
 				(font

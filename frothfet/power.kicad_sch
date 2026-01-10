@@ -8397,7 +8397,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+		(property "Footprint" "yarrboard:TestPoint_THTPad_D1.0mm_Drill0.5mm"
 			(at 160.02 54.61 0)
 			(effects
 				(font
@@ -8576,7 +8576,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+		(property "Footprint" "yarrboard:TestPoint_THTPad_D1.0mm_Drill0.5mm"
 			(at 63.5 78.74 0)
 			(effects
 				(font
@@ -9590,7 +9590,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+		(property "Footprint" "yarrboard:TestPoint_THTPad_D1.0mm_Drill0.5mm"
 			(at 93.98 110.49 0)
 			(effects
 				(font
@@ -9824,7 +9824,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+		(property "Footprint" "yarrboard:TestPoint_THTPad_D1.0mm_Drill0.5mm"
 			(at 58.42 49.53 0)
 			(effects
 				(font
@@ -10338,7 +10338,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+		(property "Footprint" "yarrboard:TestPoint_THTPad_D1.0mm_Drill0.5mm"
 			(at 48.26 78.74 0)
 			(effects
 				(font
@@ -11955,7 +11955,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+		(property "Footprint" "yarrboard:TestPoint_THTPad_D1.0mm_Drill0.5mm"
 			(at 245.11 54.61 0)
 			(effects
 				(font
