@@ -3515,6 +3515,16 @@
 		)
 		(uuid d512ef62-93a2-41a5-8e96-362802e1d3bb)
 	)
+	(text "T507\nTYPE"
+		(exclude_from_sim no)
+		(at 189.23 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "10124ce0-c8f7-4f78-b831-92f97dc1900c")
+	)
 	(text "Temperature Sensing"
 		(exclude_from_sim no)
 		(at 210.82 95.885 0)
@@ -3547,6 +3557,16 @@
 			(justify left bottom)
 		)
 		(uuid "62e2d3a4-54c3-4038-a79d-c5d859257641")
+	)
+	(text "T508\nTYPE"
+		(exclude_from_sim no)
+		(at 171.45 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "67419226-ecba-47e9-ab0d-f6997f4f1017")
 	)
 	(text "Status LED"
 		(exclude_from_sim no)
@@ -6926,7 +6946,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C41355742"
+		(property "LCSC" "C41371870"
 			(at 189.23 63.5 0)
 			(effects
 				(font
@@ -7725,7 +7745,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C41355742"
+		(property "LCSC" "C41371870"
 			(at 189.23 57.15 90)
 			(effects
 				(font
@@ -7926,7 +7946,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C41355742"
+		(property "LCSC" "C41371870"
 			(at 189.23 69.85 90)
 			(effects
 				(font
