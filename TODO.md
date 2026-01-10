@@ -9,10 +9,11 @@
 
 #### Rev F
 
-* beef up the 5v rail traces
-* beef up the 3.3v rail traces
+* ground vias
+* silkscreen
+* change test point symbol for user vs manufacture
 * add test points to the bottom for each signal
-* get lcsc numbers for the bom
+* update bom and placement
   
 #### Rev F Done
 
@@ -41,3 +42,7 @@
 * added support for ALERT pin from INA226 for overcurrent protection (hopefully)
 * changed to XFCN 508 because 507 wasnt available on jlc
 * add esd protection to each channel output
+* changed 5v regulator to RT7272B (from brineomatic)
+* updated ESP32-S3 schematic
+* added partial 3.3v power plane
+* beefed up 5v traces
