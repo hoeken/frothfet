@@ -4237,6 +4237,12 @@
 		(uuid "1531a2aa-003f-4f94-9a66-0fe4842400ab")
 	)
 	(junction
+		(at 184.15 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c6dcbac-bba5-4ac0-a57a-15d24e49d9e0")
+	)
+	(junction
 		(at 54.61 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4247,6 +4253,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "21d9b5d6-e466-48b7-816b-fcdd1e4e7689")
+	)
+	(junction
+		(at 162.56 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24d4a5bb-aa05-441d-abbe-52b6258e4746")
 	)
 	(junction
 		(at 50.8 50.8)
@@ -4555,6 +4567,18 @@
 		(uuid "babc7719-117c-4d46-b98c-a3f4c87b71e2")
 	)
 	(junction
+		(at 45.72 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd03df43-6c40-4268-9bf6-95e35e428d09")
+	)
+	(junction
+		(at 172.72 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6145ee8-ac31-4303-8b20-feccb1326658")
+	)
+	(junction
 		(at 176.53 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4656,7 +4680,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 50.8) (xy 50.8 50.8)
+			(xy 38.1 50.8) (xy 45.72 50.8)
 		)
 		(stroke
 			(width 0)
@@ -4696,7 +4720,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 109.22) (xy 111.76 111.76)
+			(xy 111.76 105.41) (xy 111.76 111.76)
 		)
 		(stroke
 			(width 0)
@@ -4746,6 +4770,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 55.88) (xy 176.53 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07d6cb27-3386-4d61-8d3f-c883dbd966e8")
+	)
+	(wire
+		(pts
 			(xy 227.33 55.88) (xy 232.41 55.88)
 		)
 		(stroke
@@ -4763,16 +4797,6 @@
 			(type default)
 		)
 		(uuid "0ab71752-0850-435a-aa13-8b4afa673d4c")
-	)
-	(wire
-		(pts
-			(xy 166.37 55.88) (xy 176.53 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d6fd343-0ca4-44bd-bb77-4e3627447605")
 	)
 	(wire
 		(pts
@@ -4976,7 +5000,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 109.22) (xy 95.25 111.76)
+			(xy 95.25 105.41) (xy 95.25 111.76)
 		)
 		(stroke
 			(width 0)
@@ -5076,7 +5100,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 123.19) (xy 186.69 123.19)
+			(xy 168.91 123.19) (xy 184.15 123.19)
 		)
 		(stroke
 			(width 0)
@@ -5326,6 +5350,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 55.88) (xy 166.37 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5960a2c6-d0e0-4e59-866f-33524f01ec5e")
+	)
+	(wire
+		(pts
 			(xy 264.16 119.38) (xy 267.97 119.38)
 		)
 		(stroke
@@ -5333,6 +5367,16 @@
 			(type default)
 		)
 		(uuid "5a5f93bd-2270-432b-a23a-babeb3f053b2")
+	)
+	(wire
+		(pts
+			(xy 50.8 49.53) (xy 50.8 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ae09b88-bfd1-4f34-a4a1-47c59163cec9")
 	)
 	(wire
 		(pts
@@ -5436,7 +5480,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 55.88) (xy 166.37 55.88)
+			(xy 154.94 55.88) (xy 162.56 55.88)
 		)
 		(stroke
 			(width 0)
@@ -6056,6 +6100,26 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 123.19) (xy 186.69 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be0d851d-5998-4f00-af52-445b26c9fe0f")
+	)
+	(wire
+		(pts
+			(xy 45.72 50.8) (xy 50.8 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be989acc-f7df-4507-93df-c77c0e828e5f")
+	)
+	(wire
+		(pts
 			(xy 87.63 138.43) (xy 97.79 138.43)
 		)
 		(stroke
@@ -6073,6 +6137,16 @@
 			(type default)
 		)
 		(uuid "c5342326-184a-4959-9459-6d7537a3e4a5")
+	)
+	(wire
+		(pts
+			(xy 172.72 55.88) (xy 166.37 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5a5ad64-6cef-4ad3-ab89-fc8c2b88a01c")
 	)
 	(wire
 		(pts
@@ -6256,6 +6330,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 54.61) (xy 154.94 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d93d251d-83a0-4f1f-a4c4-2c11dcecd127")
+	)
+	(wire
+		(pts
 			(xy 38.1 124.46) (xy 38.1 130.81)
 		)
 		(stroke
@@ -6403,6 +6487,16 @@
 			(type default)
 		)
 		(uuid "e9815ec2-e919-44b3-8f84-a8602461d7fe")
+	)
+	(wire
+		(pts
+			(xy 88.9 110.49) (xy 88.9 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ead204cd-7175-4cf4-8e81-c78408ac5b06")
 	)
 	(wire
 		(pts
@@ -7133,6 +7227,74 @@
 			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef"
 					(reference "FB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 184.15 123.19 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "23e0c326-8e74-4e7a-9670-c002b2c8aa48")
+		(property "Reference" "TP94"
+			(at 185.42 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 181.61 121.1579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 179.07 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 184.15 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "680d1967-62f8-47e5-97cf-5931eedf353c")
+		)
+		(instances
+			(project "frothfet"
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef"
+					(reference "TP94")
 					(unit 1)
 				)
 			)
@@ -8060,16 +8222,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 154.94 55.88 0)
+		(lib_id "Connector:TestPoint_Probe")
+		(at 154.94 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "4de827a4-2dcf-47d3-9c0b-8e4425f4d1d5")
 		(property "Reference" "TP37"
-			(at 153.416 50.8 0)
+			(at 153.416 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8078,7 +8240,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 157.48 53.8479 0)
+			(at 157.48 52.5779 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8088,7 +8250,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 160.02 55.88 0)
+			(at 160.02 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8097,7 +8259,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 55.88 0)
+			(at 160.02 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8105,8 +8267,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 154.94 55.88 0)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 154.94 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8115,7 +8277,7 @@
 			)
 		)
 		(property "LCSC Part Name" ""
-			(at 154.94 55.88 0)
+			(at 154.94 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8124,7 +8286,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 154.94 55.88 0)
+			(at 154.94 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8133,7 +8295,7 @@
 			)
 		)
 		(property "Manufacturer Part" ""
-			(at 154.94 55.88 0)
+			(at 154.94 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8142,7 +8304,7 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 154.94 55.88 0)
+			(at 154.94 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8151,7 +8313,7 @@
 			)
 		)
 		(property "Supplier Part" ""
-			(at 154.94 55.88 0)
+			(at 154.94 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8173,7 +8335,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 111.76 109.22 0)
+		(at 111.76 105.41 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8183,7 +8345,7 @@
 		(fields_autoplaced yes)
 		(uuid "4fe067d8-fbff-4c50-b9cf-62278b15687b")
 		(property "Reference" "#PWR0135"
-			(at 111.76 113.03 0)
+			(at 111.76 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8192,7 +8354,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 111.76 104.14 0)
+			(at 111.76 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8200,7 +8362,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 109.22 0)
+			(at 111.76 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8209,7 +8371,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 109.22 0)
+			(at 111.76 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8218,7 +8380,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 111.76 109.22 0)
+			(at 111.76 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8620,7 +8782,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3VADC")
-		(at 95.25 109.22 0)
+		(at 95.25 105.41 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8630,7 +8792,7 @@
 		(fields_autoplaced yes)
 		(uuid "62ee1e78-39bd-49b0-83ed-bc9877e676bf")
 		(property "Reference" "#PWR0134"
-			(at 91.44 110.49 0)
+			(at 91.44 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8639,7 +8801,7 @@
 			)
 		)
 		(property "Value" "+3.3VADC"
-			(at 95.25 104.14 0)
+			(at 95.25 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8647,7 +8809,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 109.22 0)
+			(at 95.25 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8656,7 +8818,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 109.22 0)
+			(at 95.25 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8665,7 +8827,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3VADC\""
-			(at 95.25 109.22 0)
+			(at 95.25 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9043,7 +9205,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 166.37 55.88 0)
+		(at 172.72 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9051,7 +9213,7 @@
 		(dnp no)
 		(uuid "68bd709b-c11a-4aa1-bcfe-55ab30d84e89")
 		(property "Reference" "#FLG010"
-			(at 166.37 53.975 0)
+			(at 172.72 53.975 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9060,7 +9222,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 166.37 52.07 0)
+			(at 172.72 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9068,7 +9230,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 55.88 0)
+			(at 172.72 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9077,7 +9239,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 55.88 0)
+			(at 172.72 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9086,7 +9248,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 166.37 55.88 0)
+			(at 172.72 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9186,16 +9348,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 88.9 111.76 0)
+		(lib_id "Connector:TestPoint_Probe")
+		(at 88.9 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "6c87d15e-fece-4e44-b87d-3a3e3e184901")
 		(property "Reference" "TP36"
-			(at 86.36 113.03 0)
+			(at 88.9 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9204,7 +9366,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 91.44 109.7279 0)
+			(at 91.44 108.4579 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9214,7 +9376,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 93.98 111.76 0)
+			(at 93.98 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9223,7 +9385,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 93.98 111.76 0)
+			(at 93.98 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9231,8 +9393,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 88.9 111.76 0)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 88.9 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9420,16 +9582,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 50.8 50.8 0)
+		(lib_id "Connector:TestPoint_Probe")
+		(at 50.8 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "72680bb2-b3bd-4ff4-9f07-4da197692201")
 		(property "Reference" "TP35"
-			(at 49.276 45.72 0)
+			(at 49.276 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9438,7 +9600,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 53.34 48.7679 0)
+			(at 53.34 47.4979 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9448,7 +9610,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 55.88 50.8 0)
+			(at 55.88 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9457,7 +9619,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 50.8 0)
+			(at 55.88 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9465,8 +9627,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 50.8 50.8 0)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 50.8 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9566,6 +9728,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 45.72 50.8 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "824209af-dfb8-4840-be6b-229454be0495")
+		(property "Reference" "TP91"
+			(at 44.45 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 48.26 52.8321 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 50.8 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 45.72 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fecdf8bd-4d50-456c-adc1-b18cf0824564")
+		)
+		(instances
+			(project "frothfet"
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef"
+					(reference "TP91")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+24V")
 		(at 156.21 114.3 0)
 		(unit 1)
@@ -9626,6 +9856,74 @@
 			(project "8ch-mosfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef"
 					(reference "#PWR0136")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 88.9 111.76 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8b970d5c-9014-4e03-a494-75d658a4618b")
+		(property "Reference" "TP92"
+			(at 87.63 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 91.44 113.7921 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 93.98 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 88.9 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fef92ed1-91d0-466b-bf0f-425caf5eb5c1")
+		)
+		(instances
+			(project "frothfet"
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef"
+					(reference "TP92")
 					(unit 1)
 				)
 			)
@@ -12055,6 +12353,74 @@
 			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef"
 					(reference "#PWR0138")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 162.56 55.88 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f0c0111d-97c3-45f8-a4e7-786a2aa3e57f")
+		(property "Reference" "TP93"
+			(at 163.83 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 160.02 53.8479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 157.48 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 162.56 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0cfc363-fbbd-4f3b-9993-6e45a76dfa4d")
+		)
+		(instances
+			(project "frothfet"
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef"
+					(reference "TP93")
 					(unit 1)
 				)
 			)

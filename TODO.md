@@ -9,10 +9,7 @@
 
 #### Rev F
 
-* ground vias
 * silkscreen
-* change test point symbol for user vs manufacture
-* add test points to the bottom for each signal
 * update bom and placement
   
 #### Rev F Done
