@@ -9,7 +9,6 @@
 
 #### Rev F
 
-* silkscreen
 * update bom and placement
   
 #### Rev F Done

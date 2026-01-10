@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "FrothFET 8CH")
-		(date "2024-08-21")
+		(date "2026-01-10")
 		(rev "F")
 		(company "https://github.com/hoeken/frothfet")
 	)
@@ -4261,12 +4261,6 @@
 		(uuid "24d4a5bb-aa05-441d-abbe-52b6258e4746")
 	)
 	(junction
-		(at 50.8 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2a9330a3-c21d-4ed1-8162-53957b19825a")
-	)
-	(junction
 		(at 252.73 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5050,7 +5044,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 76.2) (xy 38.1 77.47)
+			(xy 38.1 74.93) (xy 38.1 77.47)
 		)
 		(stroke
 			(width 0)
@@ -5060,7 +5054,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 39.37) (xy 20.32 64.77)
+			(xy 20.32 39.37) (xy 20.32 60.96)
 		)
 		(stroke
 			(width 0)
@@ -5370,7 +5364,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 49.53) (xy 50.8 50.8)
+			(xy 53.34 49.53) (xy 53.34 50.8)
 		)
 		(stroke
 			(width 0)
@@ -5397,6 +5391,16 @@
 			(type default)
 		)
 		(uuid "5bef9319-0563-410c-9f22-f93bd501c7bf")
+	)
+	(wire
+		(pts
+			(xy 68.58 77.47) (xy 68.58 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bfb881a-162f-44b6-a3f4-e5a4adf500ba")
 	)
 	(wire
 		(pts
@@ -5510,23 +5514,13 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 77.47) (xy 20.32 69.85)
+			(xy 20.32 77.47) (xy 20.32 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "67977b8d-84d5-4cbc-9258-a6028a0255c4")
-	)
-	(wire
-		(pts
-			(xy 50.8 50.8) (xy 53.34 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68b65fbb-d558-4135-ba1f-bcb9a55570c4")
 	)
 	(wire
 		(pts
@@ -5690,7 +5684,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 72.39) (xy 53.34 77.47)
+			(xy 53.34 67.31) (xy 53.34 77.47)
 		)
 		(stroke
 			(width 0)
@@ -5700,7 +5694,17 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 69.85) (xy 38.1 71.12)
+			(xy 53.34 77.47) (xy 53.34 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ee3a76f-f818-407e-9f99-646ae88e679a")
+	)
+	(wire
+		(pts
+			(xy 38.1 66.04) (xy 38.1 69.85)
 		)
 		(stroke
 			(width 0)
@@ -6110,7 +6114,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 50.8) (xy 50.8 50.8)
+			(xy 45.72 50.8) (xy 53.34 50.8)
 		)
 		(stroke
 			(width 0)
@@ -6220,7 +6224,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 50.8) (xy 38.1 62.23)
+			(xy 38.1 50.8) (xy 38.1 58.42)
 		)
 		(stroke
 			(width 0)
@@ -6530,7 +6534,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 50.8) (xy 53.34 64.77)
+			(xy 53.34 50.8) (xy 53.34 59.69)
 		)
 		(stroke
 			(width 0)
@@ -6885,7 +6889,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 38.1 73.66 0)
+		(at 38.1 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6894,7 +6898,7 @@
 		(fields_autoplaced yes)
 		(uuid "09b82902-319f-4fac-9caa-a80231f07a33")
 		(property "Reference" "R52"
-			(at 40.64 72.3899 0)
+			(at 40.64 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6903,7 +6907,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 40.64 74.9299 0)
+			(at 40.64 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6912,7 +6916,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 38.1 73.66 0)
+			(at 38.1 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6921,7 +6925,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 38.1 73.66 0)
+			(at 38.1 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6930,7 +6934,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 38.1 73.66 0)
+			(at 38.1 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6939,7 +6943,7 @@
 			)
 		)
 		(property "LCSC" "C25803"
-			(at 38.1 73.66 0)
+			(at 38.1 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6948,7 +6952,7 @@
 			)
 		)
 		(property "ALT" ""
-			(at 38.1 73.66 0)
+			(at 38.1 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7831,7 +7835,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 38.1 66.04 90)
+		(at 38.1 62.23 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7840,7 +7844,7 @@
 		(fields_autoplaced yes)
 		(uuid "486064b5-3ace-45cc-b02b-64171e7b140e")
 		(property "Reference" "D35"
-			(at 41.91 66.3574 90)
+			(at 41.91 62.5474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7849,7 +7853,7 @@
 			)
 		)
 		(property "Value" "GREEN"
-			(at 41.91 68.8974 90)
+			(at 41.91 65.0874 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7858,7 +7862,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 38.1 66.04 0)
+			(at 38.1 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7867,7 +7871,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 38.1 66.04 0)
+			(at 38.1 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7876,7 +7880,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 38.1 66.04 0)
+			(at 38.1 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7885,7 +7889,7 @@
 			)
 		)
 		(property "LCSC" "C12624"
-			(at 38.1 66.04 0)
+			(at 38.1 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7894,7 +7898,7 @@
 			)
 		)
 		(property "ALT" ""
-			(at 38.1 66.04 0)
+			(at 38.1 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7903,7 +7907,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 38.1 66.04 0)
+			(at 38.1 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8395,6 +8399,73 @@
 			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef"
 					(reference "#PWR0135")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 68.58 78.74 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5174a078-64d0-4c82-b49b-06fcc1220912")
+		(property "Reference" "TP96"
+			(at 70.104 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 66.04 80.7721 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+			(at 63.5 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 68.58 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d050424-7775-4235-81bc-03ad5fc6dbb6")
+		)
+		(instances
+			(project "frothfet"
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef"
+					(reference "TP96")
 					(unit 1)
 				)
 			)
@@ -9024,7 +9095,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 53.34 68.58 90)
+		(at 53.34 63.5 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9032,7 +9103,7 @@
 		(dnp no)
 		(uuid "6560d8b3-0840-40a5-bcaf-429df9d5b2b9")
 		(property "Reference" "D37"
-			(at 55.88 67.31 90)
+			(at 55.88 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9041,7 +9112,7 @@
 			)
 		)
 		(property "Value" "SMBJ30CA"
-			(at 55.88 69.85 90)
+			(at 55.88 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9050,7 +9121,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMB"
-			(at 53.34 68.58 0)
+			(at 53.34 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9059,7 +9130,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 68.58 0)
+			(at 53.34 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9068,7 +9139,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 53.34 68.58 0)
+			(at 53.34 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9077,7 +9148,7 @@
 			)
 		)
 		(property "LCSC" "C113999"
-			(at 53.34 68.58 90)
+			(at 53.34 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9086,7 +9157,7 @@
 			)
 		)
 		(property "ALT" ""
-			(at 53.34 68.58 0)
+			(at 53.34 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9583,7 +9654,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Probe")
-		(at 50.8 49.53 0)
+		(at 53.34 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9591,7 +9662,7 @@
 		(dnp no)
 		(uuid "72680bb2-b3bd-4ff4-9f07-4da197692201")
 		(property "Reference" "TP35"
-			(at 49.276 44.45 0)
+			(at 51.816 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9600,7 +9671,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 53.34 47.4979 0)
+			(at 55.88 47.4979 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9610,7 +9681,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 55.88 49.53 0)
+			(at 58.42 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9619,7 +9690,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 49.53 0)
+			(at 58.42 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9628,7 +9699,7 @@
 			)
 		)
 		(property "Description" "test point (alternative probe-style design)"
-			(at 50.8 49.53 0)
+			(at 53.34 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10010,7 +10081,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_Small_US")
-		(at 20.32 67.31 0)
+		(at 20.32 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10018,7 +10089,7 @@
 		(dnp no)
 		(uuid "9d0d4b3e-dac9-4b37-8bfa-6676b27025a6")
 		(property "Reference" "C54"
-			(at 22.606 66.548 0)
+			(at 22.606 62.738 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10027,7 +10098,7 @@
 			)
 		)
 		(property "Value" "100uF/50v"
-			(at 22.86 68.58 0)
+			(at 22.86 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10036,7 +10107,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
-			(at 20.32 67.31 0)
+			(at 20.32 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10045,7 +10116,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 20.32 67.31 0)
+			(at 20.32 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10054,7 +10125,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small US symbol"
-			(at 20.32 67.31 0)
+			(at 20.32 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10063,7 +10134,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 20.32 67.31 0)
+			(at 20.32 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10072,7 +10143,7 @@
 			)
 		)
 		(property "Rotation Offset" "180"
-			(at 20.32 67.31 0)
+			(at 20.32 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10090,6 +10161,73 @@
 			(project "frothfet"
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef"
 					(reference "C54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 53.34 78.74 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a10063d0-d407-4c1c-a128-a4bbdcc51a21")
+		(property "Reference" "TP95"
+			(at 54.864 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 50.8 80.7721 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+			(at 48.26 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 53.34 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15ff012e-1688-48dd-a29a-4f8dfee8b207")
+		)
+		(instances
+			(project "frothfet"
+				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/e112a34f-fd2f-43cb-bf5d-a7f5e57b6bef"
+					(reference "TP95")
 					(unit 1)
 				)
 			)

@@ -5,9 +5,10 @@
 	(uuid "09fd7a9d-fbb1-4c7d-933d-ddb7cf31fb8b")
 	(paper "A4")
 	(title_block
-		(title "https://github.com/hoeken/brineomatic")
-		(date "2026-01-08")
-		(rev "C1")
+		(title "FrothFET 8CH")
+		(date "2026-01-10")
+		(rev "F")
+		(company "https://github.com/hoeken/frothfet")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"

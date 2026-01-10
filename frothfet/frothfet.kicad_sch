@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "FrothFET 8CH")
-		(date "2024-08-21")
+		(date "2026-01-10")
 		(rev "F")
 		(company "https://github.com/hoeken/frothfet")
 	)
