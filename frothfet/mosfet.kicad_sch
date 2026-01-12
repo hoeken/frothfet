@@ -5478,6 +5478,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C142685"
+			(at 165.1 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/c83c6236-96e9-46ad-9d7a-9e2efa4a7966/0eec6767-666b-42c0-ba36-2a83c9caeade"
