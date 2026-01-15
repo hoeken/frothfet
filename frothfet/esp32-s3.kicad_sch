@@ -7595,7 +7595,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C41417361"
+		(property "LCSC" "C5160787"
+			(at 175.26 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rotation Offset" "90"
 			(at 175.26 147.32 0)
 			(effects
 				(font

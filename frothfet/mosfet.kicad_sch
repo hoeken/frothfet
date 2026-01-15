@@ -6918,7 +6918,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "T508"
+		(property "Value" "C41371870"
 			(at 187.3251 62.23 90)
 			(effects
 				(font
@@ -6956,6 +6956,15 @@
 			)
 		)
 		(property "LCSC" "C41371870"
+			(at 189.23 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rotation Offset" "90"
 			(at 189.23 63.5 0)
 			(effects
 				(font
@@ -7717,7 +7726,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "T508"
+		(property "Value" "C41371870"
 			(at 190.5 55.2451 90)
 			(effects
 				(font
@@ -7755,6 +7764,15 @@
 			)
 		)
 		(property "LCSC" "C41371870"
+			(at 189.23 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rotation Offset" "90"
 			(at 189.23 57.15 90)
 			(effects
 				(font
@@ -7918,7 +7936,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "T508"
+		(property "Value" "C41371870"
 			(at 187.96 71.7549 90)
 			(effects
 				(font
@@ -7956,6 +7974,15 @@
 			)
 		)
 		(property "LCSC" "C41371870"
+			(at 189.23 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rotation Offset" "90"
 			(at 189.23 69.85 90)
 			(effects
 				(font
